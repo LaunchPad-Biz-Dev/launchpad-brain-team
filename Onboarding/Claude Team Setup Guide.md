@@ -53,6 +53,16 @@ If you produce files (briefs, captions, docs), Cowork can read and write a folde
 2. In the Claude desktop app, open **Cowork**, add that folder.
 3. To refresh: GitHub Desktop → **Fetch origin** → **Pull**. You cannot push; that's by design.
 
+## 6. Fridays: run your weekly dump (5 min)
+
+Before you log off Friday, open Claude and say **"run my weekly dump"**. Claude looks back at
+your week, asks four quick questions, writes a one-page recap, and saves it to
+**Google Drive → LaunchPad → Launchpad Team Work → your name**. First time only, turn on the
+Google Drive connector (**Customize → Connectors → Google Drive → Connect**).
+
+It is not a report card. Blockers, time sinks, and "Claude got this wrong" are the most useful
+lines. Apollo reads every dump Monday, fixes the Brain, and flags blockers to Anthony.
+
 ## Rules
 
 - Private and internal. Never paste Brain content into other AI tools or share outside Launchpad.
