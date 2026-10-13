@@ -1,0 +1,1195 @@
+<title>{{PROJECT_NAME}} — Video Callsheet</title>
+<style>
+  /* ---------- tokens: light is the base, dark redefines ---------- */
+  :root {
+    --bg: #FBF9FC;
+    --surface: #FFFFFF;
+    --surface-2: #F3EFF7;
+    --line: #E4DCEC;
+    --line-soft: #EFE9F4;
+    --text: #1A1420;
+    --text-dim: #6B5F7A;
+    --text-faint: #948AA3;
+    --accent: #7A1FA8;
+    --accent-deep: #4E1268;
+    --accent-wash: #F4EAFB;
+    --teal: #0D7F8F;
+    --teal-wash: #E4F5F7;
+    --amber: #9A5F08;
+    --amber-wash: #FBF1DF;
+    --shadow: 0 1px 2px rgba(26, 20, 32, .06), 0 8px 24px -12px rgba(26, 20, 32, .14);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #131019;
+      --surface: #1C1726;
+      --surface-2: #241D31;
+      --line: #342B45;
+      --line-soft: #272033;
+      --text: #F0EBF6;
+      --text-dim: #A99EBA;
+      --text-faint: #7C7189;
+      --accent: #B863EC;
+      --accent-deep: #8A3ABF;
+      --accent-wash: #2A1B3A;
+      --teal: #3FD2E2;
+      --teal-wash: #14303A;
+      --amber: #F0AB49;
+      --amber-wash: #33260F;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -12px rgba(0, 0, 0, .7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #131019;
+    --surface: #1C1726;
+    --surface-2: #241D31;
+    --line: #342B45;
+    --line-soft: #272033;
+    --text: #F0EBF6;
+    --text-dim: #A99EBA;
+    --text-faint: #7C7189;
+    --accent: #B863EC;
+    --accent-deep: #8A3ABF;
+    --accent-wash: #2A1B3A;
+    --teal: #3FD2E2;
+    --teal-wash: #14303A;
+    --amber: #F0AB49;
+    --amber-wash: #33260F;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -12px rgba(0, 0, 0, .7);
+  }
+
+  /* ---------- type roles ---------- */
+  :root {
+    --display: "Helvetica Neue", "Arial Narrow", system-ui, sans-serif;
+    --body: system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 0 5rem;
+  }
+
+  .wrap {
+    max-width: 47rem;
+    margin: 0 auto;
+    padding: 0 1.15rem;
+  }
+
+  /* ---------- masthead ---------- */
+  .mast {
+    padding: 2.75rem 0 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: .68rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  h1 {
+    font-family: var(--display);
+    font-size: clamp(2.1rem, 8vw, 3.4rem);
+    line-height: .96;
+    letter-spacing: -.035em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-wrap: balance;
+    margin: 0;
+  }
+  h1 .thin {
+    display: block;
+    color: var(--text-dim);
+    font-weight: 500;
+    letter-spacing: -.02em;
+  }
+  .standfirst {
+    color: var(--text-dim);
+    font-size: 1.02rem;
+    max-width: 34rem;
+  }
+
+  /* ---------- fact strip ---------- */
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .fact {
+    background: var(--surface);
+    padding: .8rem .9rem;
+    display: flex;
+    flex-direction: column;
+    gap: .18rem;
+  }
+  .fact dt {
+    font-family: var(--mono);
+    font-size: .62rem;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+  .fact dd {
+    margin: 0;
+    font-weight: 650;
+    font-size: .96rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .fact dd.hot { color: var(--accent); }
+
+  /* ---------- sticky nav ---------- */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line);
+    margin-top: 1.75rem;
+  }
+  .nav-inner {
+    max-width: 47rem;
+    margin: 0 auto;
+    padding: .55rem 1.15rem;
+    display: flex;
+    align-items: center;
+    gap: .38rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav-inner::-webkit-scrollbar { display: none; }
+  .nav a {
+    flex: none;
+    text-decoration: none;
+    font-family: var(--mono);
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    color: var(--text-dim);
+    padding: .32rem .6rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    white-space: nowrap;
+    transition: color .15s, border-color .15s;
+  }
+  .nav a:hover, .nav a:focus-visible { color: var(--accent); border-color: var(--accent); }
+  .tally {
+    flex: none;
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    padding-left: .5rem;
+  }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 3rem; scroll-margin-top: 3.6rem; }
+  h2 {
+    font-family: var(--display);
+    font-size: 1.6rem;
+    line-height: 1.1;
+    letter-spacing: -.02em;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 .3rem;
+    display: flex;
+    align-items: baseline;
+    gap: .6rem;
+    flex-wrap: wrap;
+  }
+  h2 .tag {
+    font-family: var(--mono);
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    color: var(--bg);
+    background: var(--accent);
+    padding: .18rem .45rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transform: translateY(-.2em);
+  }
+  h3 {
+    font-size: .78rem;
+    font-family: var(--mono);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    font-weight: 600;
+    margin: 1.5rem 0 .55rem;
+  }
+  .lede {
+    color: var(--text-dim);
+    font-size: .95rem;
+    margin: 0 0 1.15rem;
+    max-width: 40rem;
+  }
+
+  /* ---------- run of show ---------- */
+  .rundown {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .slot {
+    display: grid;
+    grid-template-columns: 6.6rem 1fr;
+    gap: .1rem 1rem;
+    padding: .8rem 1rem;
+    border-top: 1px solid var(--line-soft);
+    align-items: start;
+  }
+  .slot:first-child { border-top: 0; }
+  .slot.peak { background: var(--accent-wash); }
+  .slot time {
+    font-family: var(--mono);
+    font-size: .78rem;
+    font-weight: 650;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    padding-top: .1rem;
+  }
+  .slot .what { font-weight: 650; font-size: .95rem; }
+  .slot .why { grid-column: 2; color: var(--text-dim); font-size: .87rem; }
+
+  /* ---------- shot rows ---------- */
+  .shots {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .shots li { border-top: 1px solid var(--line-soft); }
+  .shots li:first-child { border-top: 0; }
+  .shot {
+    display: grid;
+    grid-template-columns: 1.35rem 2.4rem 1fr;
+    gap: .8rem;
+    align-items: start;
+    padding: .78rem .95rem;
+    cursor: pointer;
+    transition: background .12s;
+  }
+  .shot:hover { background: var(--surface-2); }
+  .shot input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 1.35rem;
+    height: 1.35rem;
+    margin: 0;
+    border: 1.5px solid var(--line);
+    border-radius: 6px;
+    background: var(--bg);
+    cursor: pointer;
+    position: relative;
+    flex: none;
+    transition: background .15s, border-color .15s;
+  }
+  .shot input:checked { background: var(--accent); border-color: var(--accent); }
+  .shot input:checked::after {
+    content: "";
+    position: absolute;
+    left: 6px; top: 2px;
+    width: 5px; height: 10px;
+    border: solid var(--surface);
+    border-width: 0 2.5px 2.5px 0;
+    transform: rotate(43deg);
+  }
+  .shot input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .code {
+    font-family: var(--mono);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    color: var(--accent);
+    padding-top: .22rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .desc { font-size: .95rem; line-height: 1.5; }
+  .desc b { font-weight: 700; }
+  .desc .note { display: block; color: var(--text-dim); font-size: .86rem; margin-top: .15rem; }
+  .shot input:checked ~ .desc { color: var(--text-faint); text-decoration: line-through; text-decoration-color: var(--line); }
+  .shot input:checked ~ .code { color: var(--text-faint); }
+
+  /* ---------- generic cards / lists ---------- */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.15rem 1.25rem;
+  }
+  .stack { display: flex; flex-direction: column; gap: .9rem; }
+  .stack > * { margin: 0; }
+
+  .keyed { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .7rem; }
+  .keyed li { display: grid; grid-template-columns: 1.5rem 1fr; gap: .7rem; font-size: .95rem; align-items: start; }
+  .keyed .n {
+    font-family: var(--mono);
+    font-size: .72rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-wash);
+    border-radius: 5px;
+    text-align: center;
+    padding: .12rem 0;
+    line-height: 1.3;
+  }
+  .keyed.no li .n { color: #C0392B; background: color-mix(in srgb, #C0392B 14%, transparent); }
+  :root[data-theme="dark"] .keyed.no li .n { color: #FF8B7A; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .keyed.no li .n { color: #FF8B7A; } }
+
+  .prose { display: flex; flex-direction: column; gap: 1.35rem; }
+  .prose p { margin: 0; font-size: .95rem; }
+  .prose ul { margin: .35rem 0 0; padding-left: 1.15rem; display: flex; flex-direction: column; gap: .35rem; font-size: .93rem; }
+  .prose li::marker { color: var(--accent); }
+  .prose h4 {
+    margin: 0 0 .2rem;
+    font-size: .95rem;
+    font-weight: 700;
+    letter-spacing: -.005em;
+  }
+
+  /* ---------- table ---------- */
+  .scroller { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); font-size: .9rem; min-width: 30rem; }
+  th, td { text-align: left; padding: .62rem .9rem; border-top: 1px solid var(--line-soft); vertical-align: top; }
+  thead th {
+    border-top: 0;
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    font-weight: 600;
+    background: var(--surface-2);
+  }
+  td:first-child { font-family: var(--mono); font-size: .8rem; font-weight: 650; color: var(--accent); white-space: nowrap; }
+
+  /* ---------- priority ---------- */
+  .prio { display: flex; flex-direction: column; gap: .55rem; }
+  .prio-row {
+    display: grid;
+    grid-template-columns: 3.4rem 1fr;
+    gap: .85rem;
+    align-items: start;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--line);
+    border-radius: 9px;
+    padding: .7rem .9rem;
+  }
+  .prio-row.t1 { border-left-color: var(--accent); }
+  .prio-row.t2 { border-left-color: var(--teal); }
+  .prio-row.t3 { border-left-color: var(--text-faint); }
+  .prio-row .lvl {
+    font-family: var(--mono);
+    font-size: .62rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: .22rem;
+  }
+  .t1 .lvl { color: var(--accent); }
+  .t2 .lvl { color: var(--teal); }
+  .t3 .lvl { color: var(--text-faint); }
+  .prio-row .b { font-weight: 650; font-size: .93rem; }
+  .prio-row .r { color: var(--text-dim); font-size: .86rem; }
+
+  /* ---------- inspo ---------- */
+  .board {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .85rem;
+  }
+  .board + .board { margin-top: .75rem; }
+  .board-head { display: flex; flex-direction: column; gap: .3rem; }
+  .board-title {
+    font-family: var(--display);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -.01em;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+    flex-wrap: wrap;
+  }
+  .serves {
+    font-family: var(--mono);
+    font-size: .62rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--teal);
+    background: var(--teal-wash);
+    padding: .16rem .42rem;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .board-take { color: var(--text-dim); font-size: .91rem; margin: 0; }
+  .board-take b { color: var(--text); font-weight: 650; }
+  /* reference image grid */
+  .refs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+    gap: .75rem;
+  }
+  .ref { margin: 0; display: flex; flex-direction: column; gap: .4rem; }
+  .ref img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    display: block;
+    border-radius: 9px;
+    border: 1px solid var(--line);
+    background: var(--surface-2);
+    cursor: zoom-in;
+    transition: border-color .14s, transform .14s;
+  }
+  .ref img:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .ref figcaption { display: flex; flex-direction: column; gap: .18rem; }
+  .rc {
+    font-family: var(--mono);
+    font-size: .66rem;
+    font-weight: 700;
+    letter-spacing: .09em;
+    color: var(--accent);
+  }
+  .rd { font-size: .8rem; line-height: 1.42; color: var(--text-dim); }
+  .rd b { color: var(--text); font-weight: 650; }
+  .rm {
+    font-family: var(--mono);
+    font-size: .63rem;
+    letter-spacing: .07em;
+    color: var(--teal);
+    font-weight: 600;
+  }
+  .rm::before { content: "→ "; opacity: .55; }
+
+  /* format guide */
+  .fmt-list { display: flex; flex-direction: column; gap: .65rem; }
+  .fmt {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+  }
+  .fmt-head { display: flex; align-items: center; gap: .8rem; }
+  .fmt-name {
+    font-family: var(--display);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -.01em;
+    font-size: 1.02rem;
+  }
+  .fmt-name em { font-style: normal; font-weight: 600; color: var(--accent); font-size: .82rem; letter-spacing: 0; }
+  .fmt-use {
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    font-weight: 600;
+  }
+  .fmt-what { margin: 0; font-size: .9rem; color: var(--text-dim); }
+  .fmt-what b { color: var(--text); }
+  /* ratio glyphs — the box literally shows the aspect ratio */
+  .ratio {
+    flex: none;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+    background: var(--accent-wash);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ratio > span {
+    display: block;
+    border: 1.5px solid var(--accent);
+    border-radius: 2px;
+  }
+  .r916 > span { width: .72rem; height: 1.28rem; }
+  .r45  > span { width: .96rem; height: 1.2rem; }
+  .r11  > span { width: 1.1rem; height: 1.1rem; }
+  .r169 > span { width: 1.44rem; height: .81rem; }
+  .rbts > span { width: 1.1rem; height: 1.1rem; border-style: dashed; border-radius: 999px; }
+  .fmt-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(4.4rem, 1fr));
+    gap: .4rem;
+  }
+  .fmt-strip:empty { display: none; }
+  .fmt-strip img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 1px solid var(--line);
+    display: block;
+    cursor: zoom-in;
+  }
+
+  /* lightbox */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: rgba(8, 5, 12, .93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .9rem;
+    padding: 1.5rem;
+  }
+  .lightbox[hidden] { display: none; }
+  .lightbox img {
+    max-width: min(100%, 40rem);
+    max-height: 78vh;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  .lb-cap {
+    color: #E9E2F2;
+    font-family: var(--mono);
+    font-size: .74rem;
+    letter-spacing: .06em;
+    text-align: center;
+    max-width: 32rem;
+  }
+  .lb-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, .1);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .lb-close:hover { background: rgba(255, 255, 255, .2); }
+  .inspo-link {
+    font-family: var(--mono);
+    font-size: .62rem;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--teal) 45%, transparent);
+    white-space: nowrap;
+  }
+  .inspo-link:hover, .inspo-link:focus-visible { color: var(--accent); border-color: var(--accent); }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .05em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .reset {
+    background: none;
+    border: 1px solid var(--line);
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: .68rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: .25rem .55rem;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .reset:hover { color: var(--accent); border-color: var(--accent); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+  @media (max-width: 30rem) {
+    .slot { grid-template-columns: 1fr; }
+    .slot .why, .slot .what { grid-column: 1; }
+  }
+</style>
+
+<style>
+  /* video-specific: per-shot metadata chips */
+  .chips { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .35rem; }
+  .chip {
+    font-family: var(--mono);
+    font-size: .6rem;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    font-weight: 650;
+    padding: .12rem .38rem;
+    border-radius: 4px;
+    border: 1px solid var(--line);
+    color: var(--text-faint);
+    background: var(--surface-2);
+    white-space: nowrap;
+  }
+  .chip.mv { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 32%, transparent); background: var(--accent-wash); }
+  .chip.au { color: var(--teal); border-color: color-mix(in srgb, var(--teal) 32%, transparent); background: var(--teal-wash); }
+  .shot input:checked ~ .desc .chip { opacity: .45; }
+
+  /* sequence grouping */
+  .seq {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--surface);
+    margin-bottom: .75rem;
+  }
+  .seq-head {
+    padding: .7rem .95rem;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+  }
+  .seq-name {
+    font-family: var(--display);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -.01em;
+    font-size: .98rem;
+  }
+  .seq-goal { font-size: .84rem; color: var(--text-dim); }
+  .seq .shots { border: 0; border-radius: 0; }
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="eyebrow">{{CLIENT}} · {{BRAND}} · Launchpad Productions</div>
+    <h1>{{PROJECT_NAME}}<span class="thin">Video Callsheet</span></h1>
+    <p class="standfirst">{{ONE_LINE_PURPOSE}} Tap any shot to check it off — your progress saves on this device.</p>
+    <dl class="facts">
+      <div class="fact"><dt>Date</dt><dd>{{DATE}}</dd></div>
+      <div class="fact"><dt>Call time</dt><dd class="hot">{{CALL_TIME}}</dd></div>
+      <div class="fact"><dt>Wrap</dt><dd class="hot">{{WRAP_TIME}}</dd></div>
+      <div class="fact"><dt>Location</dt><dd>{{LOCATION}}</dd></div>
+      <div class="fact"><dt>Crew</dt><dd>{{CREW}}</dd></div>
+      <div class="fact"><dt>Deliverables</dt><dd>{{DELIVERABLES}}</dd></div>
+    </dl>
+  </header>
+</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#priority">Priority</a>
+    <a href="#rundown">Run of Show</a>
+    <a href="#a">A · On-camera</a>
+    <a href="#b">B · Sequences</a>
+    <a href="#c">C · B-roll</a>
+    <a href="#d">D · Hero motion</a>
+    <a href="#e">E · Lifestyle</a>
+    <a href="#audio">Audio</a>
+    <a href="#formats">Formats</a>
+    <a href="#inspo">Reference</a>
+    <a href="#tech">Tech</a>
+    <a href="#clear">Clearances</a>
+    <span class="tally" id="tally">0/0</span>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <section id="priority">
+    <h2>Priority stack <span class="tag">If we lose time</span></h2>
+    <p class="lede">What the edit cannot be built without. If the window compresses, we work down this list in order.</p>
+    <div class="prio">
+      <div class="prio-row t1"><span class="lvl">Must</span><span><span class="b">{{BLOCK_1}}</span><br><span class="r">{{WHY_1}}</span></span></div>
+      <div class="prio-row t1"><span class="lvl">Must</span><span><span class="b">{{BLOCK_2}}</span><br><span class="r">{{WHY_2}}</span></span></div>
+      <div class="prio-row t1"><span class="lvl">Must</span><span><span class="b">Room tone + clean audio</span><br><span class="r">Sixty seconds of silence per location. Un-fixable in post if missed.</span></span></div>
+      <div class="prio-row t2"><span class="lvl">High</span><span><span class="b">{{BLOCK_4}}</span><br><span class="r">{{WHY_4}}</span></span></div>
+      <div class="prio-row t3"><span class="lvl">Opp</span><span><span class="b">{{BLOCK_5}}</span><br><span class="r">{{WHY_5}}</span></span></div>
+    </div>
+  </section>
+
+  <section id="rundown">
+    <h2>Run of show</h2>
+    <div class="rundown">
+      <div class="slot">
+        <time>{{T1}}</time>
+        <span class="what">Load in · light · set A-roll</span>
+        <span class="why">Interviews first while talent is fresh and the location is quiet. Lighting a talking head takes longer than anyone plans for.</span>
+      </div>
+      <div class="slot">
+        <time>{{T2}}</time>
+        <span class="what">{{SLOT_2}}</span>
+        <span class="why">{{SLOT_2_NOTE}}</span>
+      </div>
+      <div class="slot peak">
+        <time>{{T3}}</time>
+        <span class="what">{{SLOT_3}} — peak</span>
+        <span class="why">{{SLOT_3_NOTE}}</span>
+      </div>
+      <div class="slot">
+        <time>{{T4}}</time>
+        <span class="what">B-roll sweep</span>
+        <span class="why">Work the space systematically — wide, medium, insert, in that order, so the editor always has the cut.</span>
+      </div>
+      <div class="slot">
+        <time>{{T5}}</time>
+        <span class="what">Room tone · pickups · wrap</span>
+        <span class="why">Never skip room tone. Then re-shoot anything soft before access ends.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="a">
+    <h2>Block A · On-camera <span class="tag">Must get</span></h2>
+    <p class="lede">Interviews, direct-to-camera, CTAs. Light it once, shoot everything, then move. <b>Two angles minimum</b> so the editor can cut a sentence without a jump. <a class="inspo-link" href="#inspo">↓ Reference</a></p>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="a1"><span class="code">A1</span><span class="desc"><b>Hero interview — A cam.</b> Medium, eyeline just off lens, subject a third off center.<span class="chips"><span class="chip mv">Static</span><span class="chip">35–50mm</span><span class="chip au">Lav + boom</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a2"><span class="code">A2</span><span class="desc"><b>Hero interview — B cam.</b> Tighter, opposite side of the axis. Runs simultaneously.<span class="chips"><span class="chip mv">Static</span><span class="chip">85mm</span><span class="chip au">Same feed</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a3"><span class="code">A3</span><span class="desc"><b>Direct-to-camera CTA.</b> Three tones — warm, urgent, informational.<span class="chips"><span class="chip mv">Static</span><span class="chip">3 takes each</span><span class="chip au">Lav</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a4"><span class="code">A4</span><span class="desc"><b>Walk-and-talk.</b> Subject moving through the space, delivering to camera.<span class="chips"><span class="chip mv">Gimbal</span><span class="chip">24–35mm</span><span class="chip au">Lav only</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a5"><span class="code">A5</span><span class="desc"><b>Listening / silent beats.</b> Subject not speaking — nods, looks, small smiles. Editor gold for covering cuts.<span class="chips"><span class="chip mv">Static</span><span class="chip">30 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a6"><span class="code">A6</span><span class="desc"><b>Vertical reframe</b> of the hero interview — either a dedicated 9:16 pass or shot 4K-wide with room to crop.<span class="chips"><span class="chip mv">Static</span><span class="chip">9:16</span></span></span></label></li>
+    </ul>
+  </section>
+
+  <section id="b">
+    <h2>Block B · Sequences <span class="tag">Must get</span></h2>
+    <p class="lede">A sequence is a set of shots that <b>cut together into one moment.</b> Always capture wide → medium → insert of the same action, and shoot the action multiple times rather than moving the camera mid-take. This is what separates a video from a slideshow. <a class="inspo-link" href="#inspo">↓ Reference</a></p>
+
+    <div class="seq">
+      <div class="seq-head">
+        <div class="seq-name">Sequence 1 — {{SEQ_1_NAME}}</div>
+        <div class="seq-goal">{{SEQ_1_GOAL}}</div>
+      </div>
+      <ul class="shots">
+        <li><label class="shot"><input type="checkbox" data-id="s1a"><span class="code">1A</span><span class="desc"><b>Wide —</b> establish who and where. Full body, room visible.<span class="chips"><span class="chip mv">Static</span><span class="chip">24mm</span><span class="chip">8 sec</span></span></span></label></li>
+        <li><label class="shot"><input type="checkbox" data-id="s1b"><span class="code">1B</span><span class="desc"><b>Medium —</b> the action itself, waist up.<span class="chips"><span class="chip mv">Slow push</span><span class="chip">35mm</span><span class="chip">8 sec</span></span></span></label></li>
+        <li><label class="shot"><input type="checkbox" data-id="s1c"><span class="code">1C</span><span class="desc"><b>Insert —</b> hands, tool, product. Tight enough to be abstract.<span class="chips"><span class="chip mv">Static</span><span class="chip">Macro</span><span class="chip">6 sec</span></span></span></label></li>
+        <li><label class="shot"><input type="checkbox" data-id="s1d"><span class="code">1D</span><span class="desc"><b>Reaction —</b> the face at the moment it lands.<span class="chips"><span class="chip mv">Static</span><span class="chip">85mm</span><span class="chip">6 sec</span></span></span></label></li>
+      </ul>
+    </div>
+
+    <div class="seq">
+      <div class="seq-head">
+        <div class="seq-name">Sequence 2 — {{SEQ_2_NAME}}</div>
+        <div class="seq-goal">{{SEQ_2_GOAL}}</div>
+      </div>
+      <ul class="shots">
+        <li><label class="shot"><input type="checkbox" data-id="s2a"><span class="code">2A</span><span class="desc"><b>Wide —</b> {{SEQ_2_WIDE}}<span class="chips"><span class="chip mv">Static</span><span class="chip">8 sec</span></span></span></label></li>
+        <li><label class="shot"><input type="checkbox" data-id="s2b"><span class="code">2B</span><span class="desc"><b>Medium —</b> {{SEQ_2_MED}}<span class="chips"><span class="chip mv">Handheld</span><span class="chip">8 sec</span></span></span></label></li>
+        <li><label class="shot"><input type="checkbox" data-id="s2c"><span class="code">2C</span><span class="desc"><b>Insert —</b> {{SEQ_2_INSERT}}<span class="chips"><span class="chip mv">Static</span><span class="chip">6 sec</span></span></span></label></li>
+      </ul>
+    </div>
+
+    <div class="seq">
+      <div class="seq-head">
+        <div class="seq-name">Sequence 3 — {{SEQ_3_NAME}}</div>
+        <div class="seq-goal">{{SEQ_3_GOAL}}</div>
+      </div>
+      <ul class="shots">
+        <li><label class="shot"><input type="checkbox" data-id="s3a"><span class="code">3A</span><span class="desc"><b>Wide —</b> {{SEQ_3_WIDE}}<span class="chips"><span class="chip mv">Static</span><span class="chip">8 sec</span></span></span></label></li>
+        <li><label class="shot"><input type="checkbox" data-id="s3b"><span class="code">3B</span><span class="desc"><b>Medium —</b> {{SEQ_3_MED}}<span class="chips"><span class="chip mv">Gimbal</span><span class="chip">8 sec</span></span></span></label></li>
+        <li><label class="shot"><input type="checkbox" data-id="s3c"><span class="code">3C</span><span class="desc"><b>Insert —</b> {{SEQ_3_INSERT}}<span class="chips"><span class="chip mv">Static</span><span class="chip">6 sec</span></span></span></label></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="c">
+    <h2>Block C · B-roll library <span class="tag">High</span></h2>
+    <p class="lede">Loose coverage the editor can reach for. Hold every shot <b>8–10 seconds</b> — longer than feels natural — and let the action start and finish inside the take.</p>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="c1"><span class="code">C1</span><span class="desc"><b>POV approach.</b> Walking in, chest height, doorway or entry passing frame.<span class="chips"><span class="chip mv">Gimbal</span><span class="chip">10 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c2"><span class="code">C2</span><span class="desc"><b>Reveal.</b> Start on a detail, pull or pan to the wider scene.<span class="chips"><span class="chip mv">Pan / pull</span><span class="chip">10 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c3"><span class="code">C3</span><span class="desc"><b>Signage and branding.</b> Slow push onto the logo or sign.<span class="chips"><span class="chip mv">Slow push</span><span class="chip">8 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c4"><span class="code">C4</span><span class="desc"><b>Hands at work.</b> The signature action, tight.<span class="chips"><span class="chip mv">Static</span><span class="chip">Macro</span><span class="chip">10 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c5"><span class="code">C5</span><span class="desc"><b>Texture and material.</b> Whatever this brand feels like — steam, grain, chrome, fabric.<span class="chips"><span class="chip mv">Slow slide</span><span class="chip">8 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c6"><span class="code">C6</span><span class="desc"><b>Over-the-shoulder.</b> Puts the viewer in the room.<span class="chips"><span class="chip mv">Handheld</span><span class="chip">8 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c7"><span class="code">C7</span><span class="desc"><b>Whip or transition frames.</b> Fast pan off and onto matching subjects for cuts.<span class="chips"><span class="chip mv">Whip</span><span class="chip">3× each</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c8"><span class="code">C8</span><span class="desc"><b>Slow motion hero.</b> The one moment worth 120fps.<span class="chips"><span class="chip mv">Static</span><span class="chip">120 fps</span></span></span></label></li>
+    </ul>
+  </section>
+
+  <section id="d">
+    <h2>Block D · Hero product motion <span class="tag">Must get</span></h2>
+    <p class="lede">{{PRODUCT_CONSTRAINT}} Set a dedicated corner with controlled light — this is the section that gets re-used in every future edit.</p>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="d1"><span class="code">D1</span><span class="desc"><b>Hero beauty, slow orbit or push.</b> The money shot.<span class="chips"><span class="chip mv">Slider / orbit</span><span class="chip">10 sec</span><span class="chip">×5 takes</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d2"><span class="code">D2</span><span class="desc"><b>The make.</b> Being poured, built, assembled, applied — start to finish.<span class="chips"><span class="chip mv">Static</span><span class="chip">120 fps</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d3"><span class="code">D3</span><span class="desc"><b>The handoff.</b> Product crossing from staff to customer.<span class="chips"><span class="chip mv">Handheld</span><span class="chip">8 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d4"><span class="code">D4</span><span class="desc"><b>Drop or place.</b> Product landing on the surface, settling.<span class="chips"><span class="chip mv">Static</span><span class="chip">120 fps</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d5"><span class="code">D5</span><span class="desc"><b>First use.</b> The sip, bite, wear, start — with a real reaction after it.<span class="chips"><span class="chip mv">Static</span><span class="chip">10 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d6"><span class="code">D6</span><span class="desc"><b>Vertical pass.</b> Repeat D1 and D2 framed for 9:16. Do not rely on cropping alone.<span class="chips"><span class="chip mv">Static</span><span class="chip">9:16</span></span></span></label></li>
+    </ul>
+  </section>
+
+  <section id="e">
+    <h2>Block E · Lifestyle motion <span class="tag">High</span></h2>
+    <p class="lede">Real people, real energy. Peak window is {{PEAK_WINDOW}}.</p>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="e1"><span class="code">E1</span><span class="desc"><b>Customers in the space,</b> ambient and unposed.<span class="chips"><span class="chip mv">Handheld</span><span class="chip">10 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e2"><span class="code">E2</span><span class="desc"><b>Group energy</b> — laughing, talking, celebrating.<span class="chips"><span class="chip mv">Handheld</span><span class="chip">10 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e3"><span class="code">E3</span><span class="desc"><b>Arrival and departure</b> through frame.<span class="chips"><span class="chip mv">Static</span><span class="chip">10 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e4"><span class="code">E4</span><span class="desc"><b>Crowd or room wide.</b> Density reads as demand.<span class="chips"><span class="chip mv">Static</span><span class="chip">10 sec</span></span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e5"><span class="code">E5</span><span class="desc"><b>Vox pop / soundbite</b> from a willing customer. Release required.<span class="chips"><span class="chip mv">Handheld</span><span class="chip au">Boom or lav</span></span></span></label></li>
+    </ul>
+  </section>
+
+  <section id="audio">
+    <h2>Audio plan <span class="tag">Un-fixable if missed</span></h2>
+    <div class="card prose">
+      <div>
+        <h4>Capture</h4>
+        <ul>
+          <li><b>Lav on every speaking subject.</b> Under clothing only if you can hear it rustle-free — otherwise clip it visible and let the editor handle it.</li>
+          <li><b>Boom as the backup and the character.</b> Lav is safety, boom is quality. Record both to separate tracks.</li>
+          <li><b>Room tone, 60 seconds, every location.</b> Absolute silence on set, camera rolling. This is the single most commonly missed item on a shoot and there is no way to recreate it.</li>
+          <li><b>Wild ambience</b> — the space actually working. Crowd, machines, music bleed. Two minutes.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Monitor</h4>
+        <ul>
+          <li>Headphones on for every take. Not "check it after."</li>
+          <li>Watch levels — peak around −12 dB, never touch 0.</li>
+          <li>Listen for HVAC, fridges, and music. Ask for them to be turned off, and set a reminder to turn them back on.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sync</h4>
+        <ul>
+          <li>Clap at the head of every take if timecode isn't running between bodies.</li>
+          <li>Note which takes are keepers as you go — the editor should not have to guess.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="formats">
+    <h2>Format guide</h2>
+    <p class="lede">Decide the delivery ratio at the camera. A 16:9 master cropped to 9:16 loses the frame the shot was built on.</p>
+
+    <div class="fmt-list">
+      <div class="fmt" data-refs="{{REFS_916}}">
+        <div class="fmt-head">
+          <span class="ratio r916"><span></span></span>
+          <div>
+            <div class="fmt-name">Vertical 9:16</div>
+            <div class="fmt-use">Reels · TikTok · Shorts</div>
+          </div>
+        </div>
+        <p class="fmt-what">Dedicated passes, not crops. Subject centered with headroom for captions and UI. Keep the action in the middle third — the top and bottom get covered.</p>
+        <div class="fmt-strip"></div>
+      </div>
+
+      <div class="fmt" data-refs="{{REFS_169}}">
+        <div class="fmt-head">
+          <span class="ratio r169"><span></span></span>
+          <div>
+            <div class="fmt-name">Horizontal 16:9</div>
+            <div class="fmt-use">YouTube · website · presentation</div>
+          </div>
+        </div>
+        <p class="fmt-what">The hero edit and all interview coverage. Shoot 4K so a 1080 vertical crop stays clean if it's needed later.</p>
+        <div class="fmt-strip"></div>
+      </div>
+
+      <div class="fmt" data-refs="{{REFS_11}}">
+        <div class="fmt-head">
+          <span class="ratio r11"><span></span></span>
+          <div>
+            <div class="fmt-name">Square 1:1</div>
+            <div class="fmt-use">Feed video · paid</div>
+          </div>
+        </div>
+        <p class="fmt-what">Centered composition that survives both crops. Useful for product motion and any paid cutdown.</p>
+        <div class="fmt-strip"></div>
+      </div>
+
+      <div class="fmt" data-refs="{{REFS_BTS}}">
+        <div class="fmt-head">
+          <span class="ratio rbts"><span></span></span>
+          <div>
+            <div class="fmt-name">Behind the scenes</div>
+            <div class="fmt-use">Client channels · our case study</div>
+          </div>
+        </div>
+        <p class="fmt-what">Phone footage is fine here. The rig, the crew, the setup. Costs nothing and clients post it.</p>
+        <div class="fmt-strip"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="inspo">
+    <h2>Reference boards</h2>
+    <p class="lede">The visual direction for the day. Tap any image to enlarge — each one is mapped to the shots it informs.</p>
+
+    <div class="board">
+      <div class="board-head">
+        <div class="board-title">{{BOARD_1_TITLE}} <span class="serves">{{BOARD_1_SERVES}}</span></div>
+        <p class="board-take"><b>What we're taking:</b> {{BOARD_1_DIRECTION}}</p>
+      </div>
+      <div class="refs">
+        <figure class="ref" data-code="R1">
+          <img src="__IMG_R1__" alt="{{ALT_R1}}">
+          <figcaption><span class="rc">R1</span><span class="rd">{{CAPTION_R1}}</span><span class="rm">{{MAPS_R1}}</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="R2">
+          <img src="__IMG_R2__" alt="{{ALT_R2}}">
+          <figcaption><span class="rc">R2</span><span class="rd">{{CAPTION_R2}}</span><span class="rm">{{MAPS_R2}}</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="R3">
+          <img src="__IMG_R3__" alt="{{ALT_R3}}">
+          <figcaption><span class="rc">R3</span><span class="rd">{{CAPTION_R3}}</span><span class="rm">{{MAPS_R3}}</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="tech">
+    <h2>Technical notes</h2>
+    <div class="card prose">
+      <div>
+        <h4>Camera settings</h4>
+        <ul>
+          <li><b>{{RESOLUTION}}</b> · <b>{{FRAME_RATE}}</b> base · 180° shutter ({{SHUTTER}}).</li>
+          <li>Slow motion at 120fps for hero product moments only — it eats card space fast.</li>
+          <li>Picture profile: {{PICTURE_PROFILE}}. Same profile on every body or the grade won't match.</li>
+          <li>Variable ND on anything outdoors. Do not fix exposure with shutter speed.</li>
+          <li>White balance set manually and matched across bodies. Note the Kelvin value here: {{KELVIN}}.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Movement discipline</h4>
+        <ul>
+          <li><b>Start static, end static.</b> Every moving shot needs a locked handle at both ends so the editor has a cut point.</li>
+          <li>One move per shot. A pan that becomes a tilt that becomes a push is unusable.</li>
+          <li>If the shot doesn't need movement, don't move. Static and well-composed beats drifting gimbal.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Cards and power</h4>
+        <ul>
+          <li>Format cards in-camera at the start. Never mid-day.</li>
+          <li>Offload to two destinations before anything is deleted. Verify the copy.</li>
+          <li>Battery count for the day: {{BATTERY_PLAN}}.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>What the editor needs</h4>
+        <ul>
+          <li>Footage organized by block as you shoot — separate folders or cards per section.</li>
+          <li>A shot log noting keeper takes and problem takes.</li>
+          <li>This callsheet, checked off, handed over with the footage.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Do not shoot</h3>
+    <div class="card">
+      <ul class="keyed no">
+        <li><span class="n">✕</span><span>{{EXCLUSION_1}}</span></li>
+        <li><span class="n">✕</span><span>No shots shorter than 8 seconds. Short takes are unusable no matter how good the frame is.</span></li>
+        <li><span class="n">✕</span><span>No competitor branding or copyrighted music audible in the background.</span></li>
+        <li><span class="n">✕</span><span>No customers who decline or look uncomfortable. Move on immediately.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="clear">
+    <h2>Clearances <span class="tag">Confirm before the day</span></h2>
+    <p class="lede">These are the things that kill a deliverable in post if they aren't handled on the day.</p>
+    <div class="card">
+      <ul class="keyed">
+        <li><span class="n">1</span><span><b>Access window.</b> Can we be in early to light and set A-roll before the space populates?</span></li>
+        <li><span class="n">2</span><span><b>Talent releases.</b> Signed releases for every person who speaks or is identifiable on camera. No release, no usable soundbite.</span></li>
+        <li><span class="n">3</span><span><b>Music.</b> Any music playing in the space is in your audio bed and is a copyright problem. Ask for it off during A-roll.</span></li>
+        <li><span class="n">4</span><span><b>Third-party IP.</b> Venue, league, franchise or partner marks need written clearance — organic, paid, website and broadcast are different permissions.</span></li>
+        <li><span class="n">5</span><span><b>Power and rigging.</b> Where can we plug in, set stands, run cable? Escort required?</span></li>
+        <li><span class="n">6</span><span><b>On-site wrangler.</b> Who pulls talent and clears background? Name and cell number.</span></li>
+        <li><span class="n">7</span><span><b>Talent availability.</b> Exactly when is each on-camera person free, and for how long?</span></li>
+        <li><span class="n">8</span><span><b>Deliverable date and cut list.</b> How many edits, what lengths, what ratios?</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="deliver">
+    <h2>Where each shot lands</h2>
+    <div class="scroller">
+      <table>
+        <thead><tr><th>Shots</th><th>Feeds</th></tr></thead>
+        <tbody>
+          <tr><td>A1 · A2</td><td>Hero edit, testimonial cutdowns, website video</td></tr>
+          <tr><td>A3</td><td>Paid ad end-cards, CTA variants</td></tr>
+          <tr><td>A4 · A6</td><td>Reels, TikTok, Shorts</td></tr>
+          <tr><td>B sequences</td><td>The narrative spine of the hero edit</td></tr>
+          <tr><td>C-block</td><td>Cutaways, transitions, future edits, stock library</td></tr>
+          <tr><td>D1–D6</td><td>Product spots, paid social, menu boards, loops</td></tr>
+          <tr><td>E-block</td><td>Social proof, community content, sizzle</td></tr>
+          <tr><td>Room tone · ambience</td><td>Audio bed under every edit</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Post direction</h3>
+    <div class="card prose">
+      <ul>
+        <li><b>Grade:</b> {{GRADE_DIRECTION}}</li>
+        <li><b>Pace:</b> {{PACE_DIRECTION}}</li>
+        <li><b>Music:</b> {{MUSIC_DIRECTION}} Licensed only — no trending audio on anything paid.</li>
+        <li><b>Captions</b> burned in on all vertical deliverables. Most of the audience watches muted.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <span>Launchpad Productions · prepared {{PREPARED_DATE}}</span>
+    <button class="reset" id="reset" type="button">Reset checklist</button>
+  </footer>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" type="button" aria-label="Close">✕</button>
+  <img id="lbImg" src="" alt="">
+  <div class="lb-cap" id="lbCap"></div>
+</div>
+
+
+<script>
+  (function () {
+    var KEY = "tbc-allegiant-callsheet-v1";
+    var boxes = Array.prototype.slice.call(document.querySelectorAll(".shot input"));
+    var tally = document.getElementById("tally");
+    var saved = {};
+
+    try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { saved = {}; }
+
+    function render() {
+      var done = boxes.filter(function (b) { return b.checked; }).length;
+      tally.textContent = done + "/" + boxes.length;
+    }
+
+    function persist() {
+      var state = {};
+      boxes.forEach(function (b) { if (b.checked) state[b.dataset.id] = 1; });
+      try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+    }
+
+    boxes.forEach(function (b) {
+      if (saved[b.dataset.id]) b.checked = true;
+      b.addEventListener("change", function () { persist(); render(); });
+    });
+
+    document.getElementById("reset").addEventListener("click", function () {
+      boxes.forEach(function (b) { b.checked = false; });
+      persist();
+      render();
+    });
+
+    render();
+
+    /* --- reference images: build an index, clone into format strips --- */
+    var refIndex = {};
+    Array.prototype.forEach.call(document.querySelectorAll(".ref"), function (fig) {
+      var img = fig.querySelector("img");
+      var code = fig.dataset.code;
+      var desc = fig.querySelector(".rd");
+      refIndex[code] = { src: img.src, alt: img.alt, text: desc ? desc.textContent : "" };
+    });
+
+    Array.prototype.forEach.call(document.querySelectorAll(".fmt"), function (row) {
+      var strip = row.querySelector(".fmt-strip");
+      var codes = (row.dataset.refs || "").split(",").filter(Boolean);
+      codes.forEach(function (code) {
+        var ref = refIndex[code.trim()];
+        if (!ref) return;
+        var im = document.createElement("img");
+        im.src = ref.src;
+        im.alt = ref.alt;
+        im.dataset.code = code.trim();
+        strip.appendChild(im);
+      });
+    });
+
+    /* --- lightbox --- */
+    var lb = document.getElementById("lightbox");
+    var lbImg = document.getElementById("lbImg");
+    var lbCap = document.getElementById("lbCap");
+    var lbClose = document.getElementById("lbClose");
+    var lastFocus = null;
+
+    function openLb(src, alt, code, text) {
+      lastFocus = document.activeElement;
+      lbImg.src = src;
+      lbImg.alt = alt || "";
+      lbCap.textContent = code ? code + " — " + text : text || "";
+      lb.hidden = false;
+      lbClose.focus();
+    }
+    function closeLb() {
+      lb.hidden = true;
+      lbImg.src = "";
+      if (lastFocus) lastFocus.focus();
+    }
+
+    document.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t.tagName !== "IMG") return;
+      var fig = t.closest(".ref");
+      if (fig) {
+        var code = fig.dataset.code;
+        openLb(t.src, t.alt, code, refIndex[code] ? refIndex[code].text : "");
+        return;
+      }
+      if (t.closest(".fmt-strip")) {
+        var c = t.dataset.code;
+        openLb(t.src, t.alt, c, refIndex[c] ? refIndex[c].text : "");
+      }
+    });
+
+    lbClose.addEventListener("click", closeLb);
+    lb.addEventListener("click", function (e) { if (e.target === lb) closeLb(); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !lb.hidden) closeLb();
+    });
+  })();
+</script>

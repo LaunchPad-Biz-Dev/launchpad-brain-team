@@ -1,0 +1,1232 @@
+<title>Allegiant Cantina Callsheet</title>
+<style>
+  /* ---------- tokens: light is the base, dark redefines ---------- */
+  :root {
+    --bg: #FBF9FC;
+    --surface: #FFFFFF;
+    --surface-2: #F3EFF7;
+    --line: #E4DCEC;
+    --line-soft: #EFE9F4;
+    --text: #1A1420;
+    --text-dim: #6B5F7A;
+    --text-faint: #948AA3;
+    --accent: #7A1FA8;
+    --accent-deep: #4E1268;
+    --accent-wash: #F4EAFB;
+    --teal: #0D7F8F;
+    --teal-wash: #E4F5F7;
+    --amber: #9A5F08;
+    --amber-wash: #FBF1DF;
+    --shadow: 0 1px 2px rgba(26, 20, 32, .06), 0 8px 24px -12px rgba(26, 20, 32, .14);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #131019;
+      --surface: #1C1726;
+      --surface-2: #241D31;
+      --line: #342B45;
+      --line-soft: #272033;
+      --text: #F0EBF6;
+      --text-dim: #A99EBA;
+      --text-faint: #7C7189;
+      --accent: #B863EC;
+      --accent-deep: #8A3ABF;
+      --accent-wash: #2A1B3A;
+      --teal: #3FD2E2;
+      --teal-wash: #14303A;
+      --amber: #F0AB49;
+      --amber-wash: #33260F;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -12px rgba(0, 0, 0, .7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #131019;
+    --surface: #1C1726;
+    --surface-2: #241D31;
+    --line: #342B45;
+    --line-soft: #272033;
+    --text: #F0EBF6;
+    --text-dim: #A99EBA;
+    --text-faint: #7C7189;
+    --accent: #B863EC;
+    --accent-deep: #8A3ABF;
+    --accent-wash: #2A1B3A;
+    --teal: #3FD2E2;
+    --teal-wash: #14303A;
+    --amber: #F0AB49;
+    --amber-wash: #33260F;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -12px rgba(0, 0, 0, .7);
+  }
+
+  /* ---------- type roles ---------- */
+  :root {
+    --display: "Helvetica Neue", "Arial Narrow", system-ui, sans-serif;
+    --body: system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 0 5rem;
+  }
+
+  .wrap {
+    max-width: 47rem;
+    margin: 0 auto;
+    padding: 0 1.15rem;
+  }
+
+  /* ---------- masthead ---------- */
+  .mast {
+    padding: 2.75rem 0 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: .68rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  h1 {
+    font-family: var(--display);
+    font-size: clamp(2.1rem, 8vw, 3.4rem);
+    line-height: .96;
+    letter-spacing: -.035em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-wrap: balance;
+    margin: 0;
+  }
+  h1 .thin {
+    display: block;
+    color: var(--text-dim);
+    font-weight: 500;
+    letter-spacing: -.02em;
+  }
+  .standfirst {
+    color: var(--text-dim);
+    font-size: 1.02rem;
+    max-width: 34rem;
+  }
+
+  /* ---------- fact strip ---------- */
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .fact {
+    background: var(--surface);
+    padding: .8rem .9rem;
+    display: flex;
+    flex-direction: column;
+    gap: .18rem;
+  }
+  .fact dt {
+    font-family: var(--mono);
+    font-size: .62rem;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+  .fact dd {
+    margin: 0;
+    font-weight: 650;
+    font-size: .96rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .fact dd.hot { color: var(--accent); }
+
+  /* ---------- sticky nav ---------- */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line);
+    margin-top: 1.75rem;
+  }
+  .nav-inner {
+    max-width: 47rem;
+    margin: 0 auto;
+    padding: .55rem 1.15rem;
+    display: flex;
+    align-items: center;
+    gap: .38rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav-inner::-webkit-scrollbar { display: none; }
+  .nav a {
+    flex: none;
+    text-decoration: none;
+    font-family: var(--mono);
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    color: var(--text-dim);
+    padding: .32rem .6rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    white-space: nowrap;
+    transition: color .15s, border-color .15s;
+  }
+  .nav a:hover, .nav a:focus-visible { color: var(--accent); border-color: var(--accent); }
+  .tally {
+    flex: none;
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    padding-left: .5rem;
+  }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 3rem; scroll-margin-top: 3.6rem; }
+  h2 {
+    font-family: var(--display);
+    font-size: 1.6rem;
+    line-height: 1.1;
+    letter-spacing: -.02em;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 .3rem;
+    display: flex;
+    align-items: baseline;
+    gap: .6rem;
+    flex-wrap: wrap;
+  }
+  h2 .tag {
+    font-family: var(--mono);
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    color: var(--bg);
+    background: var(--accent);
+    padding: .18rem .45rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transform: translateY(-.2em);
+  }
+  h3 {
+    font-size: .78rem;
+    font-family: var(--mono);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    font-weight: 600;
+    margin: 1.5rem 0 .55rem;
+  }
+  .lede {
+    color: var(--text-dim);
+    font-size: .95rem;
+    margin: 0 0 1.15rem;
+    max-width: 40rem;
+  }
+
+  /* ---------- run of show ---------- */
+  .rundown {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .slot {
+    display: grid;
+    grid-template-columns: 6.6rem 1fr;
+    gap: .1rem 1rem;
+    padding: .8rem 1rem;
+    border-top: 1px solid var(--line-soft);
+    align-items: start;
+  }
+  .slot:first-child { border-top: 0; }
+  .slot.peak { background: var(--accent-wash); }
+  .slot time {
+    font-family: var(--mono);
+    font-size: .78rem;
+    font-weight: 650;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    padding-top: .1rem;
+  }
+  .slot .what { font-weight: 650; font-size: .95rem; }
+  .slot .why { grid-column: 2; color: var(--text-dim); font-size: .87rem; }
+
+  /* ---------- shot rows ---------- */
+  .shots {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .shots li { border-top: 1px solid var(--line-soft); }
+  .shots li:first-child { border-top: 0; }
+  .shot {
+    display: grid;
+    grid-template-columns: 1.35rem 2.4rem 1fr;
+    gap: .8rem;
+    align-items: start;
+    padding: .78rem .95rem;
+    cursor: pointer;
+    transition: background .12s;
+  }
+  .shot:hover { background: var(--surface-2); }
+  .shot input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 1.35rem;
+    height: 1.35rem;
+    margin: 0;
+    border: 1.5px solid var(--line);
+    border-radius: 6px;
+    background: var(--bg);
+    cursor: pointer;
+    position: relative;
+    flex: none;
+    transition: background .15s, border-color .15s;
+  }
+  .shot input:checked { background: var(--accent); border-color: var(--accent); }
+  .shot input:checked::after {
+    content: "";
+    position: absolute;
+    left: 6px; top: 2px;
+    width: 5px; height: 10px;
+    border: solid var(--surface);
+    border-width: 0 2.5px 2.5px 0;
+    transform: rotate(43deg);
+  }
+  .shot input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .code {
+    font-family: var(--mono);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    color: var(--accent);
+    padding-top: .22rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .desc { font-size: .95rem; line-height: 1.5; }
+  .desc b { font-weight: 700; }
+  .desc .note { display: block; color: var(--text-dim); font-size: .86rem; margin-top: .15rem; }
+  .shot input:checked ~ .desc { color: var(--text-faint); text-decoration: line-through; text-decoration-color: var(--line); }
+  .shot input:checked ~ .code { color: var(--text-faint); }
+
+  /* ---------- generic cards / lists ---------- */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.15rem 1.25rem;
+  }
+  .stack { display: flex; flex-direction: column; gap: .9rem; }
+  .stack > * { margin: 0; }
+
+  .keyed { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .7rem; }
+  .keyed li { display: grid; grid-template-columns: 1.5rem 1fr; gap: .7rem; font-size: .95rem; align-items: start; }
+  .keyed .n {
+    font-family: var(--mono);
+    font-size: .72rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-wash);
+    border-radius: 5px;
+    text-align: center;
+    padding: .12rem 0;
+    line-height: 1.3;
+  }
+  .keyed.no li .n { color: #C0392B; background: color-mix(in srgb, #C0392B 14%, transparent); }
+  :root[data-theme="dark"] .keyed.no li .n { color: #FF8B7A; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .keyed.no li .n { color: #FF8B7A; } }
+
+  .prose { display: flex; flex-direction: column; gap: 1.35rem; }
+  .prose p { margin: 0; font-size: .95rem; }
+  .prose ul { margin: .35rem 0 0; padding-left: 1.15rem; display: flex; flex-direction: column; gap: .35rem; font-size: .93rem; }
+  .prose li::marker { color: var(--accent); }
+  .prose h4 {
+    margin: 0 0 .2rem;
+    font-size: .95rem;
+    font-weight: 700;
+    letter-spacing: -.005em;
+  }
+
+  /* ---------- table ---------- */
+  .scroller { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); font-size: .9rem; min-width: 30rem; }
+  th, td { text-align: left; padding: .62rem .9rem; border-top: 1px solid var(--line-soft); vertical-align: top; }
+  thead th {
+    border-top: 0;
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    font-weight: 600;
+    background: var(--surface-2);
+  }
+  td:first-child { font-family: var(--mono); font-size: .8rem; font-weight: 650; color: var(--accent); white-space: nowrap; }
+
+  /* ---------- priority ---------- */
+  .prio { display: flex; flex-direction: column; gap: .55rem; }
+  .prio-row {
+    display: grid;
+    grid-template-columns: 3.4rem 1fr;
+    gap: .85rem;
+    align-items: start;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--line);
+    border-radius: 9px;
+    padding: .7rem .9rem;
+  }
+  .prio-row.t1 { border-left-color: var(--accent); }
+  .prio-row.t2 { border-left-color: var(--teal); }
+  .prio-row.t3 { border-left-color: var(--text-faint); }
+  .prio-row .lvl {
+    font-family: var(--mono);
+    font-size: .62rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: .22rem;
+  }
+  .t1 .lvl { color: var(--accent); }
+  .t2 .lvl { color: var(--teal); }
+  .t3 .lvl { color: var(--text-faint); }
+  .prio-row .b { font-weight: 650; font-size: .93rem; }
+  .prio-row .r { color: var(--text-dim); font-size: .86rem; }
+
+  /* ---------- inspo ---------- */
+  .board {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .85rem;
+  }
+  .board + .board { margin-top: .75rem; }
+  .board-head { display: flex; flex-direction: column; gap: .3rem; }
+  .board-title {
+    font-family: var(--display);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -.01em;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+    flex-wrap: wrap;
+  }
+  .serves {
+    font-family: var(--mono);
+    font-size: .62rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--teal);
+    background: var(--teal-wash);
+    padding: .16rem .42rem;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .board-take { color: var(--text-dim); font-size: .91rem; margin: 0; }
+  .board-take b { color: var(--text); font-weight: 650; }
+  /* reference image grid */
+  .refs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+    gap: .75rem;
+  }
+  .ref { margin: 0; display: flex; flex-direction: column; gap: .4rem; }
+  .ref img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    display: block;
+    border-radius: 9px;
+    border: 1px solid var(--line);
+    background: var(--surface-2);
+    cursor: zoom-in;
+    transition: border-color .14s, transform .14s;
+  }
+  .ref img:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .ref figcaption { display: flex; flex-direction: column; gap: .18rem; }
+  .rc {
+    font-family: var(--mono);
+    font-size: .66rem;
+    font-weight: 700;
+    letter-spacing: .09em;
+    color: var(--accent);
+  }
+  .rd { font-size: .8rem; line-height: 1.42; color: var(--text-dim); }
+  .rd b { color: var(--text); font-weight: 650; }
+  .rm {
+    font-family: var(--mono);
+    font-size: .63rem;
+    letter-spacing: .07em;
+    color: var(--teal);
+    font-weight: 600;
+  }
+  .rm::before { content: "→ "; opacity: .55; }
+
+  /* format guide */
+  .fmt-list { display: flex; flex-direction: column; gap: .65rem; }
+  .fmt {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+  }
+  .fmt-head { display: flex; align-items: center; gap: .8rem; }
+  .fmt-name {
+    font-family: var(--display);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -.01em;
+    font-size: 1.02rem;
+  }
+  .fmt-name em { font-style: normal; font-weight: 600; color: var(--accent); font-size: .82rem; letter-spacing: 0; }
+  .fmt-use {
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    font-weight: 600;
+  }
+  .fmt-what { margin: 0; font-size: .9rem; color: var(--text-dim); }
+  .fmt-what b { color: var(--text); }
+  /* ratio glyphs — the box literally shows the aspect ratio */
+  .ratio {
+    flex: none;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+    background: var(--accent-wash);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ratio > span {
+    display: block;
+    border: 1.5px solid var(--accent);
+    border-radius: 2px;
+  }
+  .r916 > span { width: .72rem; height: 1.28rem; }
+  .r45  > span { width: .96rem; height: 1.2rem; }
+  .r11  > span { width: 1.1rem; height: 1.1rem; }
+  .r169 > span { width: 1.44rem; height: .81rem; }
+  .rbts > span { width: 1.1rem; height: 1.1rem; border-style: dashed; border-radius: 999px; }
+  .fmt-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(4.4rem, 1fr));
+    gap: .4rem;
+  }
+  .fmt-strip:empty { display: none; }
+  .fmt-strip img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 1px solid var(--line);
+    display: block;
+    cursor: zoom-in;
+  }
+
+  /* lightbox */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: rgba(8, 5, 12, .93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .9rem;
+    padding: 1.5rem;
+  }
+  .lightbox[hidden] { display: none; }
+  .lightbox img {
+    max-width: min(100%, 40rem);
+    max-height: 78vh;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  .lb-cap {
+    color: #E9E2F2;
+    font-family: var(--mono);
+    font-size: .74rem;
+    letter-spacing: .06em;
+    text-align: center;
+    max-width: 32rem;
+  }
+  .lb-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, .1);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .lb-close:hover { background: rgba(255, 255, 255, .2); }
+  .inspo-link {
+    font-family: var(--mono);
+    font-size: .62rem;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--teal);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--teal) 45%, transparent);
+    white-space: nowrap;
+  }
+  .inspo-link:hover, .inspo-link:focus-visible { color: var(--accent); border-color: var(--accent); }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .05em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .reset {
+    background: none;
+    border: 1px solid var(--line);
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: .68rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: .25rem .55rem;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .reset:hover { color: var(--accent); border-color: var(--accent); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+  @media (max-width: 30rem) {
+    .slot { grid-template-columns: 1fr; }
+    .slot .why, .slot .what { grid-column: 1; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="eyebrow">DRG · Taco Bell Cantinas · Launchpad Productions</div>
+    <h1>Allegiant Cantina<span class="thin">Grand Opening Callsheet</span></h1>
+    <p class="standfirst">Field reference for the 8/13 shoot. Tap any shot to check it off — your progress saves on this device.</p>
+    <dl class="facts">
+      <div class="fact"><dt>Date</dt><dd>Thu Aug 13</dd></div>
+      <div class="fact"><dt>Gates open</dt><dd class="hot">3:00 PM</dd></div>
+      <div class="fact"><dt>Kickoff</dt><dd class="hot">5:00 PM</dd></div>
+      <div class="fact"><dt>Crew window</dt><dd>3:00–6:00</dd></div>
+      <div class="fact"><dt>Game</dt><dd>LV vs ARI</dd></div>
+      <div class="fact"><dt>DRG contacts</dt><dd>Haley · Sierra</dd></div>
+    </dl>
+  </header>
+</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#priority">Priority</a>
+    <a href="#rundown">Run of Show</a>
+    <a href="#a">A · Storefront</a>
+    <a href="#b">B · Wayfinding</a>
+    <a href="#c">C · Employees</a>
+    <a href="#d">D · Drinks</a>
+    <a href="#e">E · Lifestyle</a>
+    <a href="#f">F · Stadium</a>
+    <a href="#formats">Formats</a>
+    <a href="#inspo">Reference</a>
+    <a href="#tech">Tech</a>
+    <a href="#clear">Clearances</a>
+    <span class="tally" id="tally">0/53</span>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <section id="priority">
+    <h2>Priority stack <span class="tag">If we lose time</span></h2>
+    <p class="lede">What the day is built around. If the window compresses, we work down this list in order.</p>
+    <div class="prio">
+      <div class="prio-row t1"><span class="lvl">Must</span><span><span class="b">A · Storefront W/M/T matrix</span><br><span class="r">Carries the website and every marketing asset.</span></span></div>
+      <div class="prio-row t1"><span class="lvl">Must</span><span><span class="b">D · Twisted Freeze in the stadium cup</span><br><span class="r">The hero product. Signature drink in the signature vessel.</span></span></div>
+      <div class="prio-row t1"><span class="lvl">Must</span><span><span class="b">C · Employees, posed and candid</span><br><span class="r">Recruiting, LinkedIn, and the DRG operator story.</span></span></div>
+      <div class="prio-row t2"><span class="lvl">High</span><span><span class="b">B · Hallways and wayfinding</span><br><span class="r">Shows fans exactly where the Cantina sits in the stadium.</span></span></div>
+      <div class="prio-row t2"><span class="lvl">High</span><span><span class="b">E · Guests in Raiders merch</span><br><span class="r">Social feed fuel. Best energy is 4:30–5:00.</span></span></div>
+      <div class="prio-row t3"><span class="lvl">Opp</span><span><span class="b">F · Stadium atmosphere</span><br><span class="r">Sets the scene. Easy pickups, always available.</span></span></div>
+    </div>
+  </section>
+
+  <section id="rundown">
+    <h2>Run of show</h2>
+    <div class="rundown">
+      <div class="slot">
+        <time>1:30–3:00</time>
+        <span class="what">A + B clean plates <em>(if early access)</em></span>
+        <span class="why">Empty store. Architecture, signage, wayfinding, exterior establishing.</span>
+      </div>
+      <div class="slot">
+        <time>3:00–3:25</time>
+        <span class="what">A + B fallback</span>
+        <span class="why">Thinnest crowd of the night. Move fast, don't chase perfect.</span>
+      </div>
+      <div class="slot">
+        <time>3:25–4:00</time>
+        <span class="what">C · Employees</span>
+        <span class="why">Crew is fresh and the line hasn't peaked. Get portraits before they're slammed.</span>
+      </div>
+      <div class="slot">
+        <time>4:00–4:30</time>
+        <span class="what">D · Product hero</span>
+        <span class="why">Fresh-poured freezes, clean cups. Build a small set at the end of the counter.</span>
+      </div>
+      <div class="slot peak">
+        <time>4:30–5:00</time>
+        <span class="what">E · Lifestyle — peak crowd</span>
+        <span class="why">Pre-kickoff surge. Best merch, best energy, best faces of the whole window.</span>
+      </div>
+      <div class="slot">
+        <time>5:00–5:20</time>
+        <span class="what">F · Atmosphere</span>
+        <span class="why">Kickoff. Concourse thins out, bowl gets loud. Grab field and crowd context.</span>
+      </div>
+      <div class="slot">
+        <time>5:20–6:00</time>
+        <span class="what">E + D pickups</span>
+        <span class="why">End-of-Q1 concourse surge. Re-shoot anything soft. Safety frames.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="a">
+    <h2>Block A · Storefront <span class="tag">Must get</span></h2>
+    <p class="lede">The nine-frame matrix they asked for: Wide / Medium / Tight × Left / Head-on / Right. Shoot every frame <b>twice — one clean, one populated.</b> Clean plates go to the website and print; populated goes to social. <a class="inspo-link" href="#inspo">↓ In-venue + Cantina boards</a></p>
+
+    <h3>Wide — the build in stadium context</h3>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="a1"><span class="code">A1</span><span class="desc"><b>Wide, head-on.</b> Centered and symmetrical. Full facade plus enough concourse to read "this is inside a stadium."</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a2"><span class="code">A2</span><span class="desc"><b>Wide, left 45°.</b> Concourse as a leading line into the storefront. Show depth.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a3"><span class="code">A3</span><span class="desc"><b>Wide, right 45°.</b> Mirror of A2.</span></label></li>
+    </ul>
+
+    <h3>Medium — the ordering experience</h3>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="a4"><span class="code">A4</span><span class="desc"><b>Medium, head-on.</b> Counter, menu boards, staff behind the line.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a5"><span class="code">A5</span><span class="desc"><b>Medium, left.</b> Kiosks, POS, the order-in zone.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a6"><span class="code">A6</span><span class="desc"><b>Medium, right.</b> Pickup and beverage station, freeze machines.</span></label></li>
+    </ul>
+
+    <h3>Tight — the details that sell the brand</h3>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="a7"><span class="code">A7</span><span class="desc"><b>Tight, head-on.</b> Bell logo / primary sign hero. Fill the frame.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a8"><span class="code">A8</span><span class="desc"><b>Tight, left.</b> Neon, purple glow, graphic treatments, wall texture, materials.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a9"><span class="code">A9</span><span class="desc"><b>Tight, right.</b> Freeze machine, tap wall, cup stack, branded detail.</span></label></li>
+    </ul>
+
+    <h3>Add-ons if time allows</h3>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="a10"><span class="code">A10</span><span class="desc">Low-angle hero of the sign against the concourse ceiling. Makes the build feel monumental.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a11"><span class="code">A11</span><span class="desc">Straight-down or ¾ of the counter surface. Clean and graphic — great for text overlay.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="a12"><span class="code">A12</span><span class="desc">Vertical 9:16 versions of A1, A4 and A7 for Stories and Reels covers.</span></label></li>
+    </ul>
+  </section>
+
+  <section id="b">
+    <h2>Block B · Hallways &amp; wayfinding <span class="tag">High</span></h2>
+    <p class="lede">This block is what actually makes fans able to find the Cantina once they're inside. <a class="inspo-link" href="#inspo">↓ In-venue board</a></p>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="b1"><span class="code">B1</span><span class="desc"><b>The approach.</b> Walking down the concourse, Cantina sign visible at the end. Leading lines.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="b2"><span class="code">B2</span><span class="desc"><b>Overhead directional signage</b> with "Taco Bell Cantina" legible — plus the section or gate number in frame.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="b3"><span class="code">B3</span><span class="desc"><b>Section number + storefront in one frame.</b><span class="note">The single most useful wayfinding asset on the list. Shoot it two or three different ways.</span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="b4"><span class="code">B4</span><span class="desc"><b>POV walking shot</b> at chest height, moving toward the counter. Stills sequence — grab video too if we have a second body.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="b5"><span class="code">B5</span><span class="desc"><b>From the bowl / vom</b> looking back toward the concourse opening, if accessible.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="b6"><span class="code">B6</span><span class="desc"><b>Escalator, ramp or entry approach</b> with stadium architecture visible.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="b7"><span class="code">B7</span><span class="desc"><b>Exterior establishing of Allegiant — shoot on arrival.</b><span class="note">We leave at 6, so there is no night exterior. If DRG wants the glowing-stadium shot, flag it as a separate pickup on another date.</span></span></label></li>
+    </ul>
+  </section>
+
+  <section id="c">
+    <h2>Block C · Employees <span class="tag">Must get</span></h2>
+    <p class="lede">Posed and candid. These carry recruiting, LinkedIn, and DRG's operator story. <b>Wrangle before you shoot</b> — ask the on-site manager for three to five camera-approved crew: uniforms straight, name tags on, hats forward. <a class="inspo-link" href="#inspo">↓ Employee board</a></p>
+
+    <h3>Posed</h3>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="c1"><span class="code">C1</span><span class="desc"><b>Single portrait,</b> ¾ turn, against the branded wall or purple neon. Confident — arms crossed or hands on the counter.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c2"><span class="code">C2</span><span class="desc"><b>Single portrait holding a Twisted Freeze,</b> presenting it toward camera.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c3"><span class="code">C3</span><span class="desc"><b>Group lineup,</b> three to five crew, head-on, staggered depth. The hero team shot.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c4"><span class="code">C4</span><span class="desc"><b>Group behind the counter,</b> framed by the build. Reads as a storefront hero with people in it.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c5"><span class="code">C5</span><span class="desc"><b>GM / manager portrait,</b> slightly more serious. Website, LinkedIn, and DRG parent-brand use.</span></label></li>
+    </ul>
+
+    <h3>Candid</h3>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="c6"><span class="code">C6</span><span class="desc"><b>Pouring a freeze.</b> Mid-action, motion in the stream.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c7"><span class="code">C7</span><span class="desc"><b>Handoff across the counter</b> — employee to guest. Both faces if possible.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c8"><span class="code">C8</span><span class="desc"><b>At the register,</b> mid-conversation, genuine laugh.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c9"><span class="code">C9</span><span class="desc"><b>Crew interaction behind the line.</b> Teamwork energy, not staged.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="c10"><span class="code">C10</span><span class="desc"><b>Details.</b> Hands on the machine, name tag, uniform texture, a cup being capped.</span></label></li>
+    </ul>
+  </section>
+
+  <section id="d">
+    <h2>Block D · Twisted Freeze <span class="tag">Must get</span></h2>
+    <p class="lede"><b>No food — drinks only.</b> Build a mini set at the end of the counter: clean surface, neon and menu boards as background bokeh. <a class="inspo-link" href="#inspo">↓ Guest energy board</a></p>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="d1"><span class="code">D1</span><span class="desc"><b>The hero.</b> Single Twisted Freeze in the stadium souvenir cup, head-on, storefront glow behind.<span class="note">This is the money shot. Shoot it ten different ways.</span></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d2"><span class="code">D2</span><span class="desc">Same, low angle. Hero-worship perspective.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d3"><span class="code">D3</span><span class="desc"><b>Held in hand</b> at chest height, Cantina soft behind. Cup branding clearly legible.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d4"><span class="code">D4</span><span class="desc"><b>Held up against the bowl or field.</b> Ties the drink to the venue in one frame.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d5"><span class="code">D5</span><span class="desc"><b>Macro.</b> Condensation on the cup, swirl texture, straw detail, color saturation.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d6"><span class="code">D6</span><span class="desc"><b>Dispense action</b> from the machine — mid-stream, freeze falling.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d7"><span class="code">D7</span><span class="desc"><b>Flavor flight.</b> Two or three lined up. Color story.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d8"><span class="code">D8</span><span class="desc"><b>Cheers.</b> Two guests, drinks meeting mid-frame.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d9"><span class="code">D9</span><span class="desc"><b>Drink + Raiders merch</b> in the same frame — jersey sleeve, hat brim, gear.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d10"><span class="code">D10</span><span class="desc"><b>Overhead flat-lay</b> of cups on the counter. Clean, graphic, big negative space for typography.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="d11"><span class="code">PREP</span><span class="desc"><b>Pull fresh cups from stock</b> before shooting. No fingerprints, no drips, no crumpled rims.</span></label></li>
+    </ul>
+  </section>
+
+  <section id="e">
+    <h2>Block E · Lifestyle <span class="tag">High</span></h2>
+    <p class="lede">Peak window is <b>4:30–5:00</b>, plus the end-of-Q1 surge around 5:25. Target guests visibly in Raiders merch — jerseys, hats, face paint, silver and black. <a class="inspo-link" href="#inspo">↓ Cantina board</a></p>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="e1"><span class="code">E1</span><span class="desc">Guests in Raiders gear <b>ordering at the counter,</b> signage visible.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e2"><span class="code">E2</span><span class="desc"><b>Group of friends holding freezes,</b> laughing, Cantina sign in frame.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e3"><span class="code">E3</span><span class="desc">Guests <b>walking away from the counter,</b> drinks in hand, heading toward the bowl.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e4"><span class="code">E4</span><span class="desc">Guests at the rail or counter <b>watching the game on the TVs.</b></span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e5"><span class="code">E5</span><span class="desc"><b>POV:</b> drink held up in the foreground, field or crowd behind.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e6"><span class="code">E6</span><span class="desc"><b>The line.</b> A healthy queue reads as demand — strong asset for DRG's operator story.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e7"><span class="code">E7</span><span class="desc"><b>Couple or duo moment.</b> Two-person compositions outperform crowds on feed.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e8"><span class="code">E8</span><span class="desc"><b>Reaction moment</b> — cheering, celebrating, drinks up.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="e9"><span class="code">E9</span><span class="desc">Families in gear. <b>No drinks in frame with minors</b> — see clearances.</span></label></li>
+    </ul>
+  </section>
+
+  <section id="f">
+    <h2>Block F · Stadium context <span class="tag">Opportunistic</span></h2>
+    <p class="lede">Grab these whenever there's a lull. They set the scene and cost almost nothing.</p>
+    <ul class="shots">
+      <li><label class="shot"><input type="checkbox" data-id="f1"><span class="code">F1</span><span class="desc">Concourse crowd flow. Motion blur, energy.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="f2"><span class="code">F2</span><span class="desc">Field or bowl framed through a concourse opening.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="f3"><span class="code">F3</span><span class="desc">Raiders branding or stadium architecture adjacent to the Cantina.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="f4"><span class="code">F4</span><span class="desc">Crowd wide from the concourse level.</span></label></li>
+      <li><label class="shot"><input type="checkbox" data-id="f5"><span class="code">F5</span><span class="desc">Anything where the Allegiant roof or signature architecture reads clearly.</span></label></li>
+    </ul>
+  </section>
+
+  <section id="formats">
+    <h2>Format guide</h2>
+    <p class="lede">Every hero setup gets shot in more than one ratio. Frame loose enough to crop — decide the format at the camera, not in post.</p>
+
+    <div class="fmt-list">
+      <div class="fmt" data-refs="V6,C4,C5,E3">
+        <div class="fmt-head">
+          <span class="ratio r916"><span></span></span>
+          <div>
+            <div class="fmt-name">Vertical 9:16</div>
+            <div class="fmt-use">Reels · TikTok · Stories</div>
+          </div>
+        </div>
+        <p class="fmt-what">Handheld POV walk-ups to the counter, pour and dispense close-ups, single-subject portraits, drink raised toward camera. Subject dead center, headroom at the top for the Stories UI to sit over.</p>
+        <div class="fmt-strip"></div>
+      </div>
+
+      <div class="fmt" data-refs="E2,V1,C5">
+        <div class="fmt-head">
+          <span class="ratio r45"><span></span></span>
+          <div>
+            <div class="fmt-name">Feed 4:5 <em>— primary</em></div>
+            <div class="fmt-use">IG feed · 1080×1350</div>
+          </div>
+        </div>
+        <p class="fmt-what">The TBC house format — most of the shoot should be composed for this. Populated storefront, crew lineup, drink in hand. Keep a dark band top or bottom for typography.</p>
+        <div class="fmt-strip"></div>
+      </div>
+
+      <div class="fmt" data-refs="V2,C2,V7">
+        <div class="fmt-head">
+          <span class="ratio r11"><span></span></span>
+          <div>
+            <div class="fmt-name">Square 1:1</div>
+            <div class="fmt-use">Feed carousel · grid</div>
+          </div>
+        </div>
+        <p class="fmt-what">Centered product beauty, macro condensation and swirl detail, overhead flat-lay of cups. Symmetry does the work — put the freeze on the center axis and leave even margins.</p>
+        <div class="fmt-strip"></div>
+      </div>
+
+      <div class="fmt" data-refs="V3,V4">
+        <div class="fmt-head">
+          <span class="ratio r169"><span></span></span>
+          <div>
+            <div class="fmt-name">Horizontal 16:9</div>
+            <div class="fmt-use">Website header · PR · press</div>
+          </div>
+        </div>
+        <p class="fmt-what">Ultra-wide storefront hero, concourse establishing, group behind the counter. Shoot these wider than feels right — web headers crop hard top and bottom, and press will re-crop again. Worth setting up deliberately, since nothing else on the day produces a true landscape frame.</p>
+        <div class="fmt-strip"></div>
+      </div>
+
+      <div class="fmt" data-refs="E1,E4">
+        <div class="fmt-head">
+          <span class="ratio rbts"><span></span></span>
+          <div>
+            <div class="fmt-name">Behind the scenes</div>
+            <div class="fmt-use">DRG channels · our case study</div>
+          </div>
+        </div>
+        <p class="fmt-what">Casual frames of the crew and the setup — lights going up, a shot being framed, the team working the counter. Cheap to grab, and DRG uses this kind of content on the parent account.</p>
+        <div class="fmt-strip"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="inspo">
+    <h2>Reference boards</h2>
+    <p class="lede">The visual direction for the day. Tap any image to enlarge — each one is mapped to the shots it informs.</p>
+
+    <div class="board">
+      <div class="board-head">
+        <div class="board-title">In-venue product <span class="serves">Blocks D · E</span></div>
+        <p class="board-take"><b>What we're taking:</b> the drink held <em>in</em> the venue, with the building doing the work behind it. These references are food-forward and this shoot is drinks only — so we're borrowing the framing and the light, never the subject.</p>
+      </div>
+      <div class="refs">
+        <figure class="ref" data-code="V1">
+          <img src="__IMG_V1__" alt="Seated fan in a red jersey holding a chili-rimmed drink in a stadium seat, dark moody light">
+          <figcaption><span class="rc">V1</span><span class="rd">Fan in-seat, jersey in frame, drink held toward camera. Dark, tight, flash-lit.</span><span class="rm">D3 · D9 · E5</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="V2">
+          <img src="__IMG_V2__" alt="A single sports drink bottle sitting alone on an empty orange stadium seat">
+          <figcaption><span class="rc">V2</span><span class="rd">Product alone on stadium seating. Graphic and minimal, with the <b>best negative space on the board</b> for typography.</span><span class="rm">D1 · D10</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="V3">
+          <img src="__IMG_V3__" alt="POV from a stadium seat: tray and drink on lap with the field and bowl behind">
+          <figcaption><span class="rc">V3</span><span class="rd">POV from the seat — drink in the near field, bowl falling away behind.</span><span class="rm">D4 · E5</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="V4">
+          <img src="__IMG_V4__" alt="Group seated in a stadium suite laughing, food on the ledge, bowl visible beyond">
+          <figcaption><span class="rc">V4</span><span class="rd">Hospitality energy — group seated, relaxed, venue framing them.</span><span class="rm">E4 · E7</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="V5">
+          <img src="__IMG_V5__" alt="Two women in ball caps sharing a hot dog with a golden-hour stadium behind them">
+          <figcaption><span class="rc">V5</span><span class="rd">Two-person candid joy. Faces doing the selling, not the product.</span><span class="rm">E2 · E7</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="V6">
+          <img src="__IMG_V6__" alt="Three souvenir baseball-shaped cups held up against a floodlit night stadium">
+          <figcaption><span class="rc">V6</span><span class="rd"><b>Best reference on the board.</b> Souvenir cups raised against the lit bowl. This is D4 and D8 in one frame.</span><span class="rm">D4 · D8 · D7</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="V7">
+          <img src="__IMG_V7__" alt="Hand holding a souvenir helmet cup above a sunlit ballpark field">
+          <figcaption><span class="rc">V7</span><span class="rd">Souvenir vessel held up, field below. Daylight version of V6.</span><span class="rm">D4 · D3</span></figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="board">
+      <div class="board-head">
+        <div class="board-title">Crew <span class="serves">Block C</span></div>
+        <p class="board-take"><b>What we're taking:</b> crew shot with intent — posed like they matter, not caught mid-shift. Uniform treated as wardrobe, the build as backdrop. Show <b>E2</b> to the manager when you ask for your three to five people.</p>
+      </div>
+      <div class="refs">
+        <figure class="ref" data-code="E1">
+          <img src="__IMG_E1__" alt="Three kitchen crew in branded black tees posed loosely in a back-of-house kitchen">
+          <figcaption><span class="rc">E1</span><span class="rd">Loose, attitude-forward group. Staggered depth, nobody stiff.</span><span class="rm">C3 · C9</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="E2">
+          <img src="__IMG_E2__" alt="Four crew in matching orange tees and caps behind a stainless counter, facing camera">
+          <figcaption><span class="rc">E2</span><span class="rd"><b>The hero team shot.</b> Symmetrical, head-on, framed by the counter. Direct to camera.</span><span class="rm">C3 · C4</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="E3">
+          <img src="__IMG_E3__" alt="Crew member photographed from behind showing branded shirt back and apron ties at the fryer">
+          <figcaption><span class="rc">E3</span><span class="rd">Shot from behind — the uniform becomes the subject. Clean and graphic.</span><span class="rm">C10</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="E4">
+          <img src="__IMG_E4__" alt="Apron-wearing staff carrying a plate and a glass, torso and hands only, no face">
+          <figcaption><span class="rc">E4</span><span class="rd">Hands and torso only, no faces — an option for anyone who'd rather not be photographed.</span><span class="rm">C7 · C10</span></figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="board">
+      <div class="board-head">
+        <div class="board-title">Guest energy &amp; QSR nightlife <span class="serves">Blocks D · E</span></div>
+        <p class="board-take"><b>What we're taking:</b> the nightlife read — flash on faces, motion around a sharp subject, product pushed at the lens. <b>C5</b> is the closest thing on the board to our approved TBC grade; treat it as the look book.</p>
+      </div>
+      <div class="refs">
+        <figure class="ref" data-code="C1">
+          <img src="__IMG_C1__" alt="Woman in a burger-chain booth holding a burger up to the camera with a tray in the foreground">
+          <figcaption><span class="rc">C1</span><span class="rd">Guest presenting product to camera in a bright QSR dining room.</span><span class="rm">E1 · E7</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="C2">
+          <img src="__IMG_C2__" alt="Man eating sharply in focus while a crowd streams past him in motion blur at night">
+          <figcaption><span class="rc">C2</span><span class="rd"><b>Concourse technique.</b> Drag the shutter, flash the subject sharp, let the crowd smear. Perfect for a busy walkway.</span><span class="rm">E6 · F1</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="C3">
+          <img src="__IMG_C3__" alt="Two men shot on an ultra-wide lens from below, eating, illuminated sign behind them">
+          <figcaption><span class="rc">C3</span><span class="rd">Ultra-wide, low, close. Gritty flash. Signage looming behind the subjects.</span><span class="rm">E8 · A10</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="C4">
+          <img src="__IMG_C4__" alt="Wide-angle forced perspective: a hand thrusting fries toward the lens with a person behind">
+          <figcaption><span class="rc">C4</span><span class="rd">Forced perspective — product shoved at the lens, subject small behind. Fun freeze variant.</span><span class="rm">D3 · E5</span></figcaption>
+        </figure>
+        <figure class="ref" data-code="C5">
+          <img src="__IMG_C5__" alt="Woman laughing in a Taco Bell booth on a yellow tufted banquette, holding a Taco Bell cup">
+          <figcaption><span class="rc">C5</span><span class="rd"><b>Most on-brand frame here.</b> Actual TB cup, real booth, genuine laugh, editorial styling.</span><span class="rm">C2 · E2 · E7</span></figcaption>
+        </figure>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-close" id="lbClose" type="button" aria-label="Close">✕</button>
+    <img id="lbImg" src="" alt="">
+    <div class="lb-cap" id="lbCap"></div>
+  </div>
+
+  <section id="tech">
+    <h2>Technical notes</h2>
+    <div class="card prose">
+      <div>
+        <h4>Lighting and color — this is the hard part</h4>
+        <ul>
+          <li>Allegiant is a <b>domed stadium</b>. The concourse is 100% artificial light. Expect a nasty mix — LED menu boards, purple neon, overhead fluorescent, and TV screens, all different color temperatures in one frame.</li>
+          <li><b>Shoot RAW.</b> Set a custom white balance off a neutral surface at the counter, then check it again out in the concourse. Don't trust auto WB.</li>
+          <li>Expose for the <b>storefront glow</b> and let the concourse fall off dark. The dark surround is on-brand and it gives design room for type.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Flash</h4>
+        <ul>
+          <li>TBC's approved visual system is <b>direct-flash nightlife</b>. Bring on-camera flash and use it — it isn't a compromise, it's the look.</li>
+          <li>Flash also kills the mixed-temperature problem on people. Use it across all of Block C and Block E.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Glass</h4>
+        <ul>
+          <li>24–70 f/2.8 for coverage — Blocks A, B, C.</li>
+          <li>Fast prime, 35 f/1.4, for lifestyle and low-light crowd — Blocks E, F.</li>
+          <li>Something longer for candid guest shots without invading anyone's space.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Framing for downstream use</h4>
+        <ul>
+          <li>Every hero gets a <b>horizontal, a 4:5, and a 9:16</b> version. Feed is 1080×1350, Stories and Reels are 9:16, the website needs 16:9.</li>
+          <li><b>Leave negative space.</b> Our approved TBC system places 15–25% text in the photo's natural dark zones. If every frame is edge-to-edge busy, design can't use it — consciously compose empty areas into the top or bottom third of hero frames.</li>
+          <li>Volume target: <b>300–500 frames</b> across three hours. Cover A, C and D ruthlessly — those are the ask.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Do not shoot</h3>
+    <div class="card">
+      <ul class="keyed no">
+        <li><span class="n">✕</span><span><b>No food.</b> No tacos, no trays, no food in hero frames. Menu boards showing food are fine.</span></li>
+        <li><span class="n">✕</span><span>No empty or dirty tables, trash cans, spills, or back-of-house clutter in frame.</span></li>
+        <li><span class="n">✕</span><span>No competitor concession brands legible in the background.</span></li>
+        <li><span class="n">✕</span><span>No minors in the same frame as an alcoholic Twisted Freeze.</span></li>
+        <li><span class="n">✕</span><span>No guests who decline or look uncomfortable. Move on immediately.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="clear">
+    <h2>Clearances <span class="tag">Confirm tomorrow AM</span></h2>
+    <p class="lede">These are the things that kill an asset in post if we don't handle them on the day.</p>
+    <div class="card">
+      <ul class="keyed">
+        <li><span class="n">1</span><span><b>Early access.</b> Badged in by 1:30–2:00 PM for clean plates. Highest priority.</span></li>
+        <li><span class="n">2</span><span><b>Alcohol depiction.</b> Twisted Freezes are spiked. Taco Bell corporate and the NFL both have rules on alcohol imagery — typically everyone visible with an alcoholic drink must appear 25+. Confirm which SKU we're shooting and whether alcohol can appear in public-facing assets at all.</span></li>
+        <li><span class="n">3</span><span><b>Talent releases.</b> Signed releases for every employee. Bring a stack of guest releases too, or keep guest shots non-identifiable.</span></li>
+        <li><span class="n">4</span><span><b>NFL / Raiders / Allegiant trademark clearance.</b> The Shield is strict about commercial use of team marks and stadium IP. Get in writing what we can show and where it can run — organic social, paid, website and print are all different permissions.</span></li>
+        <li><span class="n">5</span><span><b>Shooting credentials.</b> Where can we set up? Tripod or light stand allowed on the concourse? Media escort required?</span></li>
+        <li><span class="n">6</span><span><b>On-site wrangler.</b> Who from DRG walks with us to pull employees and clear guests? Get a name and a cell number.</span></li>
+        <li><span class="n">7</span><span><b>Camera-approved crew.</b> Which employees are cleared, and will they be in fresh uniform?</span></li>
+        <li><span class="n">8</span><span><b>Clean souvenir cups</b> pulled from unused stock for product shots.</span></li>
+        <li><span class="n">9</span><span><b>Deliverable date.</b> When do they need first selects? Grand opening content is time-sensitive.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="deliver">
+    <h2>Where each shot lands</h2>
+    <div class="scroller">
+      <table>
+        <thead><tr><th>Shots</th><th>Feeds</th></tr></thead>
+        <tbody>
+          <tr><td>A1 · A4 · A7 clean</td><td>Website hero, Google Business Profile, press</td></tr>
+          <tr><td>A-block populated</td><td>IG feed grid, opening announcement carousel</td></tr>
+          <tr><td>B3</td><td>Story graphics, "find us" posts, in-stadium promo</td></tr>
+          <tr><td>C3 · C5</td><td>LinkedIn, DRG parent brand, recruiting, press</td></tr>
+          <tr><td>C6–C10</td><td>Reels and TikTok stills, behind-the-counter content</td></tr>
+          <tr><td>D1–D5</td><td>Product hero, paid social, menu and print, feed</td></tr>
+          <tr><td>D10</td><td>Graphic templates — big text space</td></tr>
+          <tr><td>E-block</td><td>Feed, Stories, UGC-style social, community posts</td></tr>
+          <tr><td>F-block</td><td>Establishing shots, Story transitions, context frames</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Post direction — approved TBC system</h3>
+    <div class="card prose">
+      <ul>
+        <li><b>Warm, moody, nightlife grade.</b> Dark base, saturated purple, punchy highlights.</li>
+        <li><b>Photo is the hero.</b> Text enhances, never competes — 15–25% text, placed in the photo's actual negative space.</li>
+        <li>Typography: GT America Bold, all caps, white, 48–68pt. Small TBC lockup, bottom corner, white.</li>
+        <li>Feed format 1080×1350. Captions: one or two sentences, lowercase, casual, zero brand speak.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <span>Launchpad Productions · prepared 2026-08-12</span>
+    <button class="reset" id="reset" type="button">Reset checklist</button>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var KEY = "tbc-allegiant-callsheet-v1";
+    var boxes = Array.prototype.slice.call(document.querySelectorAll(".shot input"));
+    var tally = document.getElementById("tally");
+    var saved = {};
+
+    try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { saved = {}; }
+
+    function render() {
+      var done = boxes.filter(function (b) { return b.checked; }).length;
+      tally.textContent = done + "/" + boxes.length;
+    }
+
+    function persist() {
+      var state = {};
+      boxes.forEach(function (b) { if (b.checked) state[b.dataset.id] = 1; });
+      try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+    }
+
+    boxes.forEach(function (b) {
+      if (saved[b.dataset.id]) b.checked = true;
+      b.addEventListener("change", function () { persist(); render(); });
+    });
+
+    document.getElementById("reset").addEventListener("click", function () {
+      boxes.forEach(function (b) { b.checked = false; });
+      persist();
+      render();
+    });
+
+    render();
+
+    /* --- reference images: build an index, clone into format strips --- */
+    var refIndex = {};
+    Array.prototype.forEach.call(document.querySelectorAll(".ref"), function (fig) {
+      var img = fig.querySelector("img");
+      var code = fig.dataset.code;
+      var desc = fig.querySelector(".rd");
+      refIndex[code] = { src: img.src, alt: img.alt, text: desc ? desc.textContent : "" };
+    });
+
+    Array.prototype.forEach.call(document.querySelectorAll(".fmt"), function (row) {
+      var strip = row.querySelector(".fmt-strip");
+      var codes = (row.dataset.refs || "").split(",").filter(Boolean);
+      codes.forEach(function (code) {
+        var ref = refIndex[code.trim()];
+        if (!ref) return;
+        var im = document.createElement("img");
+        im.src = ref.src;
+        im.alt = ref.alt;
+        im.dataset.code = code.trim();
+        strip.appendChild(im);
+      });
+    });
+
+    /* --- lightbox --- */
+    var lb = document.getElementById("lightbox");
+    var lbImg = document.getElementById("lbImg");
+    var lbCap = document.getElementById("lbCap");
+    var lbClose = document.getElementById("lbClose");
+    var lastFocus = null;
+
+    function openLb(src, alt, code, text) {
+      lastFocus = document.activeElement;
+      lbImg.src = src;
+      lbImg.alt = alt || "";
+      lbCap.textContent = code ? code + " — " + text : text || "";
+      lb.hidden = false;
+      lbClose.focus();
+    }
+    function closeLb() {
+      lb.hidden = true;
+      lbImg.src = "";
+      if (lastFocus) lastFocus.focus();
+    }
+
+    document.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t.tagName !== "IMG") return;
+      var fig = t.closest(".ref");
+      if (fig) {
+        var code = fig.dataset.code;
+        openLb(t.src, t.alt, code, refIndex[code] ? refIndex[code].text : "");
+        return;
+      }
+      if (t.closest(".fmt-strip")) {
+        var c = t.dataset.code;
+        openLb(t.src, t.alt, c, refIndex[c] ? refIndex[c].text : "");
+      }
+    });
+
+    lbClose.addEventListener("click", closeLb);
+    lb.addEventListener("click", function (e) { if (e.target === lb) closeLb(); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !lb.hidden) closeLb();
+    });
+  })();
+</script>
