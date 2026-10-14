@@ -11,7 +11,8 @@ last_updated: 2026-10-11
 
 *Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-10-11.*
 
-## All notes (2)
+## All notes (3)
 
 - [[AI Team Prep — Client Context Gaps]]
+- [[Abril Briefing and Triaged To-Do — 2026-10-14]]
 - [[Google Drive Folder Standardization]]
