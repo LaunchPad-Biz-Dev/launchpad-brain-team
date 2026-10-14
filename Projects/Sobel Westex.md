@@ -194,3 +194,6 @@ Sobel requested to review high-level content strategy for the rest of the year �
 
 ## Sync Log (Updated)
 - **2026-07-17** — Deliverables sync: Sobel 2 tasks Not Started (due 2026-07-01, **16 days overdue**). Awaiting clarification on task specifics from Notion. Escalated to account team for prioritization. Reference: [[2026-07-17-notion-sync]]
+
+## Media Buyer Sync — 2026-09-29
+- No significant changes this cycle.

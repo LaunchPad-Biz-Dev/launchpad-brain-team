@@ -180,3 +180,7 @@ reports as "ROAS 0.00 — Off Track" on Princess and Travel + Leisure. It must n
 impressions, 9 reach, 0 clicks for the month to date. Same unknown cause as Princess Luxury Bed. Flagged
 to Amber 2026-08-20; needs eyes in TikTok Ads Manager. Combined with Princess, roughly $1,000 of Sobel's
 $2,000/mo has not been delivered with 61% of the month gone.
+
+## Media Buyer Sync — 2026-09-29
+- Completed addition of custom audiences and tailored creatives to sales campaign ads (grouped with Carnival Home and Princess Luxury Bed under the Sobel umbrella).
+- Plan: shift back to calls by end of Q4 (mid-December) — holding off on the calls push until weather cools.

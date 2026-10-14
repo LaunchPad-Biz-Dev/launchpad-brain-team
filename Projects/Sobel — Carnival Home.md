@@ -214,3 +214,7 @@ reports as "ROAS 0.00 — Off Track" on Princess and Travel + Leisure. It must n
 the headline for this brand. ⚠️ Under-pacing: $380 of a $1,000 budget at 61% of the month, and only 1 of
 9 campaigns is delivering. At 2.25x the unspent budget is real foregone revenue. CPC up sharply from
 July's $0.21 — watch.
+
+## Media Buyer Sync — 2026-09-29
+- Completed addition of custom audiences and tailored creatives to sales campaign ads (grouped with Princess Luxury Bed and Travel + Leisure under the Sobel umbrella).
+- Plan: shift back to calls by end of Q4 (mid-December) — holding off on the calls push until weather cools.

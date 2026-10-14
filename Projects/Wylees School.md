@@ -530,3 +530,7 @@ Priority items — answers unlock better content and ad performance:
 - Notion: WYLEES May 2026 Content Shoot Plan (367b01f77d6d8196a9e7c04fdf43f2b7)
 - Notion: CMD page (263b01f77d6d802ca9c8fe76c5a98dd0)
 - Notion: Client Health Tracker / WYLEES (NEW) (369b01f77d6d812e8c03fcd772e994c1)
+
+## Media Buyer Sync — 2026-09-29
+- Note: referred to as "Wiley's Educational Leadership" in the 2026-09-29 media buyer sync — same client as Wylees/Young Women's Leadership Academy LV.
+- Pixel already installed on the landing page. Launchpad reached out Monday/Wednesday about moving forward with a form campaign; awaiting the client's response (follow-up action item marked complete on Launchpad's side).

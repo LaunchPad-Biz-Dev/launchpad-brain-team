@@ -302,3 +302,7 @@ Full-day video content shoot designed to stockpile short-form video assets for G
 footnote. Unspent budget is unbought leads and must be stated plainly alongside the lead count it likely cost.
 
 Target CPL: **not yet set** — needs Amber.
+
+## Media Buyer Sync — 2026-09-29
+- Campaign completed for the month; duplicate ready for next month.
+- Waiting on new creative approvals — Arby's requires organic approval before ads can run. Flagged as a recurring approval bottleneck with this client.

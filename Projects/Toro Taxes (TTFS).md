@@ -233,3 +233,11 @@ All campaigns structured as: Headline + Subheadline + CTA
 - Apollo built a bilingual client-facing one-pager, "Toro Taxes Mixer — What To Expect On Camera," from the shot list — covers the 5-minute on-camera format, likely questions, sample lines, and dress guidance. Drills "bring one or two real numbers." No internal data included — cleared to send directly to Nick, Antonia, or franchisees. Posted in `#local-opps-team-` and delivered to Anthony via Slack 2026-09-02.
 - Full internal shoot brief lives at the linked Notion page (`3cfb01f77d6d8172a271d0b83f91ca2a`).
 - TTFS Ad Strategy 2026 page is the ongoing Meta ad analytics/strategy tracker (Status: Analysis) — same workstream as the [[Toro Taxes Franchise Sales]] Meta audit from 2026-09-01, not mixer-specific.
+
+## Media Buyer Sync — 2026-09-29
+- Added new creatives; pulling highest-performing ad copies from the OTP campaign for variation tests. Some English graphics rejected and awaiting fixes.
+- Warm retargeting audience populating slowly; through-play performing well. Retargeting ads hit "learning limited" status, likely from audience size + conflicting exclusions — **decision: remove exclusions** to expand the audience.
+- An ad was accidentally deleted during a duplication attempt; ad set was successfully replicated.
+- New video creatives launched; plan to analyze and swap underperformers.
+- New lookalike audience test campaigns created, budget reallocated from unused Mexico spend.
+- Action item: test a Linktree for Toro, modeled after the MNL Linktree setup.

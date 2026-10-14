@@ -33,3 +33,11 @@ related: ["[[Projects/00-INDEX]]"]
 
 ## Sync Log
 - **2026-08-14** — Brain note created (client flagged in Notion as new onboarding)
+
+## Media Buyer Sync — 2026-09-29
+- **Status:** approved to launch once creative is ready.
+- **Campaign structure:**
+  1. Traffic / Through-Play — awareness targeting women 35–55 (peri/postmenopausal) and men 40–60 with hormonal decline; geo-limited to Nevada/Las Vegas.
+  2. Messaging Campaign — lower-budget educational content on BHRT, labs, and weight loss services; messaging focused on *why* the service matters.
+  3. Retargeting (Form Fill) — sales-focused, targets video viewers, site visitors, engaged followers, and prior message responders.
+- **Compliance guardrails:** no medication names/dosages, no before/after imagery, no guaranteed outcomes, no targeting by health condition (interests & life stages only).

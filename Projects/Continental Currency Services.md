@@ -168,3 +168,8 @@ platforms are and are not in the numbers. Never present a partial report as comp
 **Live account status (verified 2026-08-20):** Google `398-436-0145` ENABLED and healthy — Aug 1–19
 $891.93 spend, 120,640 impressions, 4,996 clicks, 631 conversions @ $1.41, pacing to ~$1,455 of a
 $1,500 budget. Cost per conversion drifted up 18% vs July ($1.19 → $1.41) — watch. Meta half not verified.
+
+## Media Buyer Sync — 2026-09-29
+- **Issue:** campaigns paused due to a payment/escrow error. **Root cause:** Google Ads overspending ~$280/month beyond the $5,000 budget, draining escrow monthly — **projected annual loss ~$3,200**.
+- Facebook Ads performing fine; Google Ads run as performance campaigns leveraging GMB for map-pack appearance.
+- Action items: reduce Google Ads spend to stay within the $5,000/mo escrow, refresh Google Ads creative (especially R-Check assets), and fix policy violations this week.

@@ -130,3 +130,20 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 ## Sync Log
 - 2026-10-07 — Note created by Apollo from Notion meetings (9/15, 9/22, 10/01), client portal, research.md, and the Meta MCP baseline pull.
 - 2026-10-08 — Anthony's decisions on the paid plan added (budget, pixel-event ownership, all-new campaigns, income-targeting question).
+
+## Weekly Touchbase — 2026-10-08
+**Key decisions:**
+- Creative escalation phases: soft & loving → mild product-oriented with teasing → "full fantasy" content.
+- Targeting: top 25% household incomes in cities with populations over 3 million.
+- Testing window: 14-day independent campaign run per ad/ad-set/campaign to get clean performance breakdowns.
+- All creatives require Lucky RX (LuckyRex) pre-approval before going live.
+
+**Blockers:**
+- Instagram/Meta Business Suite dual-account issue: Lucky RX Instagram is connected to an unused original Business Suite, not the active ad account. Reconnect attempts return "unknown error"; agency needs to be admin of the Lucky Arts Official Instagram page to add it to the Meta ad account. Page shows "page has some issues" (monetization + recommendations restricted); appeals submitted for organic restrictions.
+- Pixel issue partially resolved: site had values configured but no pixel attached; Launchpad sending pixel code to the client to install.
+- Meta doesn't run a paid lead form, so actual sales can't be tracked directly through the platform; Lucky RX's CRM has a native Meta Ads connection but what data passes back is unclear.
+- LegitScript certification (pharmacy): Meta certification was deleted and re-added 2026-10-07, should now be under authorizations; pharmacy contract has been under review since June 4. TikTok requires the same authorization type but different formatting, with no native LegitScript connection — prescription medicines are prohibited on TikTok (OTC/medical devices/supplements may be allowed), and content was flagged for sexual content with a review pending.
+
+**Content delivery cadence:**
+- Content strategy (pillars, buckets, starter ideas, video scripts with breakdowns) finalized 2026-10-07.
+- Graphics due 2026-10-08; videos following in the next few days; shoot scripts to follow after video review; actors/headshots wanted once content is approved.

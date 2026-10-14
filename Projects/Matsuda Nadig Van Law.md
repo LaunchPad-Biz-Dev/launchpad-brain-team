@@ -172,3 +172,7 @@ Tammy (case manager, NV + AZ), Sage Lopez (firm contact), Bobby, and Van.
 
 **Read it before any shoot, podcast, or on-camera work.** It covers who is strong on camera,
 the family relationships inside the firm, and what still needs confirming.
+
+## Media Buyer Sync — 2026-09-29
+- Through-play campaign live; Linktree added. **21 unique Linktree clicks since Monday's launch** (vs. 17 for MNL).
+- High ad frequency noted (~5 views per person) across both MNL/MNBL — not alarming yet, worth monitoring.

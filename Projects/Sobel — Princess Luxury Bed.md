@@ -182,3 +182,7 @@ determined from the API — paused, budget, or billing all look identical. Flagg
 needs eyes in TikTok Ads Manager.
 Note the correct advertiser ID is `7621253326994407431`; the old `7247978881058111489` ("Princess Luxury
 Bed0623") is stale and has no delivery.
+
+## Media Buyer Sync — 2026-09-29
+- Completed addition of custom audiences and tailored creatives to sales campaign ads (grouped with Carnival Home and Travel + Leisure under the Sobel umbrella).
+- Plan: shift back to calls by end of Q4 (mid-December) — holding off on the calls push until weather cools.

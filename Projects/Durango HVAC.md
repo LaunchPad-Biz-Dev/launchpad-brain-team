@@ -173,3 +173,9 @@ do not agree with each other. This broke the MNL Q1→Q2 comparison in July 2026
 as THE number.** If a Meta call metric differs, footnote it and name which metric it is — never lead with it.
 
 Target CPL / cost per call: **not yet set** — needs Amber (see her interview canvas, Part 1).
+
+## Media Buyer Sync — 2026-09-29
+- **Issue:** call volume declining — seasonal demand drop as AC season gives way to heating season.
+- Lookalike audiences added; plan to add them to the traffic campaign (pending exclusions formatting with Anthony).
+- **Strategy — do NOT kill existing summer campaigns immediately:** soften the ad copy first (remove "summer's coming fast" messaging), build a parallel winter-services campaign, and shift budget gradually once it gains traction.
+- Need new creative assets focused on heating and additional winter services.
