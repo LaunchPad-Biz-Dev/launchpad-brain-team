@@ -35,6 +35,7 @@ last_updated: 2026-10-11
 - [[DHDA]]
 - [[DRG]]
 - [[Dauntless Boxing Gym]]
+- [[Diversified Restaurant Group]]
 - [[Dejando Huellas]]
 - [[Desert Bloom Dental]]
 - [[Durango HVAC]]
