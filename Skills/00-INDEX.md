@@ -44,3 +44,6 @@ last_updated: 2026-10-18
 - [[Weekly Performance Review Automation]]
 - [[n8n Orchestration Layer]]
 - [[n8n Workflow Roadmap]]
+
+- [[Design Taste — Anthony]] — how Anthony likes design delivered (ideas first, bootleg/streetwear, real photos, no AI imagery). Mirror of ~/.claude/skills/anthony-design-taste.
+- [[Taco Bell Cantina Brand Kit]] — TBC/DRG colors, character, lighting, merch rules, Vegas room elements with photo paths, legal flags. Mirror of ~/.claude/skills/taco-bell-cantina-brand.

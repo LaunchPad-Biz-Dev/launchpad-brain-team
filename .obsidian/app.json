@@ -1,0 +1,7 @@
+{
+  "userIgnoreFilters": [
+    "graphify-out/",
+    "_brain-map.json",
+    "_COMMUNITY_"
+  ]
+}

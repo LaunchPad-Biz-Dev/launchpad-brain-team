@@ -1,0 +1,108 @@
+/* ============================================
+   LaunchPad Brain — Folder Color Coding
+   ============================================ */
+
+/* --- Context (Blue — foundation) --- */
+.nav-folder-title[data-path="Context"] {
+  color: #4EA8DE !important;
+}
+.nav-folder-title[data-path="Context"] .nav-folder-title-content::before {
+  content: "🔵 ";
+}
+
+/* --- Daily (Teal — fresh/daily energy) --- */
+.nav-folder-title[data-path="Daily"] {
+  color: #48BFE3 !important;
+}
+.nav-folder-title[data-path="Daily"] .nav-folder-title-content::before {
+  content: "📅 ";
+}
+
+/* --- Departments (Purple — structure) --- */
+.nav-folder-title[data-path="Departments"] {
+  color: #9B5DE5 !important;
+}
+.nav-folder-title[data-path="Departments"] .nav-folder-title-content::before {
+  content: "🏢 ";
+}
+
+/* --- Intelligence (Gold — insights) --- */
+.nav-folder-title[data-path="Intelligence"] {
+  color: #F5CB5C !important;
+}
+.nav-folder-title[data-path="Intelligence"] .nav-folder-title-content::before {
+  content: "🧠 ";
+}
+
+/* --- Onboarding (Green — growth/start) --- */
+.nav-folder-title[data-path="Onboarding"] {
+  color: #06D6A0 !important;
+}
+.nav-folder-title[data-path="Onboarding"] .nav-folder-title-content::before {
+  content: "🚀 ";
+}
+
+/* --- Projects (Orange — active work) --- */
+.nav-folder-title[data-path="Projects"] {
+  color: #F4845F !important;
+}
+.nav-folder-title[data-path="Projects"] .nav-folder-title-content::before {
+  content: "📁 ";
+}
+
+/* --- Resources (Cyan — reusable tools) --- */
+.nav-folder-title[data-path="Resources"] {
+  color: #56CFE1 !important;
+}
+.nav-folder-title[data-path="Resources"] .nav-folder-title-content::before {
+  content: "📦 ";
+}
+
+/* --- Skills (Pink/Magenta — capabilities) --- */
+.nav-folder-title[data-path="Skills"] {
+  color: #F15BB5 !important;
+}
+.nav-folder-title[data-path="Skills"] .nav-folder-title-content::before {
+  content: "⚡ ";
+}
+
+/* --- Tasks (Red — action/urgency) --- */
+.nav-folder-title[data-path="Tasks"] {
+  color: #FF6B6B !important;
+}
+.nav-folder-title[data-path="Tasks"] .nav-folder-title-content::before {
+  content: "✅ ";
+}
+
+/* --- Teams (Warm green — people) --- */
+.nav-folder-title[data-path="Teams"] {
+  color: #80ED99 !important;
+}
+.nav-folder-title[data-path="Teams"] .nav-folder-title-content::before {
+  content: "👥 ";
+}
+
+/* ============================================
+   Subtle folder background highlights
+   ============================================ */
+.nav-folder-title[data-path="Context"]:hover,
+.nav-folder-title[data-path="Daily"]:hover,
+.nav-folder-title[data-path="Departments"]:hover,
+.nav-folder-title[data-path="Intelligence"]:hover,
+.nav-folder-title[data-path="Onboarding"]:hover,
+.nav-folder-title[data-path="Projects"]:hover,
+.nav-folder-title[data-path="Resources"]:hover,
+.nav-folder-title[data-path="Skills"]:hover,
+.nav-folder-title[data-path="Tasks"]:hover,
+.nav-folder-title[data-path="Teams"]:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 4px;
+}
+
+/* ============================================
+   Make the vault title pop
+   ============================================ */
+.nav-folder-title[data-path="/"] .nav-folder-title-content,
+.workspace-tab-header-inner-title {
+  font-weight: 700;
+}

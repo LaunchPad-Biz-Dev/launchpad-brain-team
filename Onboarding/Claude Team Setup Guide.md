@@ -2,6 +2,7 @@
 title: Claude Team Setup Guide
 type: onboarding
 created: 2026-10-13
+last_updated: 2026-10-19
 tier: curated
 tags: [onboarding, claude, tools, brain]
 related: ["[[Onboarding/00-INDEX]]"]
@@ -23,11 +24,11 @@ client context stay consistent. Set-up takes about 10 minutes. No terminal, no V
 The Brain is Launchpad's shared memory: every client's context, brand guidelines, packages,
 processes. Connecting it means Claude answers with *our* facts, not generic ones.
 
-1. Create a free GitHub account if you don't have one (github.com). Tell Anthony your username so he can give you access.
-2. Accept the GitHub invite to **Anthony-launchpad/launchpad-brain-team** (email from GitHub).
+1. Create a free GitHub account if you don't have one (github.com), using your Launchpad email.
+2. Accept the invite to the **LaunchPad Biz Dev** GitHub organization (email from GitHub, sent 2026-10-19). That gives you read access to **LaunchPad-Biz-Dev/launchpad-brain-team**.
 3. In Claude: **Customize → Connectors → GitHub Integration → Connect**. Approve the Claude app on GitHub and grant it the **launchpad-brain-team** repo.
 4. In Claude: **Projects → New project**. Name it **Launchpad Brain**. Keep it private (GitHub sync only works on private projects).
-5. In the project, under **Project knowledge**, click **+ → GitHub**. Pick **launchpad-brain-team**.
+5. In the project, under **Project knowledge**, click **+ → GitHub**. Pick **LaunchPad-Biz-Dev / launchpad-brain-team**.
 6. Select these folders to start: `Context`, `Projects`, `Departments`, `Resources`, `Skills`. Add `Intelligence` later if you want trends and research too. Click **Add files**.
 7. Paste this as the project's instructions:
 
@@ -46,13 +47,16 @@ You cannot edit the Brain copy. That's on purpose. When you learn something wort
 (a client preference, a correction, a decision), tell Apollo in Slack: **"chat clip that"**
 or DM Apollo the note. It goes into the real Brain and shows up in your copy on the next sync.
 
-## 5. Optional: work on files with Cowork (desktop app only)
+## 5. Optional: browse the Brain in Obsidian (recommended for Cynthia, Kyle, Amber)
 
-If you produce files (briefs, captions, docs), Cowork can read and write a folder on your Mac.
+Obsidian is the app Anthony uses to read and navigate the Brain. The copy you get opens the
+same way: folder colors, graph view, backlinks, and `index.md` as the front door.
 
-1. Install GitHub Desktop (desktop.github.com), sign in, **File → Clone repository → launchpad-brain-team**. Pick `~/Launchpad Brain` as the location.
-2. In the Claude desktop app, open **Cowork**, add that folder.
-3. To refresh: GitHub Desktop → **Fetch origin** → **Pull**. You cannot push; that's by design.
+1. Install GitHub Desktop (desktop.github.com), sign in, **File → Clone repository → LaunchPad-Biz-Dev/launchpad-brain-team**. Pick `~/Launchpad Brain` as the location.
+2. Install Obsidian (obsidian.md). **Open folder as vault** → choose `~/Launchpad Brain` (the cloned folder itself). Trust the vault when asked (it only enables the built-in plugins).
+3. Start at `index.md`, then the `00-INDEX.md` in any folder. `Projects/` has one note per client.
+4. To refresh: GitHub Desktop → **Fetch origin** → **Pull**. Do it before you start work. You cannot push; that's by design. Anything you type in Obsidian is overwritten on the next pull, so put notes in Claude and "chat clip" them to Apollo instead.
+5. Same folder works in the Claude desktop app's **Cowork** if you produce files (briefs, captions, docs).
 
 ## 6. Fridays: run your weekly dump (5 min)
 
