@@ -4,6 +4,7 @@ type: onboarding
 created: 2026-10-13
 tier: curated
 tags: [onboarding, claude, tools, brain]
+related: ["[[Onboarding/00-INDEX]]"]
 ---
 
 # Claude Team Setup Guide

@@ -7,7 +7,7 @@ package: Ala Carte
 ad_spend: 0
 ghl_location_id: 
 last_updated: 2026-10-14
-related: ["[[Arby's Food Truck]]", "[[Taco Bell Cantinas]]", "[[Brand With Us]]"]
+related: ["[[Arby's Food Truck]]", "[[Taco Bell Cantinas]]", "[[Brand With Us]]", "[[Projects/00-INDEX]]"]
 ---
 
 # Diversified Restaurant Group (DRG)

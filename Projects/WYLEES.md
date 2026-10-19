@@ -7,7 +7,7 @@ package: Essential
 ad_spend: 1500
 ghl_location_id: 
 last_updated: 2026-10-14
-related: ["[[Launchpad Business Development]]"]
+related: ["[[Launchpad Business Development]]", "[[Projects/00-INDEX]]"]
 ---
 
 # WYLEES — Western Youth Leadership, Engagement, and Empowerment

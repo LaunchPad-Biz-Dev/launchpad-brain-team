@@ -3,15 +3,15 @@ title: Projects — Map of Content
 type: moc
 status: active
 tier: primary
-last_updated: 2026-10-11
-last_updated: 2026-10-11
+last_updated: 2026-10-18
+last_updated: 2026-10-18
 ---
 
 # Projects — Map of Content
 
-*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-10-11.*
+*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-10-18.*
 
-## All notes (69)
+## All notes (71)
 
 - [[365 Plumbing of Nevada]]
 - [[A Mi Manera Coffee]]
@@ -35,9 +35,9 @@ last_updated: 2026-10-11
 - [[DHDA]]
 - [[DRG]]
 - [[Dauntless Boxing Gym]]
-- [[Diversified Restaurant Group]]
 - [[Dejando Huellas]]
 - [[Desert Bloom Dental]]
+- [[Diversified Restaurant Group]]
 - [[Durango HVAC]]
 - [[First Choice Hospice]]
 - [[First Colony Mortgage]]
@@ -80,6 +80,7 @@ last_updated: 2026-10-11
 - [[Upbeat Health]]
 - [[Vegas Med Spa]]
 - [[Vegas Medical Inc]]
+- [[WYLEES]]
 - [[Wamen Garage Doors]]
 - [[Welding School of Nevada]]
 - [[Wylees School]]
