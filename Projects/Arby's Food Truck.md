@@ -306,3 +306,13 @@ Target CPL: **not yet set** — needs Amber.
 ## Media Buyer Sync — 2026-09-29
 - Campaign completed for the month; duplicate ready for next month.
 - Waiting on new creative approvals — Arby's requires organic approval before ads can run. Flagged as a recurring approval bottleneck with this client.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

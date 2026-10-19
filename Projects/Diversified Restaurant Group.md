@@ -72,3 +72,13 @@ Operational and results-focused. Professional but accessible. Emphasizes efficie
 **Related:** [[Arby's Food Truck]] · [[Taco Bell Cantinas]] · [[Diversified Restaurant Group]] (this note)
 
 *Created during Notion → Brain Sync 2026-10-14 · Flagged as missing from Brain coverage*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

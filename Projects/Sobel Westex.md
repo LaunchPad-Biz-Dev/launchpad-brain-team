@@ -197,3 +197,13 @@ Sobel requested to review high-level content strategy for the rest of the year â
 
 ## Media Buyer Sync â€” 2026-09-29
 - No significant changes this cycle.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

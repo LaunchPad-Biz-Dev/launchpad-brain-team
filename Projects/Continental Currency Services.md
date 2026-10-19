@@ -173,3 +173,13 @@ $1,500 budget. Cost per conversion drifted up 18% vs July ($1.19 → $1.41) — 
 - **Issue:** campaigns paused due to a payment/escrow error. **Root cause:** Google Ads overspending ~$280/month beyond the $5,000 budget, draining escrow monthly — **projected annual loss ~$3,200**.
 - Facebook Ads performing fine; Google Ads run as performance campaigns leveraging GMB for map-pack appearance.
 - Action items: reduce Google Ads spend to stay within the $5,000/mo escrow, refresh Google Ads creative (especially R-Check assets), and fix policy violations this week.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -142,3 +142,13 @@ Reno Tahoe Auto Group is an established used car dealership specializing in 1-Ow
 |-------|-------|
 | ⚠️ GHL Sub-Account | No |
 | ⚠️ GHL Location ID | N/A |
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

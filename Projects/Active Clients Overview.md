@@ -38,3 +38,13 @@ Last updated: April 2026
 - Google Drive folders linked per client in Notion
 - Ad spend tracked per client
 - Individual client notes should be created as sub-pages in the Projects folder
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

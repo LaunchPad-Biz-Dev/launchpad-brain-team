@@ -208,3 +208,13 @@ Tammy (case manager, NV + AZ), Sage Lopez (firm contact), Bobby, and Van.
 
 **Read it before any shoot, podcast, or on-camera work.** It covers who is strong on camera,
 the family relationships inside the firm, and what still needs confirming.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -89,3 +89,13 @@ Shared Drive: https://drive.google.com/drive/folders/0ANyU9nNzulSTUk9PVA
 
 ### Sync Log
 - **2026-10-06** — New client onboarding detected in Notion. Created Brain entry. Status: Onboarding, Package: Creative Only (4 videos/8 graphics/mo), Start Date: 2026-10-02. Contacts: Steven Bugarin (steven@amimanera.coffee), Leilani (leilani@amimanera.coffee). Website: https://amimanera.coffee/
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

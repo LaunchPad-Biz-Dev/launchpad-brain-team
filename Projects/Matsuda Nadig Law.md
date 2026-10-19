@@ -143,3 +143,13 @@ the family relationships inside the firm, and what still needs confirming.
 - One ad flagged for a policy error (Promoted Financial Services) — Anthony to attempt approval via his own account.
 - High ad frequency noted (~5 views per person) — not alarming yet, worth monitoring.
 - Leftover MNL budget available; plan is to add a retargeting campaign to drive more calls. Pixel to be added to capture button clicks and feed the retargeting funnel.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

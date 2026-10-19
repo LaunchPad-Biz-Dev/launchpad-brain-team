@@ -297,3 +297,11 @@ Bio section (deleted) · "How the brands work" (Brain-only) · "Who actually wal
 - Nano Banana ignores aspect_ratio ~40% of the time; kit frames use CSS `object-fit` to correct.
 - Bearded dark-haired man in the back-patch photo (s2) — not Daniel by hair colour; still unconfirmed by Anthony.
 - Drive asset folder: created under the Brand Assets folder; bulk upload needs the local `google-drive` MCP authenticated (`~/.config/google-drive-mcp/gcp-oauth.keys.json`) — the claude.ai connector routes file bytes through context.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log

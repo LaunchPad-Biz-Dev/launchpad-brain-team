@@ -179,3 +179,13 @@ Target CPL / cost per call: **not yet set** — needs Amber (see her interview c
 - Lookalike audiences added; plan to add them to the traffic campaign (pending exclusions formatting with Anthony).
 - **Strategy — do NOT kill existing summer campaigns immediately:** soften the ad copy first (remove "summer's coming fast" messaging), build a parallel winter-services campaign, and shift budget gradually once it gains traction.
 - Need new creative assets focused on heating and additional winter services.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -241,3 +241,13 @@ All campaigns structured as: Headline + Subheadline + CTA
 - New video creatives launched; plan to analyze and swap underperformers.
 - New lookalike audience test campaigns created, budget reallocated from unused Mexico spend.
 - Action item: test a Linktree for Toro, modeled after the MNL Linktree setup.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

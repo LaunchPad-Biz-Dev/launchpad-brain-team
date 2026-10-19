@@ -53,3 +53,13 @@ any auth or CMS.
 ---
 
 *Related: [[Callsheet System]] · [[Skills/Callsheet Generation]] · [[Launchpad Productions]] · [[Content Workflow — Shoot to Post]]*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -30,22 +30,48 @@ processes. Connecting it means Claude answers with *our* facts, not generic ones
 4. In Claude: **Projects → New project**. Name it **Launchpad Brain**. Keep it private (GitHub sync only works on private projects).
 5. In the project, under **Project knowledge**, click **+ → GitHub**. Pick **LaunchPad-Biz-Dev / launchpad-brain-team**.
 6. Select these folders to start: `Context`, `Projects`, `Departments`, `Resources`, `Skills`. Add `Intelligence` later if you want trends and research too. Click **Add files**.
-7. Paste this as the project's instructions:
+7. Paste this as the project's instructions (this is what teaches Claude to use the Brain):
 
-> You are working with the Launchpad Business Development team (Las Vegas marketing agency). Before answering anything about a client, read that client's note in `Projects/`. Follow `Context/Launchpad Brand Guidelines.md` for voice. Never invent client facts: if a note doesn't say it, say you don't know. Keep captions human, short, no dashes, no buzzwords.
+> You are Claude working with the Launchpad Business Development team (Las Vegas marketing agency: Launchpad Business Development, Launchpad Productions, BrandWithUs). The project knowledge is a read-only copy of the Launchpad Brain, our shared memory. Treat it as the source of truth about us and our clients.
+>
+> **How to navigate it.** `index.md` is the map. Every folder has a `00-INDEX.md`. `Projects/` has one note per client: read `Projects/{Client}.md` in full before any client work, every time. `Context/Launchpad Brand Guidelines.md` sets voice for anything we publish. `Skills/` holds our playbooks (briefs, shot lists, captions, posting workflow, sales scripts): when asked to do a type of task, find and follow the matching playbook. `Departments/` has SOPs. `Intelligence/` has research and trend briefs.
+>
+> **Honesty.** Never invent a client fact, price, name, date or result. If the Brain does not say it, say "the Brain doesn't have this" and ask. Cite the note you used.
+>
+> **Remembering.** You cannot write to the Brain directly. The user's scheduled daily dump carries today's work to Apollo automatically. So when you notice something worth keeping (a client preference, a correction, a decision, a Brain note that is wrong or missing), say so in one line so it is in today's conversation for the dump to pick up: "Noting for the Brain: {client} — {fact}". If the user says "chat clip that", do the same, in 2 to 5 lines, naming the note it belongs in.
+>
+> **Freshness.** If a client note looks older than the user's question, remind them to hit Sync now on the project knowledge.
+>
+> **Output.** Captions and copy sound human: short, specific, no dashes, no buzzwords, no AI tells. Final content still goes through our normal approval flow.
 
-Start every client conversation inside this project.
+Start every client conversation inside this project. Then add the block for your job from [[Project Instructions by Role]] under it, so Claude starts from your lane (social, ads, production, ops).
 
 ## 3. Keep it fresh
 
 The Brain changes daily. Once a week, or before a big piece of work, open the project,
 click the repo under Project knowledge, and hit **Sync now**.
 
-## 4. Adding knowledge to the Brain
+## 4. How the Brain gets smarter: your daily dump (set up once, 3 minutes)
 
-You cannot edit the Brain copy. That's on purpose. When you learn something worth keeping
-(a client preference, a correction, a decision), tell Apollo in Slack: **"chat clip that"**
-or DM Apollo the note. It goes into the real Brain and shows up in your copy on the next sync.
+You cannot edit the Brain copy. That's on purpose. Instead, your Claude account files your day for
+you, every day, with no effort after setup:
+
+1. In the Claude desktop app, open **Cowork**, then **Scheduled tasks**, then **New task**.
+2. Name: `Daily dump`. Prompt: `Run my daily dump.` Frequency: **weekdays at 4:30 PM**. Approval: off.
+   Connectors: make sure **Google Drive** is connected (Customize → Connectors → Google Drive).
+3. Save. That's it.
+
+What happens next, every weekday:
+
+- **4:30 PM** your Claude looks at today's chats and writes a one-page recap (clients touched,
+  what shipped, decisions, what the Brain got wrong) to Drive → Launchpad Team Work → your name → Daily.
+- **5:30 PM** the Mac Mini pulls every teammate's recap into the real Brain.
+- **5:47 PM** Apollo files each one into the right client notes, playbooks and brand guidelines, fixing
+  anything the Brain had wrong. Think of it as the Brain's dreaming session: the day's memories get sorted.
+- **9:30 PM** the updated Brain is pushed to your copy. Tomorrow, everyone's Claude knows what you learned.
+
+Run it by hand any time with **"run my daily dump"**. The Friday **"run my weekly dump"** still exists
+for the bigger weekly picture (blockers, time sinks, next week's top 3).
 
 ## 5. Optional: browse the Brain in Obsidian (recommended for Cynthia, Kyle, Amber)
 
@@ -58,15 +84,11 @@ same way: folder colors, graph view, backlinks, and `index.md` as the front door
 4. To refresh: GitHub Desktop → **Fetch origin** → **Pull**. Do it before you start work. You cannot push; that's by design. Anything you type in Obsidian is overwritten on the next pull, so put notes in Claude and "chat clip" them to Apollo instead.
 5. Same folder works in the Claude desktop app's **Cowork** if you produce files (briefs, captions, docs).
 
-## 6. Fridays: run your weekly dump (5 min)
+## 6. Fridays: weekly dump (5 min, optional if your daily dump runs)
 
-Before you log off Friday, open Claude and say **"run my weekly dump"**. Claude looks back at
-your week, asks four quick questions, writes a one-page recap, and saves it to
-**Google Drive → LaunchPad → Launchpad Team Work → your name**. First time only, turn on the
-Google Drive connector (**Customize → Connectors → Google Drive → Connect**).
-
-It is not a report card. Blockers, time sinks, and "Claude got this wrong" are the most useful
-lines. Apollo reads every dump Monday, fixes the Brain, and flags blockers to Anthony.
+Friday before you log off, say **"run my weekly dump"**. Claude asks four quick questions and saves
+a one-page week recap next to your daily dumps. Blockers, time sinks, and "Claude got this wrong" are
+the most useful lines. It is not a report card; it is how the Brain and the playbooks get fixed.
 
 ## Rules
 

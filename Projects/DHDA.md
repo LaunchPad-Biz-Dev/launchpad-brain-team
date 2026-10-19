@@ -194,3 +194,13 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 | ⚠️ GHL Location ID | uc1Echk5tCOzpu3XtC01 |
 
 > **Note:** DHDA and [[Dejando Huellas]] share the same GHL sub-account and Location ID.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

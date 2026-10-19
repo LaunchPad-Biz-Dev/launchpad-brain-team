@@ -186,3 +186,13 @@ Bed0623") is stale and has no delivery.
 ## Media Buyer Sync — 2026-09-29
 - Completed addition of custom audiences and tailored creatives to sales campaign ads (grouped with Carnival Home and Travel + Leisure under the Sobel umbrella).
 - Plan: shift back to calls by end of Q4 (mid-December) — holding off on the calls push until weather cools.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

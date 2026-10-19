@@ -172,3 +172,13 @@ Local file: `marketing/output/reports/launchlist-newsletter-research-2026-04-06.
 
 *Created 2026-04-06 — Compiled from team interviews (Amber Nardo via Slack), newsletter PDFs, and content samples*
 *Related: [[Launchpad Business Development]] · [[LP University Brand Guidelines]] · [[Core Framework]]*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

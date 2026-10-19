@@ -416,3 +416,13 @@ Items that would meaningfully improve agent output if answered:
 - **2026-06-29** — Notion-to-Brain sync re-verified: Status=Onboarding, Package=Custom, Ad Spend=$0, Start=2026-05-19. No field changes. Current Deliverables section refreshed.
 - **2026-06-26** — Notion-to-Brain sync verified all fields current: Status=Onboarding, Package=Custom, Ad Spend=$0, Start=2026-05-19. No updates required.
 - **2026-06-18** — Status updated from "At Risk (new)" to "Onboarding" (synced from Notion Client Portals, confirmed Package: Custom, Ad Spend: $0)
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

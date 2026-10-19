@@ -83,3 +83,13 @@ Apollo flagged 3 blockers for the TTR Social Media Poster run: (1) `mcp__gohighl
 - [[Daily/2026-05-28]] — full setup blocker context
 - [[Toro Taxes (TTFS)]] — separate Toro/Toro Taxes franchise project (distinct client)
 - [[AI Marketing Team — Build Plan]] — Apollo / SMM agent context
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

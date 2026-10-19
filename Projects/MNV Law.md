@@ -205,3 +205,13 @@ $1,500/mo
 
 ## Sync Log
 - **2026-04-08** — Standard fields added: Status (Active), Package (Comprehensive), Ad Spend ($1,500/mo), Contact Info, Website, Notion Portal link (synced from Notion)
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

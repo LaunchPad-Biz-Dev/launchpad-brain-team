@@ -158,3 +158,13 @@ Focus: Service overview, credibility
 *Synced from Notion LP Client Dashboard — 2026-04-03*
 *Enriched via ChatGPT export — Blue Mountain Energy.txt*
 *Content strategy updated — 2026-04-04*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

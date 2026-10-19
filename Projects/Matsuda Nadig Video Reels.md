@@ -96,3 +96,13 @@ See [[BNL Carousel Ideas]] for longer-form educational content that can compleme
 *Extracted from ChatGPT export: MNL Graphics - LV (2025-12-23 to 2026-03-09)*
 *Reel concepts and caption options compiled for video production*
 *Based on "BNL Carousel Ideas Summary" framework and tone*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

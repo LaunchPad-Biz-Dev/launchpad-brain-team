@@ -120,3 +120,13 @@ related: ["[[Projects/00-INDEX]]"]
 |-------|-------|
 | ⚠️ GHL Sub-Account | No |
 | ⚠️ GHL Location ID | N/A |
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

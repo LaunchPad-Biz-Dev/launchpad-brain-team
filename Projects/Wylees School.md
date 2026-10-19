@@ -534,3 +534,13 @@ Priority items — answers unlock better content and ad performance:
 ## Media Buyer Sync — 2026-09-29
 - Note: referred to as "Wiley's Educational Leadership" in the 2026-09-29 media buyer sync — same client as Wylees/Young Women's Leadership Academy LV.
 - Pixel already installed on the landing page. Launchpad reached out Monday/Wednesday about moving forward with a form campaign; awaiting the client's response (follow-up action item marked complete on Launchpad's side).
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

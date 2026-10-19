@@ -64,3 +64,13 @@ related: ["[[Helix Electric]]", "[[Launchpad Business Development]]", "[[Project
 
 ## Sources
 - Notion meeting export — 2026-08-31: "Website Conversation CES x LAUNCHPAD" (Anthony Mendoza, Jenny, CES contact). Raw: `Raw/exports/notion-meeting-2026-08-31_ces-website-conversation.md`
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

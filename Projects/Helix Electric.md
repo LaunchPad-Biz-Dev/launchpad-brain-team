@@ -202,3 +202,13 @@ Anthony shared both proposal formats via Apollo DM on 2026-06-26:
 - Helix "Run of Show" PDF — 2026-06-11: first-shoot plan, Helix University, people (Jeff, Jake, CEO), b-roll, locations
 - Anthony notes — 2026-06-11: daily posting, 3 employee promos/wk, family day-in-life (1–2 people, 2–3 families/day), CEO Series w/ Victor ("guy next door"), campaign end-June→EOY, OTT/CTV, proposal EOD 6/12
 - helixelectric.com — 2026-06-11: services, regions, positioning, tagline
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

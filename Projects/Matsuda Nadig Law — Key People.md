@@ -104,3 +104,13 @@ yes.
 - [[Projects/Matsuda Nadig Law]] — main client note, brand + deliverables
 - [[Projects/Matsuda Nadig Van Law]] — Arizona arm
 - [[Intelligence/2026-04-23-inspo-from-beach-to-bar-style]] — podcast style reference
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

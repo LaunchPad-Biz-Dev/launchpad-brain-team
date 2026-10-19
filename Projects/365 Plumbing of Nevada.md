@@ -110,3 +110,13 @@ Family-owned and operated Las Vegas plumbing company with over 50 years of combi
 *Synced from Notion LP Client Dashboard — 2026-04-03*
 *Enriched via web research — 2026-04-03*
 *Team roster added — 2026-04-03*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

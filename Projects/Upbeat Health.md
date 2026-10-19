@@ -120,3 +120,13 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 *Enriched via web research — 2026-04-03*
 *Brand Guidelines added — 2026-04-03*
 *Team roster added — 2026-04-03*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -184,3 +184,13 @@ $2,000/mo has not been delivered with 61% of the month gone.
 ## Media Buyer Sync — 2026-09-29
 - Completed addition of custom audiences and tailored creatives to sales campaign ads (grouped with Carnival Home and Princess Luxury Bed under the Sobel umbrella).
 - Plan: shift back to calls by end of Q4 (mid-December) — holding off on the calls push until weather cools.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

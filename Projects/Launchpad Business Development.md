@@ -389,3 +389,13 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 Internal product idea: white-labeled GHL client portal (content calendar, post approvals, reports in one place) as a service differentiator. See [[2026-05-31 Client Portal Idea]]. [[Amber Nardo]] scoping GHL capabilities.
 
 **Clipped by:** [[Anthony Mendoza]]
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

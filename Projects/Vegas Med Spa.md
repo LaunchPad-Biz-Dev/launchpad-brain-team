@@ -14,3 +14,13 @@ June summer campaign direction for Vegas Med Spa, themed **"Glow Up Before Summe
 - Tasteful before/afters only — stay on-brand (no body-shaming)
 
 **Clipped by:** [[Anthony Mendoza]]
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

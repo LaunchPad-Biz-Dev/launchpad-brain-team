@@ -176,3 +176,13 @@ the family relationships inside the firm, and what still needs confirming.
 ## Media Buyer Sync — 2026-09-29
 - Through-play campaign live; Linktree added. **21 unique Linktree clicks since Monday's launch** (vs. 17 for MNL).
 - High ad frequency noted (~5 views per person) across both MNL/MNBL — not alarming yet, worth monitoring.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

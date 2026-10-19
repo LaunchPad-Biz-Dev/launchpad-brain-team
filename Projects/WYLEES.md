@@ -169,3 +169,13 @@ WYLEES (Western Youth Leadership, Engagement, and Empowerment Middle School) is 
 
 *Created during Notion → Brain Sync 2026-10-14 · Flagged as missing from Brain coverage*
 *Status: Onboarding — awaiting full context documentation before content production at scale*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

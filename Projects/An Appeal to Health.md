@@ -41,3 +41,13 @@ related: ["[[Projects/00-INDEX]]"]
   2. Messaging Campaign — lower-budget educational content on BHRT, labs, and weight loss services; messaging focused on *why* the service matters.
   3. Retargeting (Form Fill) — sales-focused, targets video viewers, site visitors, engaged followers, and prior message responders.
 - **Compliance guardrails:** no medication names/dosages, no before/after imagery, no guaranteed outcomes, no targeting by health condition (interests & life stages only).
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

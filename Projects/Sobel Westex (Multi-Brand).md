@@ -165,3 +165,13 @@ Holiday-themed, seasonal content that aligns each brand with specific seasonal m
 |-------|-------|
 | ⚠️ GHL Sub-Account | No |
 | ⚠️ GHL Location ID | N/A |
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -91,3 +91,13 @@ Apex Tax & Advisory is a tax preparation and financial advisory services firm sp
 ## Media Buyer Sync — 2026-09-29
 - Pixel added; waiting to confirm it's active. Audiences imported, landing page ready.
 - Campaigns currently off due to a payment error; follow-up sent to the client, no response yet (payment issue was separately followed up on by the team this week).
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -223,3 +223,13 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 |-------|-------|
 | ⚠️ GHL Sub-Account | Yes |
 | ⚠️ GHL Location ID | Dl5bS5HqxQy00wSb2F8N |
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

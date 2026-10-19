@@ -252,3 +252,13 @@ Domain: `cuss.mitchellstankovic.com` → routed to GHL platform
 *Last Updated: 2026-04-04 (original) | Updated 2026-04-27 (2026-04-20 meeting notes added)*
 *Synced from ChatGPT export — CUSS.txt + three Notion meeting exports (2026-04-20)*
 *Status: Active Major Initiative*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -100,3 +100,13 @@ This is a master content library of carousel graphic ideas developed for Ben Nad
 *Created 2026-04-04*
 *Extracted from ChatGPT export: BNL Carousel Ideas Summary (2025-06-26 to 2025-12-23)*
 *Carousel concepts compiled from ongoing development discussions*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

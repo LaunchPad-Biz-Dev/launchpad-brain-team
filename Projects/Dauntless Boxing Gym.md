@@ -33,3 +33,13 @@ related: ["[[Projects/00-INDEX]]"]
 
 ## Sync Log
 - **2026-08-14** — Brain note created (client flagged in Notion as new onboarding)
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

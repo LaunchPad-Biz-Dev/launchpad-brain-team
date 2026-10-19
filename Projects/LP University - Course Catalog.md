@@ -505,3 +505,13 @@ By the end, students can:
 - Notion export was summary-only (no granular action items captured in this sync)
 
 **Reading across all 4:** the Feb 26 launch date held (production review Feb 17 → focus/retention push Feb 24 → confirmed "we're in marketing mode now" by Mar 6). Post-launch, the team shifted into a formal weekly accountability rhythm rather than ad hoc production sprints. If a portal invite count or webinar outcome exists for the March 12/end-of-March deliverables, it hasn't been synced to the Brain yet — worth checking Notion directly if needed for future course-catalog updates.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

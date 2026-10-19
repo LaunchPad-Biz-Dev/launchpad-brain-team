@@ -60,3 +60,13 @@ See [[Departments/Productions Department]] for the department-level view.
 - [[Robert Quiantanace]] — lead videographer
 - [[Kyle Fuller]] — content creator
 - [[Content Workflow — Shoot to Post]] — execution playbook
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -303,3 +303,13 @@ Per the approved TBC visual system:
 **Field callsheet (interactive, checkable):** https://claude.ai/code/artifact/39236e19-d42c-40b5-ab05-a0dc5994fb18
 
 *Created 2026-08-12 for the 2026-08-13 shoot. Related: [[DRG]] · [[Taco Bell Cantinas]] · [[Design Intelligence — Taco Bell Cantinas]]*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

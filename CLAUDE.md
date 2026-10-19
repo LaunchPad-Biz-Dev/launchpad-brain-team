@@ -1,3 +1,9 @@
+> **TEAM COPY.** This vault is a twice-daily copy of the Launchpad Brain. Everything outside `_inbox/` is
+> overwritten on each sync. Knowledge flows back automatically through each person's scheduled daily dump.
+> In this copy, **"chat clip that" means: write a short note into `_inbox/{your name}/`** if you can write
+> files here; otherwise include it in today's daily dump. Project instructions in
+> `Onboarding/Claude Team Setup Guide.md` override the save steps below.
+
 ---
 title: "CLAUDE"
 type: infrastructure

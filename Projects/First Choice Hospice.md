@@ -216,3 +216,13 @@ First Choice Hospice provides compassionate end-of-life care and hospice service
 *Last Updated: 2026-04-04*
 *Synced from ChatGPT export — Hospice.txt*
 *Video scripts and content strategy extracted from ChatGPT conversations*
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

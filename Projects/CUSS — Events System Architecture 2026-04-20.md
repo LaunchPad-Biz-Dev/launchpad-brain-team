@@ -189,3 +189,13 @@ If the team wants a punchier Monday walkthrough, three quick wins:
 ## Related Notes
 - [[GHL Event Ticketing — Multi-Attendee Capture Architecture 2026-04-20]] — generic research on this GHL gap, three options compared
 - [[CUSS]] — parent client context
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

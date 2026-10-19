@@ -227,3 +227,13 @@ Meeting: [[Raw/exports/notion-meeting-2026-07-29_drg-merchandise|LaunchPad × DR
 - **Organic (IG, 10-09):** AFT 235 followers (Apr: 155); TBC 2,375. TBC best post of the year = Sep 17 wedding reel (5.5K plays, 117 likes, 52 comments). Creator posts tagging TBC ≈ 1.3M plays across 5 posts (Allegiant: socialsami 153K).
 - **GHL note:** TBC *does* have a GHL sub-account (location fosinSEfIvdkRw80osSt, wired 2026-05-26) — the "GHL Sub-Account: No" line in [[Taco Bell Cantinas]] is stale.
 - **Open before/after the meeting:** Jun 30 follower baselines (Business Suite), Sep 21 AFT shoot confirmation, inquiries→booked events from the CRM pipeline, Cynthia on Sept posting cadence.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

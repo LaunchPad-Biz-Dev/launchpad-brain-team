@@ -214,3 +214,13 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 footnote. Unspent budget is unbought leads and must be stated plainly alongside the lead count it likely cost.
 
 Target CPL: **not yet set** — needs Amber.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

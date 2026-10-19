@@ -231,3 +231,13 @@ Provide transformational workshops, mentorship, Reiki, and self-paced therapy pr
 | ⚠️ GHL Location ID | uc1Echk5tCOzpu3XtC01 |
 
 > **Note:** Dejando Huellas and [[DHDA]] are the same client and share the same GHL sub-account and Location ID.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

@@ -187,3 +187,13 @@ DRG wants the **Taco Bell Brand Creative Playbook 2025** (Adopt LLC, 147 pp) ref
 - **Backgrounds replace the white sweep:** flat brand color (Yellow Corn, Nacho Orange, Taco Bell Purple) or the day-to-night orange↔purple gradient. Flat 75% / gradient 20% of the time. Hard color splits (orange | purple) are on-book.
 - **Styling bar** is messier than what we shot: sauce drizzle, cheese overflow, crunch edges. Note for the next TBC food shoot.
 - Related: [[Taco Bell Cantinas]] Allegiant sections above.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Decisions
+
+## Activity Log
+
+## Open Items

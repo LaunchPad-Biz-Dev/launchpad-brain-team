@@ -147,3 +147,11 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 **Content delivery cadence:**
 - Content strategy (pillars, buckets, starter ideas, video scripts with breakdowns) finalized 2026-10-07.
 - Graphics due 2026-10-08; videos following in the next few days; shoot scripts to follow after video review; actors/headshots wanted once content is approved.
+
+<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
+
+## Preferences & Corrections
+
+## Activity Log
+
+## Open Items
