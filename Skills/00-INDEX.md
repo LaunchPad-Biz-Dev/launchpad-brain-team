@@ -29,6 +29,7 @@ last_updated: 2026-10-18
 - [[Graphic Design Brief]]
 - [[LP University Course Creation]]
 - [[Media Buying]]
+- [[Prompt Library]]
 - [[Quarterly Planning]]
 - [[Revision Request Handling]]
 - [[Sales Playbook — Growth Audit Process]]

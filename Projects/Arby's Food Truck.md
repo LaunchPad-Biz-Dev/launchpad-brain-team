@@ -310,9 +310,13 @@ Target CPL: **not yet set** — needs Amber.
 <!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
 
 ## Preferences & Corrections
+- (2026-10-19, via Anthony) Brain had no record of the Arby's GHL booking-calendar setup: it replaced the WP Amelia widget on the live client site; "no experiments on the live page" — any further iteration happens off-site first.
 
 ## Decisions
+- (2026-10-16, via Anthony/Amber) Arby's booking-calendar widget styling: Montserrat typeface; black, white, and red #DC0132 — note this is **not** Arby's brand red #F50023 from the guidelines above, a deliberate exception for this widget.
 
 ## Activity Log
+- (2026-10-16, via Anthony) GHL booking calendar embedded live on vegasarbysfoodtruck.com in the "Show Me the Meats!" section, replacing the WordPress Amelia widget. Amber Nardo driving the calendar design/CSS.
 
 ## Open Items
+- Arby's GHL booking-calendar design/CSS — waiting on: Amber Nardo (since 2026-10-16)

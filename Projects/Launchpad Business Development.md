@@ -282,7 +282,7 @@ Clean, natural, and intentional. Studio lighting, high-resolution stills, candid
 | Systems Expert / Media Buyer | [[Amber Nardo]] | GHL, automations, ad campaigns |
 | Social Media Manager | [[Cynthia Hernandez]] | Social media, brand aesthetics, scheduling |
 | BrandWithUs Lead | [[Jennifer Maldonado]] | Print goods, BWU operations |
-| Admin Assistant | [[Emigen Lagman]] | Admin, AI project support |
+| Admin Assistant | [[Emigen Lagman]] | Admin, AI project support *(superseded 2026-10-19 — Emigen is no longer with the company; she had been slated to run sales ops)* |
 | HR | [[Antonia Andrade]] | Human resources |
 | Graphic Designer | [[Arija Imendia]] | Graphics (remote, El Salvador) |
 | Graphic Designer | [[David Canizalez]] | Graphics (remote, El Salvador) |
@@ -393,9 +393,26 @@ Internal product idea: white-labeled GHL client portal (content calendar, post a
 <!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
 
 ## Preferences & Corrections
+- (2026-10-19, via Anthony) Emigen Lagman is no longer with the company — she had been slated to run sales ops. Team Roster line above marked superseded; sales-ops coverage is currently unassigned.
+- (2026-10-19, via Anthony) Brain lacked Anthony's machine setup: a laptop, a main PC, and an always-on office Mac Mini. The Mini runs his VS Code agents and should host the daily brain scan.
+- (2026-10-19, via Anthony) Brain lacked where Anthony's personal todos live: personal Notion workspace page "ANT'S TASKS" (formerly "To MuthaFuckin Do"), not reachable via the Notion connector — must be opened in browser.
+- (2026-10-19, via Anthony) Brain lacked Amber Nardo's weekly cadence: Mondays 11am — ads pulse, her media-buying growth, and action items; each meeting builds off the previous one.
+- (2026-10-19, via Anthony) Brain lacked that recent sales growth came from in-person networking, "not from content or outbound emails/texts."
+- (2026-10-19, via Anthony) Anthony's last name was not recorded in memory; the Drive folder is simply named "Anthony."
 
 ## Decisions
+- (2026-10-19, via Anthony) Q4 2026 pivot: Anthony goes out networking and selling in person; Anthony + Claude follow up on leads and proposals together.
+- (2026-10-19, via Anthony) Launchpad content shifts toward team content and podcasts rather than solo posts.
+- (2026-10-19, via Anthony) A daily "constant learning" scan (email, Slack, Notion, transcripts → brain) is planned as a morning scheduled task bound to the always-on office Mac Mini.
+- (2026-10-19, via Anthony) Only the Company, Processes, Clients, Team, and Knowledge brain sections are shared into Ask LaunchPad via Drive "Launchpad Team Work / Knowledge Base"; Self and Meetings stay private.
+- (2026-10-19, via Anthony) Task tracking stays on Anthony's Notion board (ANT'S TASKS lanes), not the productivity-plugin dashboard; update in his shorthand, use comments for extra context — "it should fit his flow of work."
 
 ## Activity Log
+- (2026-10-19, via Anthony) Cowork productivity system built (TASKS.md, CLAUDE.md, dashboard.html, memory/) — vault `Anthony/Productivity System/`.
+- (2026-10-18, via Anthony) Decoder-ring scan produced (LPBD glossary, people, clients) — vault `Intelligence/2026-10-18 — Decoder Ring — LPBD Glossary, People, Clients.md`.
+- (2026-10-19, via Anthony) Daily dump folder structure stood up in Drive — Launchpad Team Work / Anthony / Daily.
 
 ## Open Items
+- Morning brain-scan scheduled task bound to the Mac Mini — waiting on: setup on the Mini
+- Claude Enterprise account for team-shared templates/briefs — waiting on: Anthony's decision
+- Pocket AI transcriber feeding `Raw/transcripts` — waiting on: Anthony
