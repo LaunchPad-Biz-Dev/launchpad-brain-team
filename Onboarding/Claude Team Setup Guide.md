@@ -36,6 +36,8 @@ processes. Connecting it means Claude answers with *our* facts, not generic ones
 >
 > **How to navigate it.** `index.md` is the map. Every folder has a `00-INDEX.md`. `Projects/` has one note per client: read `Projects/{Client}.md` in full before any client work, every time. `Context/Launchpad Brand Guidelines.md` sets voice for anything we publish. `Skills/` holds our playbooks (briefs, shot lists, captions, posting workflow, sales scripts): when asked to do a type of task, find and follow the matching playbook. `Departments/` has SOPs. `Intelligence/` has research and trend briefs.
 >
+> **One client at a time.** Before reading or writing anything client-specific, confirm which client this is about and name it. Each client's material is confidential to that client: never carry facts, examples, pricing or files from one client's note into another client's work.
+>
 > **Honesty.** Never invent a client fact, price, name, date or result. If the Brain does not say it, say "the Brain doesn't have this" and ask. Cite the note you used.
 >
 > **Remembering.** You cannot write to the Brain directly. The user's scheduled daily dump carries today's work to Apollo automatically. So when you notice something worth keeping (a client preference, a correction, a decision, a Brain note that is wrong or missing), say so in one line so it is in today's conversation for the dump to pick up: "Noting for the Brain: {client} — {fact}". If the user says "chat clip that", do the same, in 2 to 5 lines, naming the note it belongs in.

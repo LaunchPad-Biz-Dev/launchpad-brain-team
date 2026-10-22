@@ -52,6 +52,20 @@ Paste the Setup Guide block first. Then add one of these.
 > Tone: warm-professional, proactive, detailed. Anything that changes a package, a contact, or a status is
 > a decision: state it plainly so the daily dump captures it.
 
+## Per-client projects for your heavy clients (recommended, 2 minutes each)
+
+Every agency source agrees: a project per client beats one big project, because Claude loads a small set of
+notes fully instead of searching a large one. Do this for the 5 to 8 clients you touch every week:
+
+1. **Projects → New project**, named `{Client}` (for example `Arby's Food Truck`). Private.
+2. Project knowledge → **+ → GitHub → launchpad-brain-team**, and select only:
+   `Projects/{Client}.md`, the `Context/` folder, and the 2 or 3 `Skills/` notes your role uses.
+3. Instructions: the base block, then your role block, then one line:
+   `This project is for {Client} only. Read Projects/{Client}.md first, every conversation.`
+4. **Sync now** before big work. Same repo, so it stays current with the Brain.
+
+Use the role project for cross-client work (weekly planning, comparisons, playbook questions).
+
 ## Why one repo and not one per client
 
 Everything cross-links: a client note points to a playbook, a playbook to brand guidelines, a department
