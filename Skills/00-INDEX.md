@@ -3,15 +3,15 @@ title: Skills — Map of Content
 type: moc
 status: active
 tier: secondary
-last_updated: 2026-10-18
-last_updated: 2026-10-18
+last_updated: 2026-10-25
+last_updated: 2026-10-25
 ---
 
 # Skills — Map of Content
 
-*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-10-18.*
+*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-10-25.*
 
-## All notes (31)
+## All notes (32)
 
 - [[Ad Campaign Brief]]
 - [[Brief Creation]]
@@ -45,6 +45,3 @@ last_updated: 2026-10-18
 - [[Weekly Performance Review Automation]]
 - [[n8n Orchestration Layer]]
 - [[n8n Workflow Roadmap]]
-
-- [[Design Taste — Anthony]] — how Anthony likes design delivered (ideas first, bootleg/streetwear, real photos, no AI imagery). Mirror of ~/.claude/skills/anthony-design-taste.
-- [[Taco Bell Cantina Brand Kit]] — TBC/DRG colors, character, lighting, merch rules, Vegas room elements with photo paths, legal flags. Mirror of ~/.claude/skills/taco-bell-cantina-brand.

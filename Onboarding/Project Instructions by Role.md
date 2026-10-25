@@ -5,7 +5,7 @@ status: active
 tier: curated
 tags: [onboarding, claude, prompts, roles]
 last_updated: 2026-10-19
-related: ["[[Claude Team Setup Guide]]", "[[Client Note Schema]]", "[[Skills/00-INDEX]]"]
+related: ["[[Claude Team Setup Guide]]", "[[Client Note Schema]]", "[[Skills/00-INDEX]]", "[[Onboarding/00-INDEX]]"]
 ---
 
 # Project Instructions by Role

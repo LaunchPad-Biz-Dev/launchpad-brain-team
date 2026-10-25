@@ -5,7 +5,7 @@ status: active
 tier: curated
 tags: [brain, schema, projects, filing]
 last_updated: 2026-10-19
-related: ["[[Brain Standards]]", "[[Frontmatter Spec]]", "[[Projects/00-INDEX]]", "[[Claude Team Setup Guide]]"]
+related: ["[[Brain Standards]]", "[[Frontmatter Spec]]", "[[Projects/00-INDEX]]", "[[Claude Team Setup Guide]]", "[[Context/00-INDEX]]"]
 ---
 
 # Client Note Schema

@@ -3,15 +3,15 @@ title: Intelligence — Map of Content
 type: moc
 status: active
 tier: secondary
-last_updated: 2026-10-18
-last_updated: 2026-10-18
+last_updated: 2026-10-25
+last_updated: 2026-10-25
 ---
 
 # Intelligence — Map of Content
 
-*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-10-18.*
+*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-10-25.*
 
-## All notes (208)
+## All notes (214)
 
 - [[2026-04-20-Apollo-Voice-Interface-Idea]]
 - [[2026-04-21-Proposal-Reference-PDFs]]
@@ -48,6 +48,7 @@ last_updated: 2026-10-18
 - [[First Colony Mortgage — Content Framework]]
 - [[GHL Event Ticketing — Multi-Attendee Capture Architecture 2026-04-20]]
 - [[GHL MCP Capability Matrix 2026-04-20]]
+- [[Git + Claude Team Best Practices — 2026-10-19]]
 - [[Google Antigravity — Research Request 2026-04-08]]
 - [[Image Gen Prompt — IG Post Table Scene 2026-04-16]]
 - [[LP University - Content and Marketing Context]]
@@ -77,6 +78,7 @@ last_updated: 2026-10-18
 - [[Shumi Slate — Week of 2026-08-31]]
 - [[Shumi Slate — Week of 2026-09-14]]
 - [[Shumi Slate — Week of 2026-10-12]]
+- [[Shumi Slate — Week of 2026-10-19]]
 - [[Team Dynamics and Culture]]
 - [[Team Extraction Summary]]
 - [[The Playbook Campaign]]
@@ -208,6 +210,10 @@ last_updated: 2026-10-18
 - [[Trend Brief — 2026-10-13]]
 - [[Trend Brief — 2026-10-14]]
 - [[Trend Brief — 2026-10-15]]
+- [[Trend Brief — 2026-10-19]]
+- [[Trend Brief — 2026-10-20]]
+- [[Trend Brief — 2026-10-22]]
+- [[Trend Brief — 2026-10-23]]
 - [[Veronica AI Assistant]]
 - [[Weekly Health Report - 2026-04-03]]
 - [[Weekly Health Report - 2026-04-21]]

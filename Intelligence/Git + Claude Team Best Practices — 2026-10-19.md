@@ -5,7 +5,7 @@ status: active
 tier: synthesis
 tags: [brain, claude-team, git, knowledge-base, process]
 last_updated: 2026-10-19
-related: ["[[Client Note Schema]]", "[[Claude Team Setup Guide]]", "[[Project Instructions by Role]]", "[[Brain Standards]]"]
+related: ["[[Client Note Schema]]", "[[Claude Team Setup Guide]]", "[[Project Instructions by Role]]", "[[Brain Standards]]", "[[Intelligence/00-INDEX]]"]
 ---
 
 # Git + Claude Team Best Practices for Agency Project Work (research, 2026-10-19)
