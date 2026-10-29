@@ -152,4 +152,6 @@ the family relationships inside the firm, and what still needs confirming.
 
 ## Activity Log
 
+- (2026-10-28, via Cynthia) "Still 1.png" (case-reminder graphic) edited in Nov 26' Stills, inferred as MNL from "Talk to MNL" image text (not Drive-folder-confirmed). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-10-28 — Cynthia Hernandez — Day.md`.
+
 ## Open Items
