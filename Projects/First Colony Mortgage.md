@@ -85,6 +85,7 @@ First Colony Mortgage (FCM) is a mortgage lender branch focused on reverse mortg
 *Synced from Notion discovery meeting export (2026-01-08 call) via brain-compile*
 
 ### Sync Log
+- **2026-10-29** — Notion-Brain sync: Status Onboarding (✓), Package Comprehensive (✓), Ad Spend $1,500/mo (✓), Start Date 2026-10-01 (✓). All fields confirmed current with Notion Client Portals Gallery view.
 - **2026-10-06** — Daily Notion-Brain sync: Status Onboarding (✓), Package Comprehensive (✓), Ad Spend $1,500/mo (✓), Start Date 2026-10-01 (✓), Contact: Matt Nye (✓). All fields stable.
 - **2026-10-05** — Notion-Brain sync verified: Status Onboarding (confirmed), Package Comprehensive (confirmed), Ad Spend $1,500/mo (current), Start Date 2026-10-01 (confirmed). Website: https://firstcolonymortgage.com/ (verified in Notion).
 *Related: [[2026-10-06]], [[2026-10-05]]*
