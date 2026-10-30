@@ -232,4 +232,6 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 
 ## Activity Log
 
+- (2026-10-29, via Cynthia) November '26 graphics (1–4.png: printing, winter events, business card refresh) moved into a new "Approved" folder (Drive: Graphics / 2026 / Nov 26' / Approved / Stills). Approver not recorded in Drive. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-10-29 — Cynthia Hernandez — Day.md`.
+
 ## Open Items
