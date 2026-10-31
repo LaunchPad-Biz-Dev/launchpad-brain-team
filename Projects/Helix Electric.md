@@ -210,5 +210,14 @@ Anthony shared both proposal formats via Apollo DM on 2026-06-26:
 ## Decisions
 
 ## Activity Log
+- (2026-10-27, via Notion meeting sync) Video Production & Events Coordination meeting covered 3 active video deliverables and 2 upcoming events:
+  - **Dedication clip** (last-minute add): final participant interview 2026-10-28 1:30pm, raw upload expected 2pm same day, hard delivery deadline **Friday 2026-10-31 (Aiden's requirement)**. End cards show each person's name/photo/dedication message. Workflow: raw file (sound bites only, no music) sent to LP for end-card addition.
+  - **Service award video**: no additional assets needed from LP; must be delivered as MP4; Gianna coordinating with event AV team.
+  - **Golf tournament footage**: just filmed. Priority edit = drone shot of shotgun start; secondary cut = short trick-pull-angles clip. Target release this week or early next week.
+  - **UNLV Career Fair** (2026-10-28): load-in 7:30am, crew arrival 8:15am, one-person crew (avoid overwhelming booth), thousands of students expected. Shot focus: candid interactions + demo activations (light switch panel, swag giveaways). Deliverable: social edit for LinkedIn + internal use. Anthony on-site ~2 hours (departs 11am for 11:30 appointment).
+  - **Harvest Festival** (2026-10-31): meet at office 11:30am, event starts 1:30pm, crew = Anthony + one other, casual attire (Halloween costumes/ears welcome). Shot focus: candid family moments, employee bonding, kids in costumes. Key elements: dog adoption booth, trunk-or-treat, Turner's Nightmare Before Christmas float. Priority people: Victor + family, office employees. Deliverable: social cut of people having fun.
+  - Team discussed scheduling a discovery/pre-production meeting in early-to-mid November to brainstorm the next content-strategy ideation phase; early November may be too busy, mid-November more feasible. Next step: confirm dates with Aidan.
 
 ## Open Items
+- [ ] Confirm available dates with Aidan for the early/mid-November discovery + pre-production meeting (2026-10-27).
+- [ ] Dedication clip: hard deadline Fri 2026-10-31 — confirm raw file + end-card assets land on time (2026-10-27).

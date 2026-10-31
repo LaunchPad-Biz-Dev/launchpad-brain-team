@@ -171,7 +171,11 @@ Holiday-themed, seasonal content that aligns each brand with specific seasonal m
 ## Preferences & Corrections
 
 ## Decisions
+- (2026-10-29, Launchpad x Sobel quarterly meeting) Moving Princess Luxe, Carnival, and Travel & Leisure from monthly to **quarterly (90-day) content brief cycles**. Content brief review involves [[Michael Torrey]] with a 1-day turnaround.
 
 ## Activity Log
+- (2026-10-29, via Notion meeting sync) Launchpad x Sobel Brands strategic quarterly planning call covered ads, content briefs, and the Sobel at Home expansion timeline. Action item: Michael Torrey to review and send feedback on content briefs (Princess Luxe, Carnival, Travel & Leisure) by 2026-10-30.
 
 ## Open Items
+- [ ] Michael Torrey feedback on Q4 content briefs (Princess Luxe, Carnival, T+L) — due 2026-10-30, 1-day turnaround per the new quarterly cycle.
+- [ ] Sobel at Home expansion timeline — details not captured in this export; confirm with Anthony/meeting owner if more detail needed.
