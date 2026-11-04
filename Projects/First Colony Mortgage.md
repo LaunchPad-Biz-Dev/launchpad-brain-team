@@ -11,7 +11,7 @@ related: ["[[Projects/00-INDEX]]"]
 # First Colony Mortgage
 
 ## Status
-**Onboarding** — Comprehensive package, $1,500/mo, start date 2026-10-01 (per 2026-09-08 onboarding record). Discovery call held 2026-01-08.
+**Onboarding** — Comprehensive package, $1,500/mo, start date 2026-10-01 (per 2026-09-08 onboarding record). Discovery call held 2026-01-08. [Synced from Notion 2026-11-04: all fields current]
 
 ## Industry
 Mortgage Lending / Finance

@@ -23,10 +23,11 @@ related: ["[[Launchpad Business Development]]", "[[Projects/00-INDEX]]"]
 | Monthly Rate | — |
 | Ad Spend | $1,500/month |
 | Start Date | 2026-05-21 |
-| Primary Contact | [Name & email to confirm] |
+| Primary Contact | [Contact via Notion] |
 | Contact Phone | +1 702-323-4524 |
 | Website | https://www.wylees.org/ |
 | Location(s) | 3634 Maryland Parkway, Suite 300, Las Vegas, NV 89169 |
+| Last Synced | 2026-11-04 (Notion-Brain sync: all fields current) |
 
 ### Company Summary
 WYLEES (Western Youth Leadership, Engagement, and Empowerment Middle School) is a Nevada public charter school focused on developing student leadership and engagement. Mission-driven education serving Las Vegas metro area.
