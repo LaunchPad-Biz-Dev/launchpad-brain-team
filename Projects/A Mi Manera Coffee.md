@@ -98,4 +98,6 @@ Shared Drive: https://drive.google.com/drive/folders/0ANyU9nNzulSTUk9PVA
 
 ## Activity Log
 
+- (2026-11-06, via Cynthia) "A Mi Manera Playbook Notes" Canva deck edited. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-06 — Cynthia Hernandez — Day.md`.
+
 ## Open Items

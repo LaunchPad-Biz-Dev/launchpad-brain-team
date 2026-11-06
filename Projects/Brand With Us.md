@@ -232,6 +232,7 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 
 ## Activity Log
 
+- (2026-11-05, via Cynthia) New "ToroCon 26'" Drive folder created with two PDFs for Toro Taxes: "BWU × Toro Taxes — Area Rep Day (Franchisees).pdf" and "Brand With Us at ToroCon 2026 — Vendors & General Session.pdf". Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-05 — Cynthia Hernandez — Day.md`. Related: ToroCon event is Nov 9-11 — see [[project_mnl_election_videos]]-adjacent ToroCon preprod past-due flag in daily briefings.
 - (2026-10-29, via Cynthia) November '26 graphics (1–4.png: printing, winter events, business card refresh) moved into a new "Approved" folder (Drive: Graphics / 2026 / Nov 26' / Approved / Stills). Approver not recorded in Drive. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-10-29 — Cynthia Hernandez — Day.md`.
 
 ## Open Items

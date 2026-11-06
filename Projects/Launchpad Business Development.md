@@ -408,11 +408,13 @@ Internal product idea: white-labeled GHL client portal (content calendar, post a
 - (2026-10-19, via Anthony) Task tracking stays on Anthony's Notion board (ANT'S TASKS lanes), not the productivity-plugin dashboard; update in his shorthand, use comments for extra context — "it should fit his flow of work."
 
 ## Activity Log
+- (2026-11-06, via Cynthia) "2026 Launchpad BizDev Cards" Canva design edited (internal). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-06 — Cynthia Hernandez — Day.md`.
 - (2026-10-19, via Anthony) Cowork productivity system built (TASKS.md, CLAUDE.md, dashboard.html, memory/) — vault `Anthony/Productivity System/`.
 - (2026-10-18, via Anthony) Decoder-ring scan produced (LPBD glossary, people, clients) — vault `Intelligence/2026-10-18 — Decoder Ring — LPBD Glossary, People, Clients.md`.
 - (2026-10-19, via Anthony) Daily dump folder structure stood up in Drive — Launchpad Team Work / Anthony / Daily.
 
 ## Open Items
+- "Abril Promotion" Canva design (4 pages, created/edited 2026-11-06 per team inbox) — purpose and whether this is client work or an internal team project unconfirmed — waiting on: Abril or Anthony to clarify (2026-11-06, via Cynthia dump).
 - Morning brain-scan scheduled task bound to the Mac Mini — waiting on: setup on the Mini
 - Claude Enterprise account for team-shared templates/briefs — waiting on: Anthony's decision
 - Pocket AI transcriber feeding `Raw/transcripts` — waiting on: Anthony
