@@ -174,11 +174,12 @@ WYLEES (Western Youth Leadership, Engagement, and Empowerment Middle School) is 
 <!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
 
 ## Preferences & Corrections
+- (2026-11-07, via Cynthia) Correction: the 11-06 dump's "Carousel 3, slide 2 'Middle School Winter Bingo'" entry was misattributed — that file ("Carousel 3 - slide 2.png", the "We're Your Vegas Legal Team" copy) actually lives in the Matsuda Nadig Law shared drive, not Wylees. The actual Wylees winter-bingo graphic is a separate file named "2.png" in `Matsuda Nadig Law / WYLEES`. Moved to [[Matsuda Nadig Law]] Activity Log.
 
 ## Decisions
 
 ## Activity Log
 
-- (2026-11-06, via Cynthia) Carousel 3, slide 2 "Middle School Winter Bingo" updated (client inferred from "@wyleeslv" handle). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-06 — Cynthia Hernandez — Day.md`.
+- (2026-11-06, via Cynthia) Carousel 3, slide 2 "Middle School Winter Bingo" updated (client inferred from "@wyleeslv" handle). (superseded 2026-11-07 — see Preferences & Corrections)
 
 ## Open Items

@@ -80,5 +80,6 @@ Operational and results-focused. Professional but accessible. Emphasizes efficie
 ## Decisions
 
 ## Activity Log
+- (2026-11-07, via Cynthia) "Arby's Food Truck Social" Canva design being edited at run time. "nov shoot" Raw/Edited folders created by anthony (noted for context, not Cynthia's own work). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 
 ## Open Items

@@ -93,11 +93,13 @@ Shared Drive: https://drive.google.com/drive/folders/0ANyU9nNzulSTUk9PVA
 <!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
 
 ## Preferences & Corrections
+- (2026-11-07, via Cynthia) The "highlight-covers" client flagged as "unidentified" in the 11-06 and earlier dumps is A Mi Manera Coffee — the Social Kit / Highlight Covers folder sits in the A Mi Manera Coffee shared drive.
 
 ## Decisions
 
 ## Activity Log
 
+- (2026-11-07, via Cynthia) New "Trial Runs" folder created under Social Kit / Facebook Banner; highlight covers (Order Ahead, Find Us, Events, Communidad) reviewed. Drive: A Mi Manera Coffee / Social Kit / Facebook Banner / Trial Runs. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 - (2026-11-06, via Cynthia) "A Mi Manera Playbook Notes" Canva deck edited. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-06 — Cynthia Hernandez — Day.md`.
 
 ## Open Items

@@ -222,5 +222,7 @@ Target CPL: **not yet set** — needs Amber.
 ## Decisions
 
 ## Activity Log
+- (2026-11-07, via Cynthia dump) TORO promo motion-graphics cuts uploaded by jazz (noted for context from a teammate's activity, not confirmed as reviewed/approved). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 
 ## Open Items
+- ToroCon promo motion-graphics cuts (uploaded by jazz, 2026-11-07) — review/approval status not recorded — waiting on: confirmation before ToroCon (Nov 9-11).

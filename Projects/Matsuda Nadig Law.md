@@ -152,6 +152,7 @@ the family relationships inside the firm, and what still needs confirming.
 
 ## Activity Log
 
+- (2026-11-07, via Cynthia) "Carousel 3 - slide 2" ("We're Your Vegas Legal Team") and "Still 10" updated. Drive: Matsuda Nadig Law / Carousels / 3. Note: this file was misattributed to Wylees in the 11-06 dump — corrected here, see [[WYLEES]] Preferences & Corrections. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 - (2026-10-29, via Cynthia) Stills 1, 2, 4, 6 edited in November '26 Stills (Drive: Graphic Design / 2026 / November 26' / Stills); "Still 6" reads "Let Us Handle The Legal Process." Source: `Raw/Team Inbox/Cynthia Hernandez/2026-10-29 — Cynthia Hernandez — Day.md`.
 - (2026-10-28, via Cynthia) "Still 1.png" (case-reminder graphic) edited in Nov 26' Stills, inferred as MNL from "Talk to MNL" image text (not Drive-folder-confirmed). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-10-28 — Cynthia Hernandez — Day.md`.
 

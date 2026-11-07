@@ -153,6 +153,7 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 ## Preferences & Corrections
 
 ## Activity Log
+- (2026-11-07, via Cynthia) "Lucky RX Brand Guide + Graphics" Canva design edited again. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 - (2026-11-06, via Cynthia) "Lucky RX Brand Guide + Graphics" Canva design edited. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-06 — Cynthia Hernandez — Day.md`.
 - (2026-10-30, via Cynthia) 12-month promotional calendar (Nov 2026 – Oct 2027) built: 6 core campaigns + 1 optional holiday, discounts 20-35%, with competitor findings. Filed to Drive `Brand Assets / Sales Information Doc` (new folder). Recommends BFCM deepest at 35%, Valentine's Day 30%, St. Patrick's Day as a brand-owned mystery-discount event, five no-discount months, and launching Lucky Lady via International Women's Day (full-price awareness) converting through St. Patrick's Day with a His + Hers Valentine's bundle. Approval not yet recorded.
 - (2026-10-30, via Cynthia) "Lucky RX Brand Guide + Graphics" (5-in-1 ED Solution) filed to `2026 / Oct 26' / Organic Social / Posted`; `Stills w/ CTA` folder updated; 3 stock images added to `Photos / Stock` (couple behind glass, girl with sheets, shower image) — client attribution inferred from shared drive location, not confirmed.
