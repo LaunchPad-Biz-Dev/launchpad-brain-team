@@ -2,6 +2,7 @@
 date: 2026-11-03
 type: trend-brief
 tags: [intelligence, trends]
+related: ["[[Intelligence/00-INDEX]]"]
 ---
 
 # Trend Intelligence Brief — 2026-11-03

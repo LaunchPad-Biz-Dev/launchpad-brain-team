@@ -3,13 +3,13 @@ title: Skills — Map of Content
 type: moc
 status: active
 tier: secondary
-last_updated: 2026-11-01
-last_updated: 2026-11-01
+last_updated: 2026-11-08
+last_updated: 2026-11-08
 ---
 
 # Skills — Map of Content
 
-*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-01.*
+*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-08.*
 
 ## All notes (32)
 
