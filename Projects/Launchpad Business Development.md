@@ -16,19 +16,19 @@ related: ["[[Projects/00-INDEX]]"]
 
 ## 1. Client Overview
 
-| Field | Value |
-|-------|-------|
-| ⚠️ Client Name | Launchpad Business Development |
-| ⚠️ Industry | Marketing Agency |
-| ⚠️ Status | Active (Internal Brand) |
-| ⚠️ Package | Custom *(synced from Notion 2026-07-10)* |
-| ⚠️ Monthly Rate | N/A |
-| ➕ Ad Spend | $0 |
-| ⚠️ Start Date | 2022 |
-| ⚠️ Primary Contact | Anthony Mendoza, CEO & Founder, anthony@launchpadbizdev.com |
-| ➕ Secondary Contact | Abril Rodriguez, Creative Director, abril@launchpadbizdev.com |
-| ⚠️ Website | https://launchpadbizdev.com |
-| ➕ Location(s) | Las Vegas, NV — 5,000 sq ft warehouse (cyc wall, 2 podcast studios, print shop, office) |
+| Field               | Value                                                                                   |
+| ------------------- | --------------------------------------------------------------------------------------- |
+| ⚠️ Client Name      | Launchpad Business Development                                                          |
+| ⚠️ Industry         | Marketing Agency                                                                        |
+| ⚠️ Status           | Active (Internal Brand)                                                                 |
+| ⚠️ Package          | Custom *(synced from Notion 2026-07-10)*                                                |
+| ⚠️ Monthly Rate     | N/A                                                                                     |
+| ➕ Ad Spend          | $0                                                                                      |
+| ⚠️ Start Date       | 2022                                                                                    |
+| ⚠️ Primary Contact  | Anthony Mendoza, CEO & Founder, anthony@launchpadbizdev.com                             |
+| ➕ Secondary Contact | Abril Rodriguez, Creative Director, abril@launchpadbizdev.com                           |
+| ⚠️ Website          | https://launchpadbizdev.com                                                             |
+| ➕ Location(s)       | Las Vegas, NV — 5,000 sq ft warehouse (cyc wall, 2 podcast studios, print shop, office) |
 
 ### Company Summary
 Launchpad Business Development is a full-service marketing agency based in Las Vegas. Founded in 2022 by Anthony Mendoza, the company operates three entities: Launchpad Business Development (umbrella agency), Launchpad Productions (photo/video), and BrandWithUs/BWU (print goods). Launchpad serves mid-to-large businesses investing $5K+/mo in marketing, with a focus on attorneys, car dealerships, real estate, and franchises. The company's core philosophy is the Content → Leads → Systems framework.
