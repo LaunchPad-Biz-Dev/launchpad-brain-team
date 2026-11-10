@@ -39,6 +39,7 @@ last_updated: 2026-11-08
 - [[Business Strategy — ChatGPT Extract]]
 - [[Client Context Audit — 2026-04-04]]
 - [[Client Work as Content — Photo Video Strategy Idea 2026-04-07]]
+- [[Compile Synthesis — Notion Meeting Sync Stub Gap 2026-11-09]]
 - [[Content Types and Formats]]
 - [[DRG — Garret Walti IT Governance Request 2026-06-10]]
 - [[Design Intelligence — Taco Bell Cantinas]]

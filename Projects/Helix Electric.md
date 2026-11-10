@@ -217,6 +217,7 @@ Anthony shared both proposal formats via Apollo DM on 2026-06-26:
   - **UNLV Career Fair** (2026-10-28): load-in 7:30am, crew arrival 8:15am, one-person crew (avoid overwhelming booth), thousands of students expected. Shot focus: candid interactions + demo activations (light switch panel, swag giveaways). Deliverable: social edit for LinkedIn + internal use. Anthony on-site ~2 hours (departs 11am for 11:30 appointment).
   - **Harvest Festival** (2026-10-31): meet at office 11:30am, event starts 1:30pm, crew = Anthony + one other, casual attire (Halloween costumes/ears welcome). Shot focus: candid family moments, employee bonding, kids in costumes. Key elements: dog adoption booth, trunk-or-treat, Turner's Nightmare Before Christmas float. Priority people: Victor + family, office employees. Deliverable: social cut of people having fun.
   - Team discussed scheduling a discovery/pre-production meeting in early-to-mid November to brainstorm the next content-strategy ideation phase; early November may be too busy, mid-November more feasible. Next step: confirm dates with Aidan.
+  - (2026-11-09) Raw Notion export [[Raw/exports/notion-meeting-2026-10-27_video-production-coordination]] for this same meeting compiled into the Brain — it added no detail beyond what's already captured above (export itself is a header-only stub); flipped to ingested.
 
 ## Open Items
 - [ ] Confirm available dates with Aidan for the early/mid-November discovery + pre-production meeting (2026-10-27).

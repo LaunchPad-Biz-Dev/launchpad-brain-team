@@ -424,5 +424,6 @@ Items that would meaningfully improve agent output if answered:
 ## Decisions
 
 ## Activity Log
+- (2026-11-09, via Notion meeting sync, STUB — flag for follow-up) [[Raw/exports/notion-meeting-2026-11-03_shumi-weekly|Shumi x LaunchPad Weekly]] (2026-11-03) — Anthony, Cynthia Overton, Apollo, Nghia Hoang + team. Notion export only captured generic topic headers (weekly content performance, calendar items, anime/collectibles creative direction, engagement metrics, next week's priorities) — no actual decisions or numbers came through in the sync. Same metadata-only pattern as other recent Notion meeting exports (see [[Intelligence/Compile Synthesis — Notion Meeting Sync Stub Gap 2026-11-09]]).
 
 ## Open Items

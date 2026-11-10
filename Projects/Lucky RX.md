@@ -160,3 +160,4 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 
 ## Open Items
 - Promo calendar (Nov 2026-Oct 2027) sign-off — waiting on client approval, not recorded in Drive (2026-10-30, via Cynthia).
+- (2026-11-09, via Notion meeting sync, STUB — flag for follow-up) [[Raw/exports/notion-meeting-2026-10-26_team-meeting|Team Meeting]] (2026-10-26) — "Lucky RX context" only inferred from the Notion URL structure; export has zero attendee names or topic detail. Do not treat this as confirmed Lucky RX-specific content — flagging only so it isn't lost, not as new fact. See [[Intelligence/Compile Synthesis — Notion Meeting Sync Stub Gap 2026-11-09]].

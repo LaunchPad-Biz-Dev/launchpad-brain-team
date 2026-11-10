@@ -235,5 +235,6 @@ Meeting: [[Raw/exports/notion-meeting-2026-07-29_drg-merchandise|LaunchPad × DR
 ## Decisions
 
 ## Activity Log
+- (2026-11-09, via Notion meeting sync, STUB — flag for follow-up) [[Raw/exports/notion-meeting-2026-11-03_arbys-taco-bell-sync|Arby's & Taco Bell Cantina Content and Ads Sync]] (2026-11-03) — Apollo-led sync on November content calendar coordination, ad performance for both brands, creative/video production status, posting schedule alignment. Export only has generic topic headers, no actual figures or decisions — same stub pattern as the 07-29 merchandise consultation above. See [[Intelligence/Compile Synthesis — Notion Meeting Sync Stub Gap 2026-11-09]].
 
 ## Open Items
