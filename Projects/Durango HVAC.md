@@ -81,9 +81,11 @@ Las Vegas HVAC service company offering heating and air conditioning installatio
 
 ---
 ## Current Deliverables
-*Last synced: 2026-04-09*
+*Last synced: 2026-11-12*
 
-No active deliverables found in Notion Deliverable Tracker for this cycle.
+| Task | Type | Status | Assignee | Due |
+|------|------|--------|----------|-----|
+| Durango HVAC November 26' | 🎥 Video | In production | Shumi | 2026-11-01 |
 
 ---
 
@@ -132,6 +134,7 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 - **SMS campaigns (2026-06-01):** VM drops are OFF. Action item: remove VM drops from SMS campaigns (Amber).
 
 ## Sync Log
+- **2026-11-12** — Notion-to-Brain sync: Added November deliverables. Current task: "Durango HVAC November 26'" (🎥 Video, In production). All other data current.
 - **2026-10-07** — Notion-Brain sync verification: Status = Active, Ad Spend = $2,500/mo, Package = Ads Only, Contact = Edgar Favela (edgar@durangohvaclv.com). Data matches prior sync. ⚠️ Note: 36-day past-due August Ad Report in Notion Deliverable Tracker — flagged for team.
 - **2026-07-10** — Ad Spend updated from $500/mo to $2,500/mo (synced from Notion — appears to reflect budget increase for Spanish-language campaign expansion)
 - **2026-04-08** — Ad Spend updated from "—" to "$500/mo" (synced from Notion)
