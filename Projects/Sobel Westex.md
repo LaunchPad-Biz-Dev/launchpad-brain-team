@@ -201,9 +201,11 @@ Sobel requested to review high-level content strategy for the rest of the year �
 <!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
 
 ## Preferences & Corrections
+- (2026-11-12, via Cynthia) Sobel At Home campaign positioning now on file: "The Sleep You Can't Leave Behind" (audience: women ~30-60); White Sale concept "The Art of a Hotel Bed." Source: Brand Overview.pdf, Drive: Sobel Westex / Sobel At Home / Brand Guidlines.
 
 ## Decisions
 
 ## Activity Log
+- (2026-11-12, via Cynthia) Set up Dec 26' folder structure for Sobel At Home (Brand Guidlines, Graphics, Photo, Video + Ads/Carousels/Stills subfolders) and uploaded Brand Overview.pdf, Color + Typography.pdf, and White Sale Concept.pdf ("The Art of a Hotel Bed"). Drive: Sobel Westex / Sobel At Home / Brand Guidlines. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-13 — Cynthia Hernandez — Day.md`.
 
 ## Open Items
