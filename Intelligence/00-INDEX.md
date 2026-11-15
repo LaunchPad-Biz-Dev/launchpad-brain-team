@@ -3,15 +3,15 @@ title: Intelligence — Map of Content
 type: moc
 status: active
 tier: secondary
-last_updated: 2026-11-08
-last_updated: 2026-11-08
+last_updated: 2026-11-15
+last_updated: 2026-11-15
 ---
 
 # Intelligence — Map of Content
 
-*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-08.*
+*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-15.*
 
-## All notes (226)
+## All notes (233)
 
 - [[2026-04-20-Apollo-Voice-Interface-Idea]]
 - [[2026-04-21-Proposal-Reference-PDFs]]
@@ -82,6 +82,7 @@ last_updated: 2026-11-08
 - [[Shumi Slate — Week of 2026-10-19]]
 - [[Shumi Slate — Week of 2026-10-26]]
 - [[Shumi Slate — Week of 2026-11-02]]
+- [[Shumi Slate — Week of 2026-11-09]]
 - [[Team Dynamics and Culture]]
 - [[Team Extraction Summary]]
 - [[The Playbook Campaign]]
@@ -227,6 +228,11 @@ last_updated: 2026-11-08
 - [[Trend Brief — 2026-11-04]]
 - [[Trend Brief — 2026-11-05]]
 - [[Trend Brief — 2026-11-06]]
+- [[Trend Brief — 2026-11-09]]
+- [[Trend Brief — 2026-11-10]]
+- [[Trend Brief — 2026-11-11]]
+- [[Trend Brief — 2026-11-12]]
+- [[Trend Brief — 2026-11-13]]
 - [[Veronica AI Assistant]]
 - [[Weekly Health Report - 2026-04-03]]
 - [[Weekly Health Report - 2026-04-21]]

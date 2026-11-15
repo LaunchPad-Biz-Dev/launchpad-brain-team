@@ -2,7 +2,7 @@
 date: 2026-11-09
 type: synthesis
 tags: [synthesis, notion-sync, data-quality, meeting-notes]
-related: ["[[DRG]]", "[[Shumi Store]]", "[[Lucky RX]]", "[[Helix Electric]]"]
+related: ["[[DRG]]", "[[Shumi Store]]", "[[Lucky RX]]", "[[Helix Electric]]", "[[Intelligence/00-INDEX]]"]
 ---
 
 # Compile Synthesis — Notion Meeting Sync Stub Gap (2026-11-09)

@@ -3,13 +3,13 @@ title: Projects — Map of Content
 type: moc
 status: active
 tier: primary
-last_updated: 2026-11-08
-last_updated: 2026-11-08
+last_updated: 2026-11-15
+last_updated: 2026-11-15
 ---
 
 # Projects — Map of Content
 
-*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-08.*
+*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-15.*
 
 ## All notes (72)
 
