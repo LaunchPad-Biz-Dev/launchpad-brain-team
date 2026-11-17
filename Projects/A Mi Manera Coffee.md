@@ -99,6 +99,7 @@ Shared Drive: https://drive.google.com/drive/folders/0ANyU9nNzulSTUk9PVA
 
 ## Activity Log
 
+- (2026-11-14, via Cynthia) Created Graphic Assets, Textures and Flame BG folders. Drive: A Mi Manera Coffee / Graphics. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-17 — Cynthia Hernandez — Day.md`.
 - (2026-11-07, via Cynthia) New "Trial Runs" folder created under Social Kit / Facebook Banner; highlight covers (Order Ahead, Find Us, Events, Communidad) reviewed. Drive: A Mi Manera Coffee / Social Kit / Facebook Banner / Trial Runs. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 - (2026-11-06, via Cynthia) "A Mi Manera Playbook Notes" Canva deck edited. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-06 — Cynthia Hernandez — Day.md`.
 

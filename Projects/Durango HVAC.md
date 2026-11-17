@@ -191,7 +191,8 @@ Target CPL / cost per call: **not yet set** — needs Amber (see her interview c
 ## Decisions
 
 ## Activity Log
+- (2026-11-13, via Cynthia) Dec 26' Graphics: created an Approved folder and uploaded Stills 1, 2, 4, 5, 6, 7 and Carousel 2 slide 1. Drive: Durango HVAC / Graphics / 2026 / December 26' / Approved. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-17 — Cynthia Hernandez — Day.md`.
 - (2026-11-12, via Cynthia) Uploaded/revised Dec 26' winter stills (1, 2, 4, 5, 6, 7 — "Don't wait for your heater to quit," "How to not freeze in Vegas," "Vegas HVAC tech found guilty" mugshot gag featuring tech Edgar) and Carousel 2 slide 1; created an "Approved" folder in the Durango HVAC drive. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-13 — Cynthia Hernandez — Day.md`.
 
 ## Open Items
-- Durango HVAC Dec 26' files' drive location — filed under "First Colony Mortgage" as of 2026-11-12 capture, waiting on Cynthia to confirm correct drive.
+- Durango HVAC Dec 26' files' drive location — filed under "First Colony Mortgage" as of 2026-11-12 capture, waiting on Cynthia to confirm correct drive. (2026-11-13 capture shows Dec 26' Approved-folder activity correctly under Durango HVAC's own drive — likely resolved, but not yet confirmed by Cynthia.)

@@ -249,6 +249,7 @@ All campaigns structured as: Headline + Subheadline + CTA
 ## Decisions
 
 ## Activity Log
+- (2026-11-16, via Cynthia) Dec 26' Graphics: revised Stills 1, 3, 6, 7, 8 and Carousel 3 slide 1 (arija had added the carousel/stills sets earlier the same day). Drive: Toro Taxes / Graphics / 2026 / Dec 26'. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-17 — Cynthia Hernandez — Day.md`.
 - (2026-11-12, via Cynthia) Created and edited new Canva design "TTFS December 26- STILLS" (10 pages). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-13 — Cynthia Hernandez — Day.md`.
 
 ## Open Items

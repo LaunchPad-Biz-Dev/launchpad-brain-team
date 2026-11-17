@@ -98,6 +98,7 @@ First Colony Mortgage (FCM) is a mortgage lender branch focused on reverse mortg
 
 ## Activity Log
 
+- (2026-11-13, via Cynthia) Nov 26' Graphics: uploaded Carousels 1, 3 and 5 (new folders) and AD-1.png. Drive: First Colony Mortgage / Graphics / November 26' / CAROUSELS. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-17 — Cynthia Hernandez — Day.md`.
 - (2026-11-07, via Cynthia) "FCM Nov 26'" Canva design (45 pages) edited. NMLS discrepancy below still unconfirmed as of this run. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 - (2026-11-06, via Cynthia) Nov 26' Stills 1, 2, 4, 5, 6, 8, 9 updated (reverse mortgage/Equity Advantage, HELOC vs cash-out, dedicated LOA, debt consolidation, "Meet the team", contact steps); Spanish-language ITIN/Social ad (ADS/1.png) updated. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-06 — Cynthia Hernandez — Day.md`.
 - (2026-11-05, via Cynthia) Nov 26' graphics re-exported (Stills 1–5, Carousel 4 [2 slides], Carousel 5, Carousel 6 [5 slides]); new ADS folder created with 5 Spanish-language ITIN/Social loan ad graphics; ~11 family/parenthood stock photos added to Brand Assets / Stock Images. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-05 — Cynthia Hernandez — Day.md`.
