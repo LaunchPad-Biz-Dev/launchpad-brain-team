@@ -200,19 +200,16 @@ Full-day video content shoot designed to stockpile short-form video assets for G
 ---
 
 ## Current Deliverables
-*Last synced: 2026-06-30*
+*Last synced: 2026-11-18*
 
-| Task | Status | Due |
-|------|--------|-----|
-| AFT May 26' Ad Report | Not started | 2026-07-01 |
-| AFT July 26' Content Calendar | Not started | 2026-06-22 |
-| AFT July 26' | Brief | 2026-06-22 |
-| AFT July 26' | Ready for Distribution | 2026-06-22 |
-| AFT August 26' Content Calendar | Not started | 2026-07-26 |
-| AFT August 26' | Not started | 2026-07-26 |
-| AFT August 26' | Not started | 2026-07-26 |
+| Task | Type | Status | Due |
+|------|------|--------|-----|
+| AFT December 26' | 📱 Social Media Calendar | Not started | 2026-12-01 |
+| AFT December 26' | 🎥 Video | Not started | 2026-12-01 |
+| AFT December 26' | 🎨 Graphic Design | In production | 2026-12-01 |
+| AFT December 26' | 🎥 Video | Brief | — |
 
-**Status:** 7 active deliverables. July tasks ready for review; August cycle pending start. May 26' Ad Report due 2026-07-01.
+**Status:** 4 active deliverables for December 26' execution. 1 task in production, 2 not started, 1 in brief stage.
 
 ---
 
@@ -320,3 +317,8 @@ Target CPL: **not yet set** — needs Amber.
 
 ## Open Items
 - Arby's GHL booking-calendar design/CSS — waiting on: Amber Nardo (since 2026-10-16)
+
+---
+
+## Sync Log (Notion-to-Brain — 2026-11-18)
+- **2026-11-18** — Current Deliverables refreshed from Notion Deliverable Tracker. December 26' cycle: 1 Graphic Design in production, 2 Video/Calendar tasks not started (due 2026-12-01), 1 Video in brief stage. Replaced July/August overdue tasks from prior sync. (synced from Notion)
