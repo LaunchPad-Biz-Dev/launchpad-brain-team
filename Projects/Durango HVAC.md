@@ -191,6 +191,7 @@ Target CPL / cost per call: **not yet set** — needs Amber (see her interview c
 ## Decisions
 
 ## Activity Log
+- (2026-11-17, via Cynthia) Created "December 26'" video folder; updated and later reopened TH2.mp4 in November 26' Edited/Approved. Drive: Durango HVAC / Videos / 2026 / December 26' (and November 26' / Edited / Approved). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-18 — Cynthia Hernandez — Day.md`.
 - (2026-11-13, via Cynthia) Dec 26' Graphics: created an Approved folder and uploaded Stills 1, 2, 4, 5, 6, 7 and Carousel 2 slide 1. Drive: Durango HVAC / Graphics / 2026 / December 26' / Approved. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-17 — Cynthia Hernandez — Day.md`.
 - (2026-11-12, via Cynthia) Uploaded/revised Dec 26' winter stills (1, 2, 4, 5, 6, 7 — "Don't wait for your heater to quit," "How to not freeze in Vegas," "Vegas HVAC tech found guilty" mugshot gag featuring tech Edgar) and Carousel 2 slide 1; created an "Approved" folder in the Durango HVAC drive. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-13 — Cynthia Hernandez — Day.md`.
 

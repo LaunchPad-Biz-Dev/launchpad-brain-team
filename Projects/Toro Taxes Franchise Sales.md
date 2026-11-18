@@ -222,7 +222,9 @@ Target CPL: **not yet set** — needs Amber.
 ## Decisions
 
 ## Activity Log
+- (2026-11-17, via Cynthia) Edited Dec 26' STILLS / 8.png; reviewed Colorado Mixer event photos (EVENT GALERY / Selected) and arija's Dec 26' Carousels 5 and 6 — arija updated the slides again after Cynthia's review, approval status not yet visible in Drive. Drive: Toro Taxes Franchise Sales / Graphics. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-18 — Cynthia Hernandez — Day.md`.
 - (2026-11-07, via Cynthia dump) TORO promo motion-graphics cuts uploaded by jazz (noted for context from a teammate's activity, not confirmed as reviewed/approved). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 
 ## Open Items
 - ToroCon promo motion-graphics cuts (uploaded by jazz, 2026-11-07) — review/approval status not recorded — waiting on: confirmation before ToroCon (Nov 9-11).
+- Dec 26' Carousels 5 and 6 — waiting on: arija / Cynthia re-approval after arija's 2026-11-17 slide updates.
