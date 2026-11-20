@@ -147,6 +147,7 @@ No active deliverables found in Notion Deliverable Tracker for this cycle.
 ---
 
 ## Sync Log
+- **2026-11-20** — ⚠️ CONFLICT DETECTED: Notion shows Package = "Essential" but Brain shows "Essential Growth". Likely terminology shift (Notion simplified label). Verify correct tier with James/Chris before updating.
 - **2026-04-08** — Added Chris Wood (chris.wood@sobelwestex.com) to Contact Info (synced from Notion)
 - **2026-04-09** — Current Deliverables section added; no active tasks found in Notion tracker this cycle
 - **2026-04-16** — Deliverables confirmed: no active tasks in Notion tracker this cycle (synced from Notion)
