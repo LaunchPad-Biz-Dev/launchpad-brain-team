@@ -121,6 +121,14 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 8. Accept Lead Ads Terms on the page; grant Partner access to BM/ad account/pixel; GA4 viewer access
 
 
+## Decisions — 2026-11-20 (Cynthia + Jillian, Posting Strategy meeting)
+- 50/50 split of Lucky RX content during the testing period: each side (Launchpad / Lucky RX's Jillian/Ryan) takes 8 graphics + 4 videos via Drive folders; Lucky RX takes posting back after New Year.
+- Each side's share mixes sales and organic-friendly content.
+- Hashtags: keep "Get Lucky" and "LuckyRx," add 2–3 generic tags tailored per post, max 5.
+- Post 5 weekdays, alternating stills/carousels/videos; two posts in one day allowed.
+- Holiday motion-graphics music should be "more sensual and jazzy, like late night," less jolly.
+- Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
+
 ## Decisions — 2026-10-08 (Anthony, on the paid plan)
 - Budget confirmed **$5,000/mo**.
 - Pixel events: Launchpad (Amber) writes the event spec, Jillian assists, client's dev team implements in GTM; keep pixel 1526180795904165.
@@ -153,6 +161,8 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 ## Preferences & Corrections
 
 ## Activity Log
+- (2026-11-20, via Cynthia) Posting Strategy meeting with Jillian Quaintance (All Star Agency), 10:30am; posting strategy slide deck (PDF) emailed to Jillian after the meeting (19:14 UTC); Dec 26' Ads folder updated (Stills 1–8, Thumbnails 1–3, Carousel 6 slides 2–5, updated Stills 4.png); Black Friday Reddit Carousels 1 and 2 (images 59–63) uploaded. Drive: Lucky RX x LP / Dec 26' and / Black Friday / REDDIT. Notion: Lucky RX portal / Meetings — "Posting Strategy w/ Jillian". Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
+- (2026-11-19, via Cynthia) LuckyRX December 26' card edited on the Graphic Design Board (22:38 UTC). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-20 — Cynthia Hernandez — Day.md`.
 - (2026-11-17, via Cynthia) Reviewed Graphics / 2026 / Nov 26' / Ads incl. nicole's Still 8; noted a new Black Friday folder ryan created (contents not yet visible). Drive: Lucky RX / Graphics / 2026 / Nov 26' / Ads. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-18 — Cynthia Hernandez — Day.md`.
 - (2026-11-16, via Cynthia) Black Friday Ads: revised Stills 2, 3, 8, 9 and Ads 1 and 3; created a "Cynthia's Pick" folder under Photos/Stock with couple stock photos (added "Young Couple in Kitchen.jpg"); viewed "Lucky Rx Mockup Scripts Nov 26 Shotlist." Drive: Lucky RX x LP / Ads + Photos/Stock/Cynthia's Pick. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-17 — Cynthia Hernandez — Day.md`.
 - (2026-11-12, via Cynthia) Uploaded Black Friday stills (5, 13, 14, 16) to a new Stills folder and edited "Lucky RX Brand Guide + Graphics" Canva design: "It's Your Lucky Week" 35% off Nov 23-30, "Lucky looks good on us," cart-abandon "Don't miss your chance." Drive: Lucky RX x LP / Stills. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-13 — Cynthia Hernandez — Day.md`.
@@ -164,6 +174,12 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 - (2026-10-30, via Cynthia) "Lucky RX Brand Guide + Graphics" (5-in-1 ED Solution) filed to `2026 / Oct 26' / Organic Social / Posted`; `Stills w/ CTA` folder updated; 3 stock images added to `Photos / Stock` (couple behind glass, girl with sheets, shower image) — client attribution inferred from shared drive location, not confirmed.
 
 ## Open Items
+- (2026-11-20, from Posting Strategy meeting) Review December content in Drive, check with Ryan, decide organic vs scheduled split — waiting on: Ryan.
+- (2026-11-20, from Posting Strategy meeting) Monday.com approval-tool invite; send content approval PDF and access to Jillian — waiting on: Ryan.
+- (2026-11-20, from Posting Strategy meeting) Comment on December graphics and motion graphics, including music feedback — waiting on: Cynthia / Jillian.
+- (2026-11-20, from Posting Strategy meeting) Add TikTok to GHL — waiting on: owner not yet set.
+- (2026-11-20, from Posting Strategy meeting) Confirm hashtag approach — waiting on: Ryan.
+- (2026-11-20, from Posting Strategy meeting) Best posting time — testing evening 5–9pm vs midday/morning — waiting on: test results. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
 - (2026-11-12, via Cynthia) Black Friday stills ("It's Your Lucky Week" 35% off Nov 23-30, "Lucky looks good on us," cart-abandon "Don't miss your chance") uploaded to Stills folder — approval status not visible in this capture, still waiting on client/Cynthia sign-off.
 - **Meta account restriction (2026-11-09, active crisis) — highest priority.** Original account restricted for explicit creative, one appeal already failed, second appeal in progress (Anthony). Secondary account blocked on: client approval of PG-13 creative swap (Cynthia/Graphics), pixel + event setup (Josh — "Second Meta Account" email thread), LegitScript re-auth (client enters luckyrx.com in Meta portal), client approval + pixel connection before launch. Black Friday ad concepts (with/without CTA) due before **Thu Nov 12**. See Activity Log 2026-11-09 and `Raw/exports/notion-meeting-2026-11-09_luckyRx_meta_strategy.md` for full action-item list.
 - Promo calendar (Nov 2026-Oct 2027) sign-off — waiting on client approval, not recorded in Drive (2026-10-30, via Cynthia).

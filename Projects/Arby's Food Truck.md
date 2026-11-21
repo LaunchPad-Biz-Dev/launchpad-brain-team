@@ -313,6 +313,8 @@ Target CPL: **not yet set** — needs Amber.
 - (2026-10-16, via Anthony/Amber) Arby's booking-calendar widget styling: Montserrat typeface; black, white, and red #DC0132 — note this is **not** Arby's brand red #F50023 from the guidelines above, a deliberate exception for this widget.
 
 ## Activity Log
+- (2026-11-20, via Cynthia) December 26' cards edited on the Graphic Design Board and Deliverable Tracker; what changed is not visible to this capture. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
+- (2026-11-19, via Cynthia) Uploaded December 26' approved Stills 2–5 and approved Carousels 1–3 (incl. "It's Time.mp4", slides 8–16) (18:28 UTC), plus "2027 bookings are now open" holiday carousel slides 26–27 (22:34 UTC); edited AFT December 26' cards on the Graphic Design Board and Deliverable Tracker. Drive: December 26' / Approved / Stills + Carousels. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-20 — Cynthia Hernandez — Day.md`.
 - (2026-10-16, via Anthony) GHL booking calendar embedded live on vegasarbysfoodtruck.com in the "Show Me the Meats!" section, replacing the WordPress Amelia widget. Amber Nardo driving the calendar design/CSS.
 
 ## Open Items

@@ -147,13 +147,18 @@ the family relationships inside the firm, and what still needs confirming.
 <!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
 
 ## Preferences & Corrections
+- (2026-11-20, via Cynthia's team-inbox dump) MNL + MNV December content ideas say "I don't know which Arizona city they serve," but the content framework on the same Notion page already states MNV = Phoenix — reconcile so future brainstorm docs don't re-ask a resolved question. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
+- (2026-11-20, via Cynthia's team-inbox dump) Toy Drive flyer brief states the event date as Fri Dec 11, 2026, but the MNL brainstorm notes still mark it "confirm w/ Ben" — brief is likely authoritative; verify before the flyer prints. Source: same dump.
 
 ## Decisions
+- (2026-11-20, via Cynthia) Toy Drive flyer does not need to follow MNL brand colors — bright, kid-friendly Christmas look; no taco price on flyer (TBD). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
 
 ## Activity Log
 
+- (2026-11-20, via Cynthia) "Bobby Birthday.png" still uploaded (Drive: Matsuda Nadig Law / Stills); Toy Drive flyer brief written (Dec 11 event, 8.5x11, Canva, due Nov 25–27, Low priority); MNL + MNV December brainstorm and MNL December 26' Notion cards edited. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
 - (2026-11-07, via Cynthia) "Carousel 3 - slide 2" ("We're Your Vegas Legal Team") and "Still 10" updated. Drive: Matsuda Nadig Law / Carousels / 3. Note: this file was misattributed to Wylees in the 11-06 dump — corrected here, see [[WYLEES]] Preferences & Corrections. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
 - (2026-10-29, via Cynthia) Stills 1, 2, 4, 6 edited in November '26 Stills (Drive: Graphic Design / 2026 / November 26' / Stills); "Still 6" reads "Let Us Handle The Legal Process." Source: `Raw/Team Inbox/Cynthia Hernandez/2026-10-29 — Cynthia Hernandez — Day.md`.
 - (2026-10-28, via Cynthia) "Still 1.png" (case-reminder graphic) edited in Nov 26' Stills, inferred as MNL from "Talk to MNL" image text (not Drive-folder-confirmed). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-10-28 — Cynthia Hernandez — Day.md`.
 
 ## Open Items
+- (2026-11-20, via Cynthia) Toy Drive flyer design — waiting on: designer (Not started; event date to double-check with Ben per brainstorm notes; tents-with-logos question to ask Anthony). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.

@@ -424,7 +424,9 @@ Items that would meaningfully improve agent output if answered:
 ## Decisions
 
 ## Activity Log
+- (2026-11-19, via Cynthia) S-Tier board design (36 x 48 in, PDF + Canva file) emailed to Nghia at Shumi, cc Abril/Anthony/Kyle (19:06 UTC); Black Friday Post (30% off) uploaded to Drive Stills (19:39 UTC); Shumi December 26' Graphic Design Board card edited. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-20 — Cynthia Hernandez — Day.md`.
 - (2026-11-17, via Cynthia) Reviewed November 26' Edited/Approved videos. Drive: Shumi Nation / Videos / November 26' / Edited / Approved. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-18 — Cynthia Hernandez — Day.md`.
 - (2026-11-09, via Notion meeting sync, STUB — flag for follow-up) [[Raw/exports/notion-meeting-2026-11-03_shumi-weekly|Shumi x LaunchPad Weekly]] (2026-11-03) — Anthony, Cynthia Overton, Apollo, Nghia Hoang + team. Notion export only captured generic topic headers (weekly content performance, calendar items, anime/collectibles creative direction, engagement metrics, next week's priorities) — no actual decisions or numbers came through in the sync. Same metadata-only pattern as other recent Notion meeting exports (see [[Intelligence/Compile Synthesis — Notion Meeting Sync Stub Gap 2026-11-09]]).
 
 ## Open Items
+- (2026-11-19, via Cynthia) S-Tier board (36x48in) sent to Nghia — waiting on: Nghia to confirm print or request changes.

@@ -182,6 +182,9 @@ $1,500 budget. Cost per conversion drifted up 18% vs July ($1.19 → $1.41) — 
 
 ## Activity Log
 
+- (2026-11-20, via Cynthia) December 26' Deliverable Tracker card edited; what changed is not visible to this capture. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
+- (2026-11-19, via Cynthia) Updated two approved November videos, "HOW RCHECK WORKS.mp4" and "5 THINGS TO CHECK.mp4" (19:30 UTC); edited CCS November 26' (Video Post Production Board) and December 26' (Deliverable Tracker, Graphic Design Board) Notion cards. Drive: CCS / Videos / November 26' / Edited / Approved. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-20 — Cynthia Hernandez — Day.md`.
+- (2026-11-18, via Cynthia) "CCS December 26'" card edited on the Graphic Design Board; what changed is unknown — no matching Drive or Gmail activity this run. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-19 — Cynthia Hernandez — Day.md`.
 - (2026-11-17, via Cynthia) Reviewed Nov 26' Edited/Approved videos incl. "5 THINGS TO CHECK.mp4" and "CHRISTMAS TRAVEL.mp4." Drive: CCS / Videos / 2026 / November 26' / Edited / Approved. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-18 — Cynthia Hernandez — Day.md`.
 - (2026-11-16, via Cynthia) Nov 26' Videos: approved "5 THINGS TO CHECK.mp4," "HOW RCHECK WORKS.mp4" and "FEDERAL AGENCIES.mp4" in Edited/Approved (Kyle Fuller created the Approved folder). Drive: CCS / Videos / 2026 / November 26' / Edited / Approved. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-17 — Cynthia Hernandez — Day.md`.
 
