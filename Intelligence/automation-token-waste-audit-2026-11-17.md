@@ -1,6 +1,7 @@
 ---
 date: 2026-11-17
 tags: [automation, token-efficiency, infrastructure, needs-human-input]
+related: ["[[Intelligence/00-INDEX]]"]
 ---
 
 # Automation Token-Waste Audit — 2026-11-17

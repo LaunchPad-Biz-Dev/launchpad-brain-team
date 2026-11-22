@@ -3,13 +3,13 @@ title: Onboarding — Map of Content
 type: moc
 status: active
 tier: primary
-last_updated: 2026-11-15
-last_updated: 2026-11-15
+last_updated: 2026-11-22
+last_updated: 2026-11-22
 ---
 
 # Onboarding — Map of Content
 
-*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-15.*
+*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-22.*
 
 ## All notes (7)
 

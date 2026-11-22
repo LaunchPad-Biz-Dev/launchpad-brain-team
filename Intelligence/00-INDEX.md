@@ -3,15 +3,15 @@ title: Intelligence — Map of Content
 type: moc
 status: active
 tier: secondary
-last_updated: 2026-11-15
-last_updated: 2026-11-15
+last_updated: 2026-11-22
+last_updated: 2026-11-22
 ---
 
 # Intelligence — Map of Content
 
-*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-15.*
+*Auto-maintained by `brain-link-density.py`. Last rebuild: 2026-11-22.*
 
-## All notes (233)
+## All notes (237)
 
 - [[2026-04-20-Apollo-Voice-Interface-Idea]]
 - [[2026-04-21-Proposal-Reference-PDFs]]
@@ -233,6 +233,9 @@ last_updated: 2026-11-15
 - [[Trend Brief — 2026-11-11]]
 - [[Trend Brief — 2026-11-12]]
 - [[Trend Brief — 2026-11-13]]
+- [[Trend Brief — 2026-11-17]]
+- [[Trend Brief — 2026-11-18]]
+- [[Trend Brief — 2026-11-20]]
 - [[Veronica AI Assistant]]
 - [[Weekly Health Report - 2026-04-03]]
 - [[Weekly Health Report - 2026-04-21]]
@@ -242,6 +245,7 @@ last_updated: 2026-11-15
 - [[Weekly Health Report - 2026-05-22]]
 - [[Weekly Health Report - 2026-05-29]]
 - [[Weekly Health Report - 2026-06-10]]
+- [[automation-token-waste-audit-2026-11-17]]
 - [[launchpad-ai-campaign-intel-2026-04-07]]
 - [[launchpad-ai-marketing-intel]]
 - [[launchpad-crm-buildout-pricing-intel]]
