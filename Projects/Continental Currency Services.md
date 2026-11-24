@@ -182,6 +182,7 @@ $1,500 budget. Cost per conversion drifted up 18% vs July ($1.19 → $1.41) — 
 
 ## Activity Log
 
+- (2026-11-23, via Cynthia) Stills 4, 5, 10, 14 updated ("CCS now offers title loans," "Unexpected expenses happen," "Skip the DMV line," "Helping families since 1978"); title-loan explainer and Spanish-language landing/form graphics updated plus three additional 1.png/2.png files. Drive: CCS shared drive / Stills. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-23 — Cynthia Hernandez — Day.md`.
 - (2026-11-20, via Cynthia) December 26' Deliverable Tracker card edited; what changed is not visible to this capture. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
 - (2026-11-19, via Cynthia) Updated two approved November videos, "HOW RCHECK WORKS.mp4" and "5 THINGS TO CHECK.mp4" (19:30 UTC); edited CCS November 26' (Video Post Production Board) and December 26' (Deliverable Tracker, Graphic Design Board) Notion cards. Drive: CCS / Videos / November 26' / Edited / Approved. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-20 — Cynthia Hernandez — Day.md`.
 - (2026-11-18, via Cynthia) "CCS December 26'" card edited on the Graphic Design Board; what changed is unknown — no matching Drive or Gmail activity this run. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-19 — Cynthia Hernandez — Day.md`.

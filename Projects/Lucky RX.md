@@ -121,6 +121,10 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 8. Accept Lead Ads Terms on the page; grant Partner access to BM/ad account/pixel; GA4 viewer access
 
 
+## Decisions — 2026-11-23 (Cynthia, observed in Drive)
+- "Approved" folders created under Stills (and one other location) in the Lucky RX x LP shared drive — suggests approved assets are now being separated from drafts in-folder rather than tracked elsewhere. Not yet confirmed as a standing process change.
+- Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-23 — Cynthia Hernandez — Day.md`.
+
 ## Decisions — 2026-11-20 (Cynthia + Jillian, Posting Strategy meeting)
 - 50/50 split of Lucky RX content during the testing period: each side (Launchpad / Lucky RX's Jillian/Ryan) takes 8 graphics + 4 videos via Drive folders; Lucky RX takes posting back after New Year.
 - Each side's share mixes sales and organic-friendly content.
@@ -161,6 +165,7 @@ New landing page **Oct 12**; offer "3-month plan: buy 2 months get 1 free + 15% 
 ## Preferences & Corrections
 
 ## Activity Log
+- (2026-11-23, via Cynthia) Updated Carousel 1 Slide 2 ("Unlearn This — Myth 01") and Carousel 3 Slide 1 ("This or That — Couples Quiz"); ad stills 1, 4, 8 ("Confidence isn't loud," "Great nights don't happen by accident," "Knock knock. It's Lucky.") with compliance disclaimer added; Still 6 video (mp4) updated. Drive: Lucky RX x LP shared drive / Stills. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-23 — Cynthia Hernandez — Day.md`.
 - (2026-11-20, via Cynthia) Posting Strategy meeting with Jillian Quaintance (All Star Agency), 10:30am; posting strategy slide deck (PDF) emailed to Jillian after the meeting (19:14 UTC); Dec 26' Ads folder updated (Stills 1–8, Thumbnails 1–3, Carousel 6 slides 2–5, updated Stills 4.png); Black Friday Reddit Carousels 1 and 2 (images 59–63) uploaded. Drive: Lucky RX x LP / Dec 26' and / Black Friday / REDDIT. Notion: Lucky RX portal / Meetings — "Posting Strategy w/ Jillian". Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-21 — Cynthia Hernandez — Day.md`.
 - (2026-11-19, via Cynthia) LuckyRX December 26' card edited on the Graphic Design Board (22:38 UTC). Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-20 — Cynthia Hernandez — Day.md`.
 - (2026-11-17, via Cynthia) Reviewed Graphics / 2026 / Nov 26' / Ads incl. nicole's Still 8; noted a new Black Friday folder ryan created (contents not yet visible). Drive: Lucky RX / Graphics / 2026 / Nov 26' / Ads. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-18 — Cynthia Hernandez — Day.md`.
