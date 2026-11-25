@@ -134,6 +134,7 @@ Las Vegas HVAC service company offering heating and air conditioning installatio
 - **SMS campaigns (2026-06-01):** VM drops are OFF. Action item: remove VM drops from SMS campaigns (Amber).
 
 ## Sync Log
+- **2026-11-25** — Notion-Brain sync: Status = Active (✓), Ad Spend = $2,500/mo (✓). ⚠️ CONFLICT PERSISTS (5+ days): Notion shows Package = "Essential" but Brain shows "Ads Only". This conflict impacts service scope, deliverable assignment, and ad spend allocation. **ACTION REQUIRED: Contact Edgar (edgar@durangohvaclv.com, 702-683-4858) or Yessenia (yessenia.officedgo@gmail.com) to verify correct package tier before next content/ads cycle.**
 - **2026-11-24** — Notion-Brain sync: Status = Active (✓), Ad Spend = $2,500/mo (✓). ⚠️ CONFLICT PERSISTS: Notion shows Package = "Essential" but Brain shows "Ads Only". Flagged for manual review. Contact: Edgar (edgar@durangohvaclv.com, 702-683-4858).
 - **2026-11-20** — ⚠️ CONFLICT DETECTED: Notion shows Package = "Essential" but Brain shows "Ads Only". Verify correct tier with Edgar/Yessenia. Flagged for manual review.
 - **2026-11-12** — Notion-to-Brain sync: Added November deliverables. Current task: "Durango HVAC November 26'" (🎥 Video, In production). All other data current.
