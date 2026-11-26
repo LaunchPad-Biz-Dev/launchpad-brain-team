@@ -1,106 +1,34 @@
 ---
-title: "A Mi Manera Coffee"
-type: project
-status: onboarding
+title: A Mi Manera Coffee
+type: client
+status: Onboarding
 tier: primary
-tags: [coffee, food-service, catering, creative-only]
-last_updated: 2026-10-06
-related: ["[[Projects/00-INDEX]]"]
+package: Creative Only
+start_date: 2026-10-02
+tags: [food-service, coffee, onboarding-2026-10, chicano]
 ---
 
 # A Mi Manera Coffee
 
-## Status
-**Onboarding** — Creative Only package, start date 2026-10-02 (synced from Notion 2026-10-06)
+## 1. Client Overview
 
-## Industry
-Food & Service / Specialty Coffee
+| Field | Value |
+|-------|-------|
+| Client Name | A Mi Manera Coffee |
+| Industry | Food and Service / Specialty Coffee |
+| Status | Onboarding |
+| Package | Creative Only (4 videos + 8 graphics/month) |
+| Start Date | 2026-10-02 |
+| Primary Contact | Steven Bugarin (steven@amimanera.coffee) |
+| Secondary Contact | Leilani Bugarin (leilani@amimanera.coffee) |
+| Website | https://amimanera.coffee/ |
 
-## Key Contacts
-- **Steven Bugarin** (Co-founder) — steven@amimanera.coffee
-- **Leilani** (Co-founder, Catering) — leilani@amimanera.coffee
+### Company Summary
 
-## Company Info
-
-A Mi Manera Coffee is a Chicano-rooted specialty coffee shop founded by Steven Bugarin and Leilani. The business combines a retail coffee experience with a growing catering operation that serves events, corporate gatherings, and private parties.
-
-**Website:** https://amimanera.coffee/
-
----
-
-## Package & Deliverables
-
-**Creative Only** plan:
-- 4 videos/month
-- 8 graphics/month
-- 3-month minimum, then month-to-month recurring
+Chicano-rooted specialty coffee shop. Co-founders Steven and Leilani. Also operates catering services. Goals: social awareness → foot traffic + catering bookings.
 
 ---
 
-## Business Goals & Strategy
+## Sync Log
 
-**Primary Goals:**
-1. Social media awareness → foot traffic conversion
-2. Catering booking inquiries
-
-**Target Audience:**
-- Local coffee enthusiasts seeking unique, culturally-rooted experience
-- Event planners / corporate customers for catering services
-
----
-
-## Brand & Positioning
-
-- **Brand Voice:** Warm, community-focused, celebrating Chicano culture
-- **Visual Identity:** Specialty coffee aesthetic + cultural celebration
-- **Key Differentiator:** Chicano-rooted identity; in-house catering capability
-
----
-
-## Content Strategy
-
-*To be developed during onboarding deep-dive (pending)*
-
-Potential angles:
-- Behind-the-scenes coffee preparation + origin stories
-- Customer testimonials / community events
-- Catering service highlight + event gallery
-- Seasonal specials + promotions
-
----
-
-## Google Drive & Resources
-
-Shared Drive: https://drive.google.com/drive/folders/0ANyU9nNzulSTUk9PVA
-
----
-
-## CRM & Systems (GoHighLevel)
-
-| Field | Status |
-|-------|--------|
-| GHL Sub-Account | Pending setup |
-| Contact Records | Not yet created |
-| Workflows/Automation | Not yet built |
-
----
-
-*Last Updated: 2026-10-06 (via Notion-Brain sync)*
-
-### Sync Log
-- **2026-10-06** — New client onboarding detected in Notion. Created Brain entry. Status: Onboarding, Package: Creative Only (4 videos/8 graphics/mo), Start Date: 2026-10-02. Contacts: Steven Bugarin (steven@amimanera.coffee), Leilani (leilani@amimanera.coffee). Website: https://amimanera.coffee/
-
-<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
-
-## Preferences & Corrections
-- (2026-11-07, via Cynthia) The "highlight-covers" client flagged as "unidentified" in the 11-06 and earlier dumps is A Mi Manera Coffee — the Social Kit / Highlight Covers folder sits in the A Mi Manera Coffee shared drive.
-
-## Decisions
-
-## Activity Log
-
-- (2026-11-14, via Cynthia) Created Graphic Assets, Textures and Flame BG folders. Drive: A Mi Manera Coffee / Graphics. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-17 — Cynthia Hernandez — Day.md`.
-- (2026-11-07, via Cynthia) New "Trial Runs" folder created under Social Kit / Facebook Banner; highlight covers (Order Ahead, Find Us, Events, Communidad) reviewed. Drive: A Mi Manera Coffee / Social Kit / Facebook Banner / Trial Runs. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-07 — Cynthia Hernandez — Day.md`.
-- (2026-11-06, via Cynthia) "A Mi Manera Playbook Notes" Canva deck edited. Source: `Raw/Team Inbox/Cynthia Hernandez/2026-11-06 — Cynthia Hernandez — Day.md`.
-
-## Open Items
+- **2026-11-26** — New client from Notion (Onboarding). Brain note created. Focus on catering expansion opportunity.

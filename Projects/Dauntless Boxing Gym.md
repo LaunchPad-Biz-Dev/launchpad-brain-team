@@ -1,45 +1,32 @@
 ---
-category: Projects
-client_status: Onboarding
+title: DAUNTLESS BOXING GYM
+type: client
+status: Onboarding
+tier: primary
 package: Essential
-start_date: 2026-08-14
-related: ["[[Projects/00-INDEX]]"]
+start_date: 2026-10-01
+tags: [fitness, boxing, onboarding-2026-10, local-vegas]
 ---
 
-# Dauntless Boxing Gym
+# DAUNTLESS BOXING GYM
 
-**Status:** Onboarding  
-**Package:** Essential  
-**Start Date:** 2026-08-14 (synced from Notion)  
+## 1. Client Overview
 
-## Client Context
-*Brain note created 2026-08-14 — Onboarding in progress. Awaiting brand context and deliverables scope.*
+| Field | Value |
+|-------|-------|
+| Client Name | Dauntless Boxing Gym |
+| Industry | Fitness / Sports Training |
+| Status | Onboarding |
+| Package | Essential Growth |
+| Start Date | 2026-10-01 |
+| Location | Las Vegas, NV |
 
-## Deliverables
-*TBD — review Notion Client Portal for scope details*
+### Company Summary
 
-## Brand Guidelines
-*Pending*
-
-## Content Pillars
-*Pending*
-
-## Contact
-- **Primary Contact:** *Assigned in Notion, details TBD*
-- **Email:** *Not yet captured*
-- **Website:** *Not yet captured*
+Local boxing gym serving Las Vegas community. Goals: member recruitment, class promotion, community events.
 
 ---
 
 ## Sync Log
-- **2026-08-14** — Brain note created (client flagged in Notion as new onboarding)
 
-<!-- Sections below added 2026-10-19 per [[Client Note Schema]]; the nightly filing writes here. Dated, append-only. -->
-
-## Preferences & Corrections
-
-## Decisions
-
-## Activity Log
-
-## Open Items
+- **2026-11-26** — New client from Notion (Onboarding). Brain note created as placeholder.
