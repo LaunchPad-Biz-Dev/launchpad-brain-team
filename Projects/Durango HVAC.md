@@ -17,7 +17,7 @@ related: ["[[Projects/00-INDEX]]"]
 HVAC / Home Service
 
 ## Package
-Ads Only
+Essential
 
 ## Ad Spend
 $2500/mo
@@ -64,12 +64,12 @@ Las Vegas HVAC service company offering heating and air conditioning installatio
 - **CRM Pipeline**: New Lead → Diagnostic Scheduled → Job in Progress → Job Complete → Membership Added → Review/Referral
 
 ## Package & Services
-- **Package:** Ads Only
+- **Package:** Essential
 - **Monthly Rate:** Varies based on ad spend
-- **Ad Spend:** N/A (variable)
+- **Ad Spend:** $2,500/mo
 - **Industry:** HVAC / Home Service
 - **Status:** Active
-- **Services Included:** Ad campaign management and optimization only
+- **Services Included:** Ads + social media management
 
 ## Team Roster
 | Role | Team Member | Responsibility |
@@ -134,6 +134,7 @@ Las Vegas HVAC service company offering heating and air conditioning installatio
 - **SMS campaigns (2026-06-01):** VM drops are OFF. Action item: remove VM drops from SMS campaigns (Amber).
 
 ## Sync Log
+- **2026-11-27** — ✅ CONFLICT RESOLVED: Package updated from "Ads Only" → "Essential" (synced from Notion). Brain note now matches Notion Portal.
 - **2026-11-25** — Notion-Brain sync: Status = Active (✓), Ad Spend = $2,500/mo (✓). ⚠️ CONFLICT PERSISTS (5+ days): Notion shows Package = "Essential" but Brain shows "Ads Only". This conflict impacts service scope, deliverable assignment, and ad spend allocation. **ACTION REQUIRED: Contact Edgar (edgar@durangohvaclv.com, 702-683-4858) or Yessenia (yessenia.officedgo@gmail.com) to verify correct package tier before next content/ads cycle.**
 - **2026-11-24** — Notion-Brain sync: Status = Active (✓), Ad Spend = $2,500/mo (✓). ⚠️ CONFLICT PERSISTS: Notion shows Package = "Essential" but Brain shows "Ads Only". Flagged for manual review. Contact: Edgar (edgar@durangohvaclv.com, 702-683-4858).
 - **2026-11-20** — ⚠️ CONFLICT DETECTED: Notion shows Package = "Essential" but Brain shows "Ads Only". Verify correct tier with Edgar/Yessenia. Flagged for manual review.
